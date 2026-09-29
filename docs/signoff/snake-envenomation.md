@@ -32,7 +32,7 @@ The syndrome depends on the snake and the region, from coagulopathy to paralysis
 
 | # | Citation | Link status |
 |---|----------|-------------|
-| 1 | Carotenuto S et al. 2021. Retrospective comparison of three antivenoms for the treatment of dogs with crotalid envenomation. J Am Vet Med Assoc. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Retrospective%20comparison%20of%20three%20antivenoms%20for%20the%20treatment%20of%20dogs%20with%20crotalid%20envenomation) |
+| 1 | Carotenuto S et al. 2021. Retrospective comparison of three antivenoms for the treatment of dogs with crotalid envenomation. J Am Vet Med Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/34388014/) |
 | 2 | Day SK et al. 2024. A retrospective analysis of clinical features, management and outcomes in dogs and cats with Eastern Brown Snake envenomation (2016-2022). Aust Vet J. | record link (https://pubmed.ncbi.nlm.nih.gov/39627003/) |
 | 3 | Padula AM et al. 2017. Eastern brown snake (Pseudonaja textilis) envenomation in dogs and cats: clinical signs, coagulation changes, brown snake venom antigen levels and treatment with a novel caprylic acid fractionated bivalent whole IgG equine antivenom. Toxicon. | record link (https://pubmed.ncbi.nlm.nih.gov/28830752/) |
 | 4 | Finney et al. 2020. Red-bellied black snake (Pseudechis porphyriacus) envenomation in 17 dogs. Aust Vet J. | record link (https://pubmed.ncbi.nlm.nih.gov/32390184/) |
