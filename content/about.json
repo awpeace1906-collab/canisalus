@@ -1,0 +1,16 @@
+{
+  "onboarding": {
+    "title": "CaniSalus",
+    "pronunciation_line": "(kay-nih-SAY-lus) — \"Salus\" for short.",
+    "body": "Emergency care for working dogs, written for the clinicians who reach them before the vet does. Pick your setting once, and every guide adapts to what you can do there, from a handler on scene to a veterinary ED."
+  },
+  "settings_about": {
+    "title": "About CaniSalus",
+    "sections": [
+      {"heading": null, "body": "Pronounced kay-nih-SAY-lus. Most people just say \"Salus.\""},
+      {"heading": "The name", "body": "Canis is Latin for dog. Salus is the Latin word for health, and also for safety and rescue. CaniSalus means the dog's health and rescue: the work that happens between the moment a working dog goes down and the moment a veterinarian takes over."},
+      {"heading": "Why CaniSalus exists", "body": "Working dogs get hurt where people get hurt: on scene, in the field, in the back of an ambulance. The first clinician to reach them is usually trained to care for humans. The canine knowledge that clinician needs is scattered across tactical courses, state protocols, and references written for veterinarians. CaniSalus puts it in one place, organized around the setting you are actually in, with one goal: get the dog to a veterinarian in the best shape possible."},
+      {"heading": null, "body": "CaniSalus is a bridge to veterinary care, never a replacement for it. Every module is reviewed by both a veterinarian and a physician before release."}
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "k9/drug.schema.json",
+  "title": "K9 drug entry",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "species",
+    "indications",
+    "canine_source",
+    "status"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "species": {
+      "const": "canine",
+      "description": "Hard guardrail: no other value is valid. There is no human-dose field anywhere in this schema."
+    },
+    "status": {
+      "enum": [
+        "stub",
+        "draft",
+        "in_review",
+        "approved"
+      ]
+    },
+    "mdr1_caution": {
+      "type": "boolean",
+      "default": false
+    },
+    "human_product_hazards": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "e.g. 'xylitol in some liquid/ODT formulations'"
+    },
+    "indications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "indication",
+          "route",
+          "dose_mg_per_kg",
+          "max_dose_mg"
+        ],
+        "properties": {
+          "indication": {
+            "type": "string"
+          },
+          "route": {
+            "enum": [
+              "IV",
+              "IO",
+              "IM",
+              "IN",
+              "SC",
+              "PO",
+              "ET",
+              "neb"
+            ]
+          },
+          "dose_mg_per_kg": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "low": {
+                "type": "number"
+              },
+              "high": {
+                "type": "number"
+              }
+            }
+          },
+          "max_dose_mg": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "repeat": {
+            "type": "string"
+          },
+          "concentration_mg_per_ml": {
+            "type": "number"
+          },
+          "min_tier": {
+            "type": "string",
+            "description": "Lowest tier id where this may be given"
+          }
+        }
+      }
+    },
+    "canine_source": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": [
+          "rank",
+          "citation"
+        ],
+        "properties": {
+          "rank": {
+            "type": "integer"
+          },
+          "citation": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Must be non-empty before status can be 'approved' (enforced by tools/validate.js)."
+    }
+  }
+}

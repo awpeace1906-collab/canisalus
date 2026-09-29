@@ -1,0 +1,225 @@
+CaniSalus — Framework for Reviewer Sign-off
+September 28, 2026 · Andrew Peace
+Purpose and how to review
+CaniSalus (“Salus” for short) gives human-trained clinicians (paramedics, flight/CCT crews, ED physicians) canine-specific emergency guidance for working dogs in duress, until the dog reaches a veterinarian. It is a bridge to veterinary care, never a replacement for it.
+Audiences: K9 handlers (Tier 0), prehospital ALS, flight/CCT, human ED staff, and veterinary teams using it as a shared reference with human partners.
+Reviewers are asked to sign off on three things:
+The environment ladder and what each tier may reasonably attempt.
+The content domains and module list: what is missing, what should be cut.
+The safety guardrails, especially dosing rules.
+This document is a framework. It contains no drug doses. Every clinical value will be sourced from veterinary references and signed off per module before release.
+Please comment directly on any line. Veterinary reviewers: flag anything a human clinician would get dangerously wrong. Physician reviewers: flag anything that assumes veterinary background a human clinician lacks.
+Name and introduction
+The app is named CaniSalus, pronounced kay-nih-SAY-lus, and called Salus in speech. Canis is Latin for dog; salus means health, but also safety and rescue. The formal name is the one we trademark and list in app stores; “Salus” is what users will say.
+Onboarding screen (short, skippable):
+CaniSalus (kay-nih-SAY-lus) — “Salus” for short.
+Emergency care for working dogs, written for the clinicians who reach them before the vet does. Pick your setting once, and every guide adapts to what you can do there, from a handler on scene to a veterinary ED.
+Settings → About CaniSalus (full):
+About CaniSalus
+Pronounced kay-nih-SAY-lus. Most people just say “Salus.”
+The name: canis is Latin for dog. Salus is the Latin word for health, and also for safety and rescue. CaniSalus means the dog’s health and rescue: the work that happens between the moment a working dog goes down and the moment a veterinarian takes over.
+Why CaniSalus exists: working dogs get hurt where people get hurt: on scene, in the field, in the back of an ambulance. The first clinician to reach them is usually trained to care for humans. The canine knowledge that clinician needs is scattered across tactical courses, state protocols, and references written for veterinarians. CaniSalus puts it in one place, organized around the setting you are actually in, with one goal: get the dog to a veterinarian in the best shape possible.
+CaniSalus is a bridge to veterinary care, never a replacement for it. Every module is reviewed by both a veterinarian and a physician before release.
+Environment ladder
+The app defaults to Human ED, the middle of a six-tier ladder (Tiers 0–5) ranked by closeness to definitive canine care. Users pick their setting once, and every module adapts to it.
+Tier
+Setting
+Canine blood
+Species anesthesia/surgery
+Ventilator
+Advanced imaging
+Legal authority to treat
+Typically 24/7
+0
+Handler / K9 first aid
+No
+No
+No
+No
+Owner/handler care
+Yes (on scene)
+1
+Prehospital ALS
+No
+No
+No
+No
+Varies by state
+Yes
+2
+Flight / CCT
+No
+No
+Yes
+POCUS only
+Varies by state and program
+Yes
+3 (default)
+Human ED
+No
+No
+Yes
+Yes
+Varies by state; often none
+Yes
+4
+Local veterinary office
+Sometimes
+Yes
+Rarely
+Radiographs, some US
+Yes
+Often no
+5
+Veterinary ED / specialty
+Yes
+Yes
+Often
+Yes
+Yes
+Yes
+Why the order holds: a human ED has more resuscitation capacity than most general-practice vet offices. A GP vet is still closer to definitive care, because it has canine blood, species-specific surgery, and legal authority. Human ED sits in the middle, and it is the default because the primary audience is human clinicians, where the cross-training gap is widest.
+Why flags, not rank: the table values are defaults, not facts about every site. A rural vet may be closed overnight; a trauma center may have a vet partnership. Modules read the capability flags, so users can adjust their setting (for example, “my vet clinic has a ventilator”) without the app hardcoding exceptions.
+Module template
+Every module uses the same six parts, so reviewers can check each one the same way.
+Header: title, category, reversibility tag, last-verified date, reviewer sign-offs.
+Why this matters: one or two sentences on why a working dog dies of this.
+What changes from human: the one to three things a human-trained clinician will instinctively get wrong. Each item becomes a course learning objective.
+Content: recognition, management, and procedures, with visual toggles.
+Environment lens: for the user’s tier, what you can do here, what to leave for the next level, and the transfer trigger.
+Clinical takeaway: the closing card.
+Example: environment lens for GDV (gastric dilatation-volvulus)
+Tier
+Do here
+Leave for next level
+Transfer trigger
+1 Prehospital ALS
+Recognize; O2; IV access and fluids
+Decompression
+Suspicion alone: go now
+2 Flight / CCT
+Above; trocar decompression if long transport and deteriorating
+Surgery
+Suspicion alone
+3 Human ED
+Orogastric or trocar decompression; resuscitation; call vet
+Surgery; definitive anesthesia
+Once decompressed and perfusing
+4 Local vet office
+Stabilize; operate if capable
+Surgery if not capable; post-op ICU
+Per vet
+5 Vet ED
+Definitive gastropexy and ICU care
+—
+—
+Content domains
+The home screen is organized around one question: can this be reversed before the dog reaches a vet? Nine domains hold 75 draft modules. Reviewers: please mark any module to add, cut, or merge.
+Domain
+Draft modules
+Key “what changes from human” points (to verify)
+Foundations (read first)
+Scene and bite safety; muzzling (and when not to); the handler as team member; weight estimation; canine normal vitals; anatomy for access and monitoring; human-drug landmines; MDR1 (ABCB1) sensitivity
+All drugs are mg/kg; pulse check is femoral, not radial; SpO2 on tongue or lip; no muzzle in respiratory distress or vomiting
+Arrest
+CPR (RECOVER); K9 reversible causes (Hs & Ts equivalent); post-arrest care
+Compression position depends on chest shape; lateral recumbency for most dogs
+Trauma resuscitation
+K9 MARCH-PAWS primary survey; hemorrhage control; airway; tension pneumothorax; hemorrhagic shock and fluids; TXA; head injury; hypothermia; GSW and stab wounds; blast; burns; ocular injury; fractures and splinting
+Tourniquets slip on conical limbs, so packing and pressure come first; surgical airway is tracheotomy, not cric; pneumothorax often bilateral
+Procedures
+Peripheral IV (cephalic, saphenous); jugular access; IO (humerus, tibia); orotracheal intubation; surgical tracheotomy; needle thoracostomy; tube thoracostomy; GDV decompression (orogastric, trocar); pericardiocentesis; wound packing; splinting; restraint
+Canine sites and landmarks; intubation usually easier than in humans; right-sided pericardiocentesis
+Medical emergencies
+GDV; heat stroke; exertional hypoglycemia; exertional rhabdomyolysis; anaphylaxis; status epilepticus; hemoabdomen; pericardial effusion; drowning; smoke inhalation; snake envenomation; hypoadrenocorticism crisis; DKA; arrhythmias
+Stop active cooling around 103°F (39.4°C); sinus arrhythmia is normal in dogs
+Toxicology: duty exposures
+Opioids including fentanyl; methamphetamine and amphetamines; cocaine; cannabis/THC
+Edibles often also contain xylitol or chocolate
+Toxicology: common toxins
+Decontamination principles; xylitol; chocolate; grapes and raisins; anticoagulant rodenticides; bromethalin; cholecalciferol; ethylene glycol; human NSAIDs; acetaminophen; organophosphates and carbamates; toxic toads; blue-green algae; sago palm; smoke, CO, cyanide; antidote table
+Induced emesis is a legitimate option in dogs, unlike in human practice
+Handoff and transport
+Structured vet handoff; loading and restraint; HEMS transport policy; finding the nearest 24/7 vet ED
+Handler rides along; the dog’s behavior changes in pain
+Scope and legal
+Jurisdiction card: who may treat a K9, by state
+Varies widely; unresolved scope blocks release in that state
+The “what changes” column is a first draft for reviewers to correct, not verified content.
+Safety guardrails
+The most important rule: the app never shows a human dose in place of a canine dose. If no canine-sourced dose exists, the app says so and directs the user to a veterinarian or poison control.
+Canine source required. Every drug entry needs a veterinary citation for species, dose, route, and maximum. Builds fail if one is missing.
+Weight is mandatory. Doses are not calculated without a weight. An estimated weight is labeled as estimated on every result screen.
+Human-product warnings. Human formulations with canine hazards (xylitol-containing liquids and ODTs, combination products with acetaminophen or NSAIDs) carry a warning wherever they appear.
+MDR1 flag. If the K9 profile marks MDR1-positive or unknown in a herding breed, affected drugs show a warning.
+Dual sign-off. A module ships only when both a veterinary reviewer (ideally DACVECC) and a physician reviewer have signed off. Unsigned modules are hidden, not shown as drafts.
+Staleness. Each module carries a last-verified date. Modules past their review interval show a banner, reusing Kairos tooling.
+Scope reminder. Every module links to the jurisdiction card. The app states on launch that it bridges to veterinary care.
+K9 profile card: handlers can store weight, breed, DEA 1 blood type, MDR1 status, current meds, baseline labs, and vet contact ahead of time. The profile feeds the dose engine and the handoff generator.
+Source hierarchy
+Modules cite the highest-ranked source available. Reviewers: please add sources we have missed. Current editions are still to be confirmed.
+Rank
+Source
+Covers
+1
+RECOVER guidelines (current edition)
+Canine CPR and post-arrest care
+1
+CoTCCC K9 Tactical Combat Casualty Care guidelines
+Trauma, tactical care
+1
+C-TECC K9 guidelines
+Civilian tactical/austere trauma
+2
+ACVECC / VECCS consensus statements
+Critical care topics
+2
+ASPCA Animal Poison Control Center
+Toxicology
+3
+Peer-reviewed veterinary literature (e.g., JVECC)
+Gaps in guidelines
+4
+Standard veterinary emergency and pharmacology texts
+Doses, cited only, never reproduced
+—
+Local veterinary protocol
+Always overrides the app
+Course design
+The course reuses the app’s content. Each “what changes from human” card is a learning objective, so the app and the course stay in sync.
+Track
+Audience
+Core content
+Skills stations
+Handler (Tier 0)
+K9 handlers
+Foundations; hemorrhage control; heat stroke; opioid exposure; handoff
+Muzzling; pressure dressing and packing; intranasal naloxone; cooling
+Prehospital
+ALS, flight, CCT
+Tier 0 plus trauma, arrest, medical, duty tox, procedures within scope
+Canine CPR on manikin; IV and IO; intubation; needle thoracostomy; GDV decompression (CCT)
+Human ED
+Physicians, APPs, ED nurses
+Full content, Tier 3 lens; transfer and handoff
+All prehospital stations plus tracheotomy, tube thoracostomy, pericardiocentesis
+Veterinary partner
+Vet teams
+Human-side capabilities and limits; receiving a handoff
+Joint simulation with a human team
+Assessment: pre- and post-tests per module, and a scenario-based skills check per track.
+CE accreditation (to pursue):
+CAPCE for EMS.
+CME for physicians and APPs.
+CNE for nurses.
+AAVSB RACE for veterinary partners.
+Dual accreditation also signals to both professions that the other has reviewed the content.
+Open questions for reviewers
+☐ Is the tier order right? In particular, should a general-practice vet office rank above a human ED?
+☑ Decided: Tier 0 (handler) is a full tier in both the app and the course.
+☐ Which procedures should be hidden entirely below a given tier, rather than shown as “leave for next level”?
+☐ Is trocar GDV decompression appropriate for flight/CCT and human ED teams, and under what conditions?
+☐ Which human blood products or colloids, if any, are acceptable as a bridge in a human ED? Or should the app say none?
+☐ What review interval should each domain have (for example, 12 months for tox, 24 for procedures)?
+☐ Which states’ K9 treatment laws should the first jurisdiction cards cover?
+☐ Who will serve as the named veterinary and physician reviewers for each domain?

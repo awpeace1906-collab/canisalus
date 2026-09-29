@@ -1,0 +1,22 @@
+{
+  "name": "canisalus",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Canine emergency reference for human-trained clinicians. A bridge to veterinary care.",
+  "scripts": {
+    "dev": "node tools/build.js && node tools/serve.js",
+    "build": "npm run validate && node tools/build.js",
+    "build:release": "npm run validate:release && node tools/check-staleness.js && node tools/build.js --release",
+    "test": "node --test \"tests/*.test.js\"",
+    "validate": "node tools/validate.js",
+    "validate:release": "node tools/validate.js --release",
+    "check-staleness": "node tools/check-staleness.js",
+    "ci": "npm run validate && npm test && npm run check-staleness && node tools/build.js --release",
+    "stubs": "python3 tools/gen_stubs.py"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
+  }
+}

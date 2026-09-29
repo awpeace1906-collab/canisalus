@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "default_tier": "human_ed",
+  "capability_flags": {
+    "canine_blood": "Canine blood products on hand",
+    "species_surgery": "Species anesthesia and surgery capability",
+    "ventilator": "Mechanical ventilation",
+    "advanced_imaging": "Radiography/CT beyond POCUS",
+    "pocus": "Point-of-care ultrasound",
+    "legal_authority": "Clear legal authority to treat a K9 (jurisdiction-dependent; resolved at runtime via jurisdiction card)",
+    "always_open": "Reliably staffed 24/7"
+  },
+  "tiers": [
+    {
+      "id": "handler",
+      "rank": 0,
+      "label": "Handler / K9 first aid",
+      "flags": {
+        "canine_blood": false,
+        "species_surgery": false,
+        "ventilator": false,
+        "advanced_imaging": false,
+        "pocus": false,
+        "legal_authority": true,
+        "always_open": true
+      }
+    },
+    {
+      "id": "prehospital_als",
+      "rank": 1,
+      "label": "Prehospital ALS",
+      "flags": {
+        "canine_blood": false,
+        "species_surgery": false,
+        "ventilator": false,
+        "advanced_imaging": false,
+        "pocus": false,
+        "legal_authority": "jurisdiction",
+        "always_open": true
+      }
+    },
+    {
+      "id": "flight_cct",
+      "rank": 2,
+      "label": "Flight / CCT",
+      "flags": {
+        "canine_blood": false,
+        "species_surgery": false,
+        "ventilator": true,
+        "advanced_imaging": false,
+        "pocus": true,
+        "legal_authority": "jurisdiction",
+        "always_open": true
+      }
+    },
+    {
+      "id": "human_ed",
+      "rank": 3,
+      "label": "Human ED",
+      "flags": {
+        "canine_blood": false,
+        "species_surgery": false,
+        "ventilator": true,
+        "advanced_imaging": true,
+        "pocus": true,
+        "legal_authority": "jurisdiction",
+        "always_open": true
+      }
+    },
+    {
+      "id": "vet_gp",
+      "rank": 4,
+      "label": "Local veterinary office",
+      "flags": {
+        "canine_blood": "sometimes",
+        "species_surgery": true,
+        "ventilator": false,
+        "advanced_imaging": true,
+        "pocus": "sometimes",
+        "legal_authority": true,
+        "always_open": false
+      }
+    },
+    {
+      "id": "vet_ed",
+      "rank": 5,
+      "label": "Veterinary ED / specialty",
+      "flags": {
+        "canine_blood": true,
+        "species_surgery": true,
+        "ventilator": true,
+        "advanced_imaging": true,
+        "pocus": true,
+        "legal_authority": true,
+        "always_open": true
+      }
+    }
+  ],
+  "notes": "Flag values are defaults. Users may override per-site flags in Settings. Modules must key behavior off flags (via lens.requires), never off rank alone. 'sometimes' and 'jurisdiction' are treated as false until the user confirms."
+}

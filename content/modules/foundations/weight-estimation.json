@@ -1,0 +1,55 @@
+{
+  "id": "weight-estimation",
+  "title": "Weight estimation",
+  "domain": "foundations",
+  "reversible": false,
+  "status": "stub",
+  "last_verified": null,
+  "review_interval_months": 24,
+  "signoff": {
+    "vet": null,
+    "physician": null
+  },
+  "why_this_matters": "TODO",
+  "what_changes_from_human": [],
+  "content": {
+    "recognition": [],
+    "management": [],
+    "procedure_refs": []
+  },
+  "lens": {
+    "handler": {
+      "do_here": [],
+      "leave_for_next": [],
+      "transfer_trigger": "TODO"
+    },
+    "prehospital_als": {
+      "do_here": [],
+      "leave_for_next": [],
+      "transfer_trigger": "TODO"
+    },
+    "flight_cct": {
+      "do_here": [],
+      "leave_for_next": [],
+      "transfer_trigger": "TODO"
+    },
+    "human_ed": {
+      "do_here": [],
+      "leave_for_next": [],
+      "transfer_trigger": "TODO"
+    },
+    "vet_gp": {
+      "do_here": [],
+      "leave_for_next": [],
+      "transfer_trigger": "TODO"
+    },
+    "vet_ed": {
+      "do_here": [],
+      "leave_for_next": [],
+      "transfer_trigger": "TODO"
+    }
+  },
+  "takeaway": "TODO",
+  "sources": [],
+  "drug_refs": []
+}

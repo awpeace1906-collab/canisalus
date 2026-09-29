@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "k9/module.schema.json",
+  "title": "K9 content module",
+  "type": "object",
+  "required": ["id", "title", "domain", "reversible", "status", "last_verified", "review_interval_months", "signoff", "why_this_matters", "what_changes_from_human", "content", "lens", "takeaway", "sources", "drug_refs"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "title": {"type": "string"},
+    "domain": {"type": "string"},
+    "reversible": {"type": "boolean", "description": "Surfaces on the 'Can this be reversed?' home screen"},
+    "status": {"enum": ["stub", "draft", "in_review", "approved"]},
+    "last_verified": {"type": ["string", "null"], "format": "date"},
+    "review_interval_months": {"type": "integer", "minimum": 1},
+    "signoff": {
+      "type": "object",
+      "required": ["vet", "physician"],
+      "properties": {
+        "vet": {"$ref": "#/$defs/signature"},
+        "physician": {"$ref": "#/$defs/signature"}
+      }
+    },
+    "why_this_matters": {"type": "string"},
+    "what_changes_from_human": {
+      "type": "array", "maxItems": 3,
+      "items": {"type": "object", "required": ["point", "objective_id"],
+        "properties": {"point": {"type": "string"}, "objective_id": {"type": "string"}}}
+    },
+    "content": {
+      "type": "object",
+      "properties": {
+        "recognition": {"type": "array", "items": {"type": "string"}},
+        "management": {"type": "array", "items": {"type": "string"}},
+        "procedure_refs": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "lens": {
+      "type": "object",
+      "description": "Keyed by tier id from environments.json. Every non-optional tier must be present.",
+      "additionalProperties": {"$ref": "#/$defs/lensEntry"}
+    },
+    "takeaway": {"type": "string"},
+    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+    "drug_refs": {"type": "array", "items": {"type": "string"}, "description": "ids in content/drugs/"}
+  },
+  "$defs": {
+    "signature": {
+      "type": ["object", "null"],
+      "required": ["name", "credential", "date"],
+      "properties": {"name": {"type": "string"}, "credential": {"type": "string"}, "date": {"type": "string", "format": "date"}}
+    },
+    "lensEntry": {
+      "type": "object",
+      "required": ["do_here", "leave_for_next", "transfer_trigger"],
+      "properties": {
+        "do_here": {"type": "array", "items": {"type": "string"}},
+        "leave_for_next": {"type": "array", "items": {"type": "string"}},
+        "transfer_trigger": {"type": "string"},
+        "requires": {"type": "array", "items": {"type": "string"}, "description": "Capability flags needed for do_here items; if a user's site lacks one, UI demotes the item to leave_for_next"},
+        "hidden": {"type": "boolean", "description": "Hide module content entirely at this tier"}
+      }
+    },
+    "source": {
+      "type": "object", "required": ["rank", "citation"],
+      "properties": {"rank": {"type": "integer", "minimum": 1, "maximum": 4}, "citation": {"type": "string"}, "url": {"type": "string"}}
+    }
+  }
+}

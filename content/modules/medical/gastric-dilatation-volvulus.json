@@ -1,0 +1,103 @@
+{
+  "id": "gastric-dilatation-volvulus",
+  "title": "Gastric dilatation-volvulus",
+  "domain": "medical",
+  "reversible": true,
+  "status": "draft",
+  "last_verified": null,
+  "review_interval_months": 12,
+  "signoff": {
+    "vet": null,
+    "physician": null
+  },
+  "why_this_matters": "Large, deep-chested working breeds are at risk, and GDV kills within hours without decompression and surgery.",
+  "what_changes_from_human": [
+    {
+      "point": "There is no human equivalent; suspicion alone is a transport trigger.",
+      "objective_id": "medical-gdv-01"
+    },
+    {
+      "point": "Decompression (orogastric tube or percutaneous trocar) is a bridge, not a fix; the dog still needs surgery.",
+      "objective_id": "medical-gdv-02"
+    }
+  ],
+  "content": {
+    "recognition": [],
+    "management": [],
+    "procedure_refs": [
+      "gdv-decompression"
+    ]
+  },
+  "lens": {
+    "handler": {
+      "do_here": [
+        "Recognize",
+        "Keep calm and still",
+        "Call ahead to vet ED"
+      ],
+      "leave_for_next": [
+        "Everything else"
+      ],
+      "transfer_trigger": "Suspicion alone: go now"
+    },
+    "prehospital_als": {
+      "do_here": [
+        "Recognize",
+        "Oxygen",
+        "IV access and fluids"
+      ],
+      "leave_for_next": [
+        "Decompression"
+      ],
+      "transfer_trigger": "Suspicion alone: go now"
+    },
+    "flight_cct": {
+      "do_here": [
+        "All ALS actions",
+        "Trocar decompression if long transport and deteriorating"
+      ],
+      "leave_for_next": [
+        "Surgery"
+      ],
+      "transfer_trigger": "Suspicion alone",
+      "requires": []
+    },
+    "human_ed": {
+      "do_here": [
+        "Orogastric or trocar decompression",
+        "Resuscitation",
+        "Call vet"
+      ],
+      "leave_for_next": [
+        "Surgery",
+        "Definitive anesthesia"
+      ],
+      "transfer_trigger": "Once decompressed and perfusing"
+    },
+    "vet_gp": {
+      "do_here": [
+        "Stabilize",
+        "Gastropexy if capable"
+      ],
+      "leave_for_next": [
+        "Surgery if not capable",
+        "Post-op ICU"
+      ],
+      "transfer_trigger": "Per vet",
+      "requires": [
+        "species_surgery"
+      ]
+    },
+    "vet_ed": {
+      "do_here": [
+        "Definitive gastropexy",
+        "ICU care"
+      ],
+      "leave_for_next": [],
+      "transfer_trigger": "N/A"
+    }
+  },
+  "takeaway": "Suspect it, decompress if you can, and get the dog to a surgeon.",
+  "sources": [],
+  "drug_refs": []
+}

@@ -1,0 +1,13 @@
+{
+  "id": "naloxone",
+  "name": "Naloxone",
+  "species": "canine",
+  "status": "stub",
+  "mdr1_caution": false,
+  "human_product_hazards": [],
+  "indications": [
+    {"indication": "Opioid exposure", "route": "IN", "dose_mg_per_kg": null, "max_dose_mg": null, "repeat": "TODO", "min_tier": "handler"},
+    {"indication": "Opioid exposure", "route": "IV", "dose_mg_per_kg": null, "max_dose_mg": null, "repeat": "TODO", "min_tier": "prehospital_als"}
+  ],
+  "canine_source": []
+}

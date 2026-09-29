@@ -1,0 +1,510 @@
+{
+  "domains": [
+    {
+      "id": "foundations",
+      "label": "Foundations",
+      "reversible_default": false,
+      "review_interval_months": 24
+    },
+    {
+      "id": "arrest",
+      "label": "Arrest",
+      "reversible_default": true,
+      "review_interval_months": 12
+    },
+    {
+      "id": "trauma",
+      "label": "Trauma resuscitation",
+      "reversible_default": true,
+      "review_interval_months": 12
+    },
+    {
+      "id": "procedures",
+      "label": "Procedures",
+      "reversible_default": true,
+      "review_interval_months": 24
+    },
+    {
+      "id": "medical",
+      "label": "Medical emergencies",
+      "reversible_default": true,
+      "review_interval_months": 12
+    },
+    {
+      "id": "tox-duty",
+      "label": "Toxicology: duty exposures",
+      "reversible_default": true,
+      "review_interval_months": 12
+    },
+    {
+      "id": "tox-common",
+      "label": "Toxicology: common toxins",
+      "reversible_default": true,
+      "review_interval_months": 12
+    },
+    {
+      "id": "handoff",
+      "label": "Handoff and transport",
+      "reversible_default": false,
+      "review_interval_months": 24
+    },
+    {
+      "id": "legal",
+      "label": "Scope and legal",
+      "reversible_default": false,
+      "review_interval_months": 12
+    }
+  ],
+  "modules": [
+    {
+      "id": "scene-and-bite-safety",
+      "title": "Scene and bite safety",
+      "domain": "foundations",
+      "order": 0
+    },
+    {
+      "id": "muzzling-and-when-not-to",
+      "title": "Muzzling and when not to",
+      "domain": "foundations",
+      "order": 1
+    },
+    {
+      "id": "the-handler-as-team-member",
+      "title": "The handler as team member",
+      "domain": "foundations",
+      "order": 2
+    },
+    {
+      "id": "weight-estimation",
+      "title": "Weight estimation",
+      "domain": "foundations",
+      "order": 3
+    },
+    {
+      "id": "canine-normal-vitals",
+      "title": "Canine normal vitals",
+      "domain": "foundations",
+      "order": 4
+    },
+    {
+      "id": "anatomy-for-access-and-monitoring",
+      "title": "Anatomy for access and monitoring",
+      "domain": "foundations",
+      "order": 5
+    },
+    {
+      "id": "human-drug-landmines",
+      "title": "Human-drug landmines",
+      "domain": "foundations",
+      "order": 6
+    },
+    {
+      "id": "mdr1-abcb1-sensitivity",
+      "title": "MDR1 (ABCB1) sensitivity",
+      "domain": "foundations",
+      "order": 7
+    },
+    {
+      "id": "cpr-recover",
+      "title": "CPR (RECOVER)",
+      "domain": "arrest",
+      "order": 0
+    },
+    {
+      "id": "k9-reversible-causes",
+      "title": "K9 reversible causes",
+      "domain": "arrest",
+      "order": 1
+    },
+    {
+      "id": "post-arrest-care",
+      "title": "Post-arrest care",
+      "domain": "arrest",
+      "order": 2
+    },
+    {
+      "id": "k9-march-paws-primary-survey",
+      "title": "K9 MARCH-PAWS primary survey",
+      "domain": "trauma",
+      "order": 0
+    },
+    {
+      "id": "hemorrhage-control",
+      "title": "Hemorrhage control",
+      "domain": "trauma",
+      "order": 1
+    },
+    {
+      "id": "airway",
+      "title": "Airway",
+      "domain": "trauma",
+      "order": 2
+    },
+    {
+      "id": "tension-pneumothorax",
+      "title": "Tension pneumothorax",
+      "domain": "trauma",
+      "order": 3
+    },
+    {
+      "id": "hemorrhagic-shock-and-fluids",
+      "title": "Hemorrhagic shock and fluids",
+      "domain": "trauma",
+      "order": 4
+    },
+    {
+      "id": "tranexamic-acid",
+      "title": "Tranexamic acid",
+      "domain": "trauma",
+      "order": 5
+    },
+    {
+      "id": "head-injury",
+      "title": "Head injury",
+      "domain": "trauma",
+      "order": 6
+    },
+    {
+      "id": "hypothermia",
+      "title": "Hypothermia",
+      "domain": "trauma",
+      "order": 7
+    },
+    {
+      "id": "gunshot-and-stab-wounds",
+      "title": "Gunshot and stab wounds",
+      "domain": "trauma",
+      "order": 8
+    },
+    {
+      "id": "blast-injury",
+      "title": "Blast injury",
+      "domain": "trauma",
+      "order": 9
+    },
+    {
+      "id": "burns",
+      "title": "Burns",
+      "domain": "trauma",
+      "order": 10
+    },
+    {
+      "id": "ocular-injury",
+      "title": "Ocular injury",
+      "domain": "trauma",
+      "order": 11
+    },
+    {
+      "id": "fractures-and-splinting",
+      "title": "Fractures and splinting",
+      "domain": "trauma",
+      "order": 12
+    },
+    {
+      "id": "peripheral-iv-access",
+      "title": "Peripheral IV access",
+      "domain": "procedures",
+      "order": 0
+    },
+    {
+      "id": "jugular-access",
+      "title": "Jugular access",
+      "domain": "procedures",
+      "order": 1
+    },
+    {
+      "id": "intraosseous-access",
+      "title": "Intraosseous access",
+      "domain": "procedures",
+      "order": 2
+    },
+    {
+      "id": "orotracheal-intubation",
+      "title": "Orotracheal intubation",
+      "domain": "procedures",
+      "order": 3
+    },
+    {
+      "id": "surgical-tracheotomy",
+      "title": "Surgical tracheotomy",
+      "domain": "procedures",
+      "order": 4
+    },
+    {
+      "id": "needle-thoracostomy",
+      "title": "Needle thoracostomy",
+      "domain": "procedures",
+      "order": 5
+    },
+    {
+      "id": "tube-thoracostomy",
+      "title": "Tube thoracostomy",
+      "domain": "procedures",
+      "order": 6
+    },
+    {
+      "id": "gdv-decompression",
+      "title": "GDV decompression",
+      "domain": "procedures",
+      "order": 7
+    },
+    {
+      "id": "pericardiocentesis",
+      "title": "Pericardiocentesis",
+      "domain": "procedures",
+      "order": 8
+    },
+    {
+      "id": "wound-packing",
+      "title": "Wound packing",
+      "domain": "procedures",
+      "order": 9
+    },
+    {
+      "id": "splinting",
+      "title": "Splinting",
+      "domain": "procedures",
+      "order": 10
+    },
+    {
+      "id": "restraint",
+      "title": "Restraint",
+      "domain": "procedures",
+      "order": 11
+    },
+    {
+      "id": "gastric-dilatation-volvulus",
+      "title": "Gastric dilatation-volvulus",
+      "domain": "medical",
+      "order": 0
+    },
+    {
+      "id": "heat-stroke",
+      "title": "Heat stroke",
+      "domain": "medical",
+      "order": 1
+    },
+    {
+      "id": "exertional-hypoglycemia",
+      "title": "Exertional hypoglycemia",
+      "domain": "medical",
+      "order": 2
+    },
+    {
+      "id": "exertional-rhabdomyolysis",
+      "title": "Exertional rhabdomyolysis",
+      "domain": "medical",
+      "order": 3
+    },
+    {
+      "id": "anaphylaxis",
+      "title": "Anaphylaxis",
+      "domain": "medical",
+      "order": 4
+    },
+    {
+      "id": "status-epilepticus",
+      "title": "Status epilepticus",
+      "domain": "medical",
+      "order": 5
+    },
+    {
+      "id": "hemoabdomen",
+      "title": "Hemoabdomen",
+      "domain": "medical",
+      "order": 6
+    },
+    {
+      "id": "pericardial-effusion",
+      "title": "Pericardial effusion",
+      "domain": "medical",
+      "order": 7
+    },
+    {
+      "id": "drowning",
+      "title": "Drowning",
+      "domain": "medical",
+      "order": 8
+    },
+    {
+      "id": "smoke-inhalation",
+      "title": "Smoke inhalation",
+      "domain": "medical",
+      "order": 9
+    },
+    {
+      "id": "snake-envenomation",
+      "title": "Snake envenomation",
+      "domain": "medical",
+      "order": 10
+    },
+    {
+      "id": "hypoadrenocorticism-crisis",
+      "title": "Hypoadrenocorticism crisis",
+      "domain": "medical",
+      "order": 11
+    },
+    {
+      "id": "diabetic-ketoacidosis",
+      "title": "Diabetic ketoacidosis",
+      "domain": "medical",
+      "order": 12
+    },
+    {
+      "id": "arrhythmias",
+      "title": "Arrhythmias",
+      "domain": "medical",
+      "order": 13
+    },
+    {
+      "id": "opioids-including-fentanyl",
+      "title": "Opioids including fentanyl",
+      "domain": "tox-duty",
+      "order": 0
+    },
+    {
+      "id": "methamphetamine-and-amphetamines",
+      "title": "Methamphetamine and amphetamines",
+      "domain": "tox-duty",
+      "order": 1
+    },
+    {
+      "id": "cocaine",
+      "title": "Cocaine",
+      "domain": "tox-duty",
+      "order": 2
+    },
+    {
+      "id": "cannabis-and-thc",
+      "title": "Cannabis and THC",
+      "domain": "tox-duty",
+      "order": 3
+    },
+    {
+      "id": "decontamination-principles",
+      "title": "Decontamination principles",
+      "domain": "tox-common",
+      "order": 0
+    },
+    {
+      "id": "xylitol",
+      "title": "Xylitol",
+      "domain": "tox-common",
+      "order": 1
+    },
+    {
+      "id": "chocolate",
+      "title": "Chocolate",
+      "domain": "tox-common",
+      "order": 2
+    },
+    {
+      "id": "grapes-and-raisins",
+      "title": "Grapes and raisins",
+      "domain": "tox-common",
+      "order": 3
+    },
+    {
+      "id": "anticoagulant-rodenticides",
+      "title": "Anticoagulant rodenticides",
+      "domain": "tox-common",
+      "order": 4
+    },
+    {
+      "id": "bromethalin",
+      "title": "Bromethalin",
+      "domain": "tox-common",
+      "order": 5
+    },
+    {
+      "id": "cholecalciferol",
+      "title": "Cholecalciferol",
+      "domain": "tox-common",
+      "order": 6
+    },
+    {
+      "id": "ethylene-glycol",
+      "title": "Ethylene glycol",
+      "domain": "tox-common",
+      "order": 7
+    },
+    {
+      "id": "human-nsaids",
+      "title": "Human NSAIDs",
+      "domain": "tox-common",
+      "order": 8
+    },
+    {
+      "id": "acetaminophen",
+      "title": "Acetaminophen",
+      "domain": "tox-common",
+      "order": 9
+    },
+    {
+      "id": "organophosphates-and-carbamates",
+      "title": "Organophosphates and carbamates",
+      "domain": "tox-common",
+      "order": 10
+    },
+    {
+      "id": "toxic-toads",
+      "title": "Toxic toads",
+      "domain": "tox-common",
+      "order": 11
+    },
+    {
+      "id": "blue-green-algae",
+      "title": "Blue-green algae",
+      "domain": "tox-common",
+      "order": 12
+    },
+    {
+      "id": "sago-palm",
+      "title": "Sago palm",
+      "domain": "tox-common",
+      "order": 13
+    },
+    {
+      "id": "smoke-co-and-cyanide",
+      "title": "Smoke, CO, and cyanide",
+      "domain": "tox-common",
+      "order": 14
+    },
+    {
+      "id": "antidote-table",
+      "title": "Antidote table",
+      "domain": "tox-common",
+      "order": 15
+    },
+    {
+      "id": "structured-vet-handoff",
+      "title": "Structured vet handoff",
+      "domain": "handoff",
+      "order": 0
+    },
+    {
+      "id": "loading-and-restraint-for-transport",
+      "title": "Loading and restraint for transport",
+      "domain": "handoff",
+      "order": 1
+    },
+    {
+      "id": "hems-transport-policy",
+      "title": "HEMS transport policy",
+      "domain": "handoff",
+      "order": 2
+    },
+    {
+      "id": "finding-the-nearest-24-7-vet-ed",
+      "title": "Finding the nearest 24/7 vet ED",
+      "domain": "handoff",
+      "order": 3
+    },
+    {
+      "id": "jurisdiction-card",
+      "title": "Jurisdiction card",
+      "domain": "legal",
+      "order": 0
+    }
+  ]
+}

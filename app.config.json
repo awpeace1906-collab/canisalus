@@ -1,0 +1,9 @@
+{
+  "name": "CaniSalus",
+  "short_name": "Salus",
+  "pronunciation": "kay-nih-SAY-lus",
+  "store_title": "CaniSalus: K9 Emergency Care",
+  "bundle_id_suggestion": "com.<your-org>.canisalus",
+  "trademark_status": "Web search clear (Sep 2026). USPTO and App Store search NOT yet done — do before filing or buying domains.",
+  "notes": "Single source of truth for the app name. UI, store metadata, and About copy must read the name from here, never hardcode it."
+}
