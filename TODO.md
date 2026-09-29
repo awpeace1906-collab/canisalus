@@ -53,7 +53,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [ ] Exertional hypoglycemia (no canine source retrieved; still a stub)
 - [x] Tension pneumothorax (draft; no canine decompression evidence)
 - [x] Hypothermia (draft; one veterinary review)
-- [ ] Canine normal vitals (no source retrieved yet)
+- [x] Canine normal vitals (draft, respiratory rate only; heart rate, temperature, CRT still TODO)
 - [ ] Weight estimation
 - [x] Smoke inhalation, CO and cyanide (two drafts)
 - [x] Methamphetamine, cocaine, cannabis (duty toxicology; three drafts)
