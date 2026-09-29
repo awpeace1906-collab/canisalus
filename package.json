@@ -13,7 +13,8 @@
     "validate:release": "node tools/validate.js --release",
     "check-staleness": "node tools/check-staleness.js",
     "ci": "npm run validate && npm test && npm run check-staleness && node tools/build.js --release",
-    "stubs": "python3 tools/gen_stubs.py"
+    "stubs": "python3 tools/gen_stubs.py",
+    "packets": "node tools/signoff-packet.js"
   },
   "devDependencies": {
     "ajv": "^8.20.0",

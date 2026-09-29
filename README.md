@@ -41,3 +41,7 @@ Unapproved content is hidden, not shown as a draft. `tools/build.js --release` d
 ## What Kairos pieces are ported
 
 Content store with hash-based OTA refresh, search (title > keywords > domain), hash router, prefs and session stores, the service-worker precache, the manifest generator and the staleness tripwire. They are adapted to CaniSalus's content shape, not copied verbatim. If Kairos later ships these as a package, `src/lib/contentStore.js`, `search.js`, `router.js` and `staleness.js` are the seams to swap.
+
+## Reviewer packets
+
+`npm run packets` regenerates `docs/signoff/` (one page per drafted module: claims, sources, open TODOs, blank vet and physician signature block). It never approves anything. Regenerate before sending to reviewers.

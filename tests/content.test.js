@@ -103,3 +103,19 @@ test('image size and plate entry from real bytes', () => {
   const e = buildPlateEntry({ title: 'File:Test Dog 1.png', buf, ext: 'png', kind: 'canine', subject: 's', credit: 'c', sourceUrl: 'u' });
   assert.equal(e.id, 'test-dog-1'); assert.equal(e.sha1, sha1(buf)); assert.equal(e.license, 'public-domain');
 });
+
+test('sign-off packets: drafts only, blank signature block, nothing approved', async () => {
+  const fs = await import('node:fs'); const os = await import('node:os'); const path = await import('node:path');
+  const { buildPackets, collectTodos } = await import('../tools/signoff-packet.js');
+  const out = fs.mkdtempSync(path.join(os.tmpdir(), 'packets-'));
+  const rows = buildPackets(out);
+  assert.ok(rows.length > 0);
+  const files = fs.readdirSync(out).filter(f => f !== 'INDEX.md');
+  assert.equal(files.length, rows.length);
+  for (const f of files) {
+    const t = fs.readFileSync(path.join(out, f), 'utf8');
+    assert.ok(t.includes('| Veterinarian | | | | |') && t.includes('| Physician | | | | |'), `${f} signature rows must be blank`);
+    assert.ok(!/Status: \*\*approved\*\*/.test(t));
+  }
+  assert.equal(collectTodos({ a: ['x TODO y', 'ok'] }).length, 1);
+});

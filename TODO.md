@@ -69,7 +69,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [ ] Resolve remaining citations (~45 still carry search links; `npm run validate` lists them). Done so far: chocolate, grapes (Wegenast 2022 PMID still unresolved), cannabis (first author corrected to Amissah), 6 anaphylaxis and hemoabdomen sources. Wave 3 done (smoke, snake, seizures; Padula 2020 corrected to Finney, Bhatti to Kähn). Next waves: blood groups, rodenticides, stimulants, hypothermia, pneumothorax
 - [ ] Read K9TCCC 2023, RECOVER 2024 and the 2026 RECOVER anaphylaxis first-aid guideline in full once reachable, then fill the numeric parameters marked `TODO`
 - [ ] Fetch canine anatomy plates (tool built; needs host access)
-- [ ] Build the reviewer sign-off packet (one page per module: claims, sources, open questions, signature block)
+- [x] Reviewer sign-off packets: `npm run packets` writes `docs/signoff/` (one page per drafted module, blank signature block). Regenerate after content changes
 - [ ] Add Gramer 2010 (Vet J) to the MDR1 module sources
 
 ## Done

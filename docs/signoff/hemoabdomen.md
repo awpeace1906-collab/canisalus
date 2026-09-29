@@ -1,0 +1,66 @@
+# Hemoabdomen
+
+Module id: `hemoabdomen`  |  Domain: medical  |  Status: **draft**  |  Kind: clinical
+
+> DRAFT for review. Nothing here is approved. Do not use for patient care.
+
+## Why this matters
+
+Nontraumatic hemoabdomen in dogs is usually a ruptured splenic mass, malignant in about three-quarters of cases and most often hemangiosarcoma, but a real share is benign and treatable [1][5].
+
+## Claims that differ from human practice
+
+- A bleeding abdomen in an older large-breed dog is often a ruptured splenic tumor: 73% were malignant and 87% of those hemangiosarcoma in a systematic review [1].
+- Benign causes are common enough to matter: 27% benign in the systematic review, and 37.5% in a prospective series where 95% survived to discharge [1][5].
+
+## Recognition
+
+- In 39 dogs with acute nontraumatic hemoabdomen: anemia in 97%, hypoalbuminemia in 76% and coagulopathy in 84% [3].
+- Older large-breed dogs predominate [5].
+- An ultrasound description of a splenic lesion as cavitated had poor diagnostic value for malignancy (sensitivity 42%, specificity 51% for hemangiosarcoma) [7].
+
+## Management
+
+- In 60 dogs that all had laparotomy, hemangiosarcoma was found in 63%, splenic hematoma in 27% and torsion in 5%. Discharge rates were 63% (hemangiosarcoma), 88% (hematoma) and 100% (torsion) [2].
+- In a prospective 40-dog series of ruptured splenic mass, 95% survived to discharge, and transfusion and arrhythmia predicted longer hospital stays [5].
+- In an owner-survey cohort, median survival was 213 days with surgery and 39 days with palliative care, but the benefit was lost in dogs whose histology was malignant [6].
+- Some dogs with benign histology still died early of a suspected malignancy [4].
+- TODO: prehospital handling (fluids, blood pressure targets, autotransfusion, transport priority). No retrieved source covers it, and the dog's contractile spleen changes early findings (see the hemorrhagic shock and spleen module).
+
+## Sources
+
+| # | Citation | Link status |
+|---|----------|-------------|
+| 1 | Schick AR, Grimes JA. 2022. Evaluation of the validity of the double two-thirds rule for diagnosing hemangiosarcoma in dogs with nontraumatic hemoperitoneum due to a ruptured splenic mass: a systematic review. J Am Vet Med Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/36322487/) |
+| 2 | Aronsohn MG et al. 2009. Prognosis for acute nontraumatic hemoperitoneum in the dog: a retrospective analysis of 60 cases (2003-2006). J Am Anim Hosp Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/19258418/) |
+| 3 | Pintar J et al. 2003. Acute nontraumatic hemoabdomen in the dog: a retrospective analysis of 39 cases (1987-2001). J Am Anim Hosp Assoc. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Acute%20nontraumatic%20hemoabdomen%20in%20the%20dog%3A%20a%20retrospective%20analysis%20of%2039%20cases%20%281987-2001%29) |
+| 4 | Millar SL et al. 2021. Premature death in dogs with nontraumatic hemoabdomen and splenectomy with benign histopathologic findings. J Am Vet Med Assoc. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Premature%20death%20in%20dogs%20with%20nontraumatic%20hemoabdomen%20and%20splenectomy%20with%20benign%20histopathologic%20findings) |
+| 5 | Stewart SD et al. 2020. Prospective observational study of dogs with splenic mass rupture suggests potentially lower risk of malignancy and more favorable perioperative outcomes. Vet Comp Oncol. | record link (https://pubmed.ncbi.nlm.nih.gov/32458544/) |
+| 6 | Menard JV et al. 2023. Assessing major influences on decision-making and outcome for dogs presenting emergently with nontraumatic hemoabdomen. J Am Vet Med Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/37116877/) |
+| 7 | Millar SL et al. 2021. Diagnostic value of the ultrasonographic description of a splenic mass or nodule as cavitated in 106 dogs with nontraumatic hemoabdomen. Am J Vet Res. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Diagnostic%20value%20of%20the%20ultrasonographic%20description%20of%20a%20splenic%20mass%20or%20nodule%20as%20cavitated%20in%20106%20dogs%20with%20nontraumatic%20hemoabdomen) |
+
+## Open items (7)
+
+- [ ] `content.management[5]`: TODO: prehospital handling (fluids, blood pressure targets, autotransfusion, transport priority). No retrieved source covers it, and the dog's contractile spleen changes early findings (see the hemorrhagic shock and spleen module).
+- [ ] `lens.handler.transfer_trigger`: TODO
+- [ ] `lens.prehospital_als.transfer_trigger`: TODO
+- [ ] `lens.flight_cct.transfer_trigger`: TODO
+- [ ] `lens.human_ed.transfer_trigger`: TODO
+- [ ] `lens.vet_gp.transfer_trigger`: TODO
+- [ ] `lens.vet_ed.transfer_trigger`: TODO
+
+## Reviewer decisions
+
+Approve / approve with changes / reject: ____________
+
+Comments:
+
+
+## Sign-off
+
+| Role | Name | Credential | Date | Signature |
+|------|------|------------|------|-----------|
+| Veterinarian | | | | |
+| Physician | | | | |
+
+Approval requires both signatures, no open TODO, and every source resolved to a record link.
