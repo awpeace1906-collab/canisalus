@@ -13,7 +13,7 @@ Last updated: 2026-09-29 (citation waves 1-2: 19 sources resolved to PubMed reco
 | 5 | Name vet and physician reviewers per domain | You |
 | 6 | USPTO and App Store trademark check on CaniSalus | You |
 | 7 | Decide: naloxone dose source for the app (vet reviewer picks; study doses are in `research/opioid-exposure.md`) | Reviewer |
-| 8 | Decide: replace the "herding breed" tick with an explicit breed list for the MDR1 caution | Reviewer |
+| 8 | Decide: replace the "herding breed" tick with an explicit breed list for the MDR1 caution. Gramer 2010 breed allele frequencies are now in the MDR1 module to support it | Reviewer |
 | 9 | Decide: trocar decompression scope at Tier 2 and Tier 3 (GDV) | Reviewer |
 | 10 | Decide: the temperature at which to stop active cooling (heat stroke), with a source | Reviewer |
 | 11 | Decide: human blood products and colloids as a bridge (framework open question; no source retrieved) | Reviewer |
@@ -66,11 +66,11 @@ Priority is working-dog relevance and how often the presentation occurs.
 
 ## Verification debt (Claude)
 
-- [ ] Resolve remaining citations (~45 still carry search links; `npm run validate` lists them). Done so far: chocolate, grapes (Wegenast 2022 PMID still unresolved), cannabis (first author corrected to Amissah), 6 anaphylaxis and hemoabdomen sources. Wave 3 done (smoke, snake, seizures; Padula 2020 corrected to Finney, Bhatti to Kähn). Next waves: blood groups, rodenticides, stimulants, hypothermia, pneumothorax
+- [ ] Resolve remaining citations (~44 still carry search links; `npm run validate` lists them). Done so far: chocolate, grapes (Wegenast 2022 PMID still unresolved), cannabis (first author corrected to Amissah), 6 anaphylaxis and hemoabdomen sources. Wave 3 done (smoke, snake, seizures; Padula 2020 corrected to Finney, Bhatti to Kähn). Next waves: blood groups, rodenticides, stimulants, hypothermia, pneumothorax
 - [ ] Read K9TCCC 2023, RECOVER 2024 and the 2026 RECOVER anaphylaxis first-aid guideline in full once reachable, then fill the numeric parameters marked `TODO`
 - [ ] Fetch canine anatomy plates (tool built; needs host access)
 - [x] Reviewer sign-off packets: `npm run packets` writes `docs/signoff/` (one page per drafted module, blank signature block). Regenerate after content changes
-- [ ] Add Gramer 2010 (Vet J) to the MDR1 module sources
+- [x] Gramer 2010 added to MDR1 module (breed allele frequencies; informs decision 8)
 
 ## Done
 

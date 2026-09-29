@@ -19,6 +19,8 @@ Some dogs, especially collie-lineage herding breeds, carry a gene mutation that 
 - Most dogs with adverse reactions are homozygous, but heterozygotes can be affected [4].
 - Mutant allele frequency varies by breed and country. In one European survey: Smooth Collie 58.5%, Rough Collie 48.3%, Australian Shepherd 35%, Shetland Sheepdog 30.3%; Border Collie 0% in that survey [1]. The mutation was found in Border Collies in an Italian survey [3].
 - German Shepherd findings conflict: not detected in a Belgian sample [6], but reported in later work cited by a UK survey [4]. No source retrieved covers Belgian Malinois.
+- In 7,378 dogs screened in Germany, mutant MDR1 allele frequency was 59% in Collies, 45% in Longhaired Whippets, 30% in Shetland Sheepdogs, 24% in Miniature Australian Shepherds, 22% in Australian Shepherds, 17% in Wallers, 14% in White Swiss Shepherds, 4% in Old English Sheepdogs and 1% in Border Collies; 8% in herding-breed mixes and 2% in other mixed breeds. It was not found in Bearded Collies, Kelpies, Australian Cattle Dogs, Greyhounds and several other related breeds screened [8]. German data; other countries may differ.
+- Because the mutation is widespread across breeds and also occurs in mixed breeds, it is difficult for veterinarians and owners to tell whether MDR1-related drug sensitivity applies to an individual dog [8].
 
 ## Management
 
@@ -37,6 +39,7 @@ Some dogs, especially collie-lineage herding breeds, carry a gene mutation that 
 | 5 | Palocz O et al. 2026. Association between the nt230(del4) mutation and c.-6-180T>G polymorphism in the canine ABCB1 gene. Vet Med Int. | record link (https://doi.org/10.1155/vmi/1075604) |
 | 6 | Van Poucke M et al. 2009. Presence of the ABCB1 (MDR1) deletion mutation causing ivermectin hypersensitivity in certain dog breeds in Belgium. Vlaams Diergeneeskd Tijdschr. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Presence%20of%20the%20ABCB1%20%28MDR1%29%20deletion%20mutation%20causing%20ivermectin%20hypersensitivity%20in%20certain%20dog%20breeds%20in%20Belgium) |
 | 7 | Nelson TS et al. 2025. Case report: adverse reaction to butorphanol in a Collie homozygous for the ABCB1-1Δ (MDR1) mutation. Front Vet Sci. | record link (https://doi.org/10.3389/fvets.2025.1603375) |
+| 8 | Gramer I et al. 2010. Breed distribution of the nt230(del4) MDR1 mutation in dogs. Vet J. | record link (https://pubmed.ncbi.nlm.nih.gov/20655253/) |
 
 ## Open items (9)
 
