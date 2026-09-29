@@ -54,7 +54,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [x] Tension pneumothorax (draft; no canine decompression evidence)
 - [x] Hypothermia (draft; one veterinary review)
 - [x] Canine normal vitals (draft, respiratory rate only; heart rate, temperature, CRT still TODO)
-- [ ] Weight estimation
+- [x] Weight estimation (draft, two sources; field method and margins TODO)
 - [x] Smoke inhalation, CO and cyanide (two drafts)
 - [x] Methamphetamine, cocaine, cannabis (duty toxicology; three drafts)
 - [x] Anaphylaxis, hemoabdomen (drafts)

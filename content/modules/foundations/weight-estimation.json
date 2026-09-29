@@ -3,53 +3,82 @@
   "title": "Weight estimation",
   "domain": "foundations",
   "reversible": false,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 24,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Every canine dose depends on body weight, and clinicians guess it poorly: only about a third to two-fifths of veterinary staff estimates fall within 10% of the true weight, while owners do much better [1][2].",
+  "what_changes_from_human": [
+    {
+      "point": "Ask the owner or handler for the weight. In an emergency room, 68% of owner estimates were within 10% of true weight, against 41% of attending clinicians and 35% of technicians and house officers [1].",
+      "objective_id": "foundations-weight-01"
+    },
+    {
+      "point": "Clinician estimates get worse in big, heavy or long-coated dogs: estimators underestimated as dogs got heavier, and a longer coat reduced accuracy; only 32% of estimates in dogs were within 10% [2].",
+      "objective_id": "foundations-weight-02"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "Years of veterinary experience did not improve estimation accuracy [1].",
+      "Veterinary professionals estimated large dogs more closely than small dogs [1].",
+      "Estimates by veterinarians, nurses and students may be unreliable in the emergency department, especially in overweight animals [2].",
+      "TODO: working dogs are often lean and muscular; no retrieved source gives estimation accuracy for working breeds or a field method (tape, body-size chart). Do not add a formula without a canine source."
+    ],
+    "management": [
+      "Prefer a measured weight; if none can be obtained quickly, ask the owner or handler [1][2].",
+      "Any weight not measured on a scale must be treated as estimated. The dose engine already flags this (WEIGHT_ESTIMATED) and returns NEED_WEIGHT when no weight is entered.",
+      "TODO: reviewer to decide the accuracy margin to display, and whether a handler's recorded kennel weight counts as measured."
+    ],
     "procedure_refs": []
   },
   "lens": {
     "handler": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "prehospital_als": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "flight_cct": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "human_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_gp": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "Weigh the dog if you can. If not, ask the owner or handler; do not trust a guess, and treat any unmeasured weight as estimated.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Blystone N et al. 2023. Pet owners provide a more reliable weight estimate for dogs compared to veterinary professionals in an emergency setting. J Am Vet Med Assoc.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37495225/"
+    },
+    {
+      "rank": 3,
+      "citation": "Wolf JM, Drobatz KJ. 2022. Body condition and hair coat length impact weight estimation in dogs and cats presented to an emergency department. J Am Vet Med Assoc.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36563068/"
+    }
+  ],
   "drug_refs": []
 }
