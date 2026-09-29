@@ -3,18 +3,42 @@
   "title": "Cannabis and THC",
   "domain": "tox-duty",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Cannabis toxicosis in dogs has increased in North America and is often missed because owners deny exposure, but most dogs recover completely [1][3].",
+  "what_changes_from_human": [
+    {
+      "point": "Exposure is often denied or unknown: think cannabis in a young dog that turns acutely ataxic and hyperesthetic after being outside [1].",
+      "objective_id": "tox-duty-cannabis-01"
+    },
+    {
+      "point": "Human urine drug screens can be unreliable in dogs, so a negative screen does not exclude cannabis [1][4].",
+      "objective_id": "tox-duty-cannabis-02"
+    },
+    {
+      "point": "Edibles are a common source, and the differential includes xylitol and other central nervous system toxins [3][4].",
+      "objective_id": "tox-duty-cannabis-03"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "In 223 dogs, the commonest signs were ataxia (88%), hyperesthesia (75%), lethargy (63%), urinary incontinence (46%) and vomiting (26%). Median age was 1 year, and 28% became acutely neurologic after going outside or to a public place. 68% of owners denied a possible exposure [1].",
+      "Vitals were often normal, but hyperthermia (23%), tachycardia (37%) and, in the 61 measured, systemic hypertension (61%) were common. Mild hyperkalemia and mild ionized hypercalcemia were common [1].",
+      "After ingestion, clinical effects begin within about 60 minutes. Other signs described include depression, hypersalivation, mydriasis, tremors, hypothermia and bradycardia, and at higher doses agitation, tachycardia and seizures [4].",
+      "Ingestion of human feces containing THC caused marijuana toxicosis in 15 dogs from parks and beaches [5]."
+    ],
+    "management": [
+      "Treatment is largely supportive, with no specific antidote. Monitor temperature, heart rate and rhythm; benzodiazepine sedation may be needed for severe agitation; IV fluids help with prolonged vomiting and temperature control [4].",
+      "In the 223-dog series, 22 dogs were hospitalized and all survived [1]. In a veterinarian survey, most pets were treated as outpatients with monitoring and most recovered completely, though 16 deaths were reported, with confounders that cannot be excluded [3].",
+      "In 38 dogs with suspected cannabinoid intoxication, plasma THC was quantifiable in 37, and the authors concluded a clinical diagnosis from history and signs has high specificity [2].",
+      "Human urine drug screens: false negatives can occur if testing is too soon after ingestion, and interference from canine urine metabolites is described [4]. In a 15-dog series all 8 dogs screened were positive [5].",
+      "TODO: reviewer decision on ingestion thresholds and on any role for cannabidiol or lipid emulsion. A 6-dog CBD case report is not adequate evidence. The framework's statement that edibles often also contain xylitol or chocolate has no retrieved source."
+    ],
     "procedure_refs": []
   },
   "lens": {
@@ -49,7 +73,33 @@
       "transfer_trigger": "TODO"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "A young dog that is suddenly ataxic and over-sensitive after being outside may have cannabis toxicosis; give supportive care, watch temperature and heart rate, and consider other toxins.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Binagia E et al. 2024. Clinical examination findings and electrolyte abnormalities of dogs with marijuana/tetrahydrocannabinol toxicity: 223 cases (January 2017-July 2021). J Am Vet Med Assoc.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Clinical%20examination%20findings%20and%20electrolyte%20abnormalities%20of%20dogs%20with%20marijuana/tetrahydrocannabinol%20toxicity%3A%20223%20cases"
+    },
+    {
+      "rank": 3,
+      "citation": "Loewen JM et al. 2024. Analysis of cannabinoids in plasma from 38 cases of suspected cannabinoid intoxication in dogs. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Analysis%20of%20cannabinoids%20in%20plasma%20from%2038%20cases%20of%20suspected%20cannabinoid%20intoxication%20in%20dogs"
+    },
+    {
+      "rank": 3,
+      "citation": "Khokhar JY et al. 2021. Prevalence and characteristics of cannabis-induced toxicoses in pets: results from a survey of veterinarians in North America. PLoS One.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Prevalence%20and%20characteristics%20of%20cannabis-induced%20toxicoses%20in%20pets%3A%20results%20from%20a%20survey%20of%20veterinarians%20in%20North%20America"
+    },
+    {
+      "rank": 3,
+      "citation": "FitzGerald KT et al. 2013. Marijuana poisoning. Top Companion Anim Med.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Marijuana%20poisoning%20FitzGerald%20Topics%20in%20companion%20animal%20medicine"
+    },
+    {
+      "rank": 3,
+      "citation": "Lauinger C et al. 2021. Marijuana toxicosis in dogs in Melbourne, Australia, following suspected ingestion of human faeces: 15 cases (2011-2020). Aust Vet J.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Marijuana%20toxicosis%20in%20dogs%20in%20Melbourne%2C%20Australia%2C%20following%20suspected%20ingestion%20of%20human%20faeces"
+    }
+  ],
   "drug_refs": []
 }

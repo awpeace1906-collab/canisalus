@@ -46,4 +46,10 @@ Sources in modules are resolved to a DOI or PubMed URL where PubMed could confir
 | Hypothermia | `hypothermia.md` | One veterinary review; rewarming-rate data conflict and are human or animal-model |
 | Tension pneumothorax | `tension-pneumothorax.md` | No canine needle-decompression study; human and swine data only |
 | Exertional rhabdomyolysis | `exertional-rhabdomyolysis.md` | Two small canine studies; no canine treatment evidence |
+| Cannabis and THC | `cannabis-and-thc.md` | 223-dog series; urine-screen evidence conflicts |
+| Methamphetamine and amphetamines | `methamphetamine-and-amphetamines.md` | Review plus case reports only |
+| Cocaine | `cocaine.md` | One 19-dog hospital series |
+| Smoke inhalation, CO and cyanide | `smoke-inhalation.md` | Veterinary review; no canine antidote evidence |
+| Anaphylaxis | `anaphylaxis.md` | 2026 RECOVER first-aid guideline exists (full text not retrieved) plus large series |
+| Hemoabdomen | `hemoabdomen.md` | Systematic review plus prospective series; no prehospital source |
 | CPR (RECOVER) | `cpr-recover.md` | 2024 RECOVER abstracts only; numeric recommendations deliberately omitted |

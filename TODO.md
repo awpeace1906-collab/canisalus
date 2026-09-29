@@ -1,6 +1,6 @@
 # Running to-do list
 
-Last updated: 2026-09-29 (batch 2 done: 8 modules). Owner column: **You** = needs Andrew, **Reviewer** = vet or physician, **Claude** = I can do it next.
+Last updated: 2026-09-29 (batch 3 done: 7 more modules, 15 in total since the first pass). Owner column: **You** = needs Andrew, **Reviewer** = vet or physician, **Claude** = I can do it next.
 
 ## Blocked on you
 
@@ -29,6 +29,11 @@ Last updated: 2026-09-29 (batch 2 done: 8 modules). Owner column: **You** = need
 | 16 | Rodenticides: vitamin K1 route, dose, duration (retrieved sources conflict on IV safety) | Reviewer |
 | 17 | Tension pneumothorax: is needle decompression in scope at Tier 1 to 3, and with what canine landmarks and equipment (no canine source found) | Reviewer |
 | 18 | Hypothermia: definition thresholds and rewarming targets for dogs (only human and animal-model rewarming data found) | Reviewer |
+| 20 | Cannabis: any role for CBD or lipid emulsion; ingestion thresholds; how a positive test is handled in a K9 unit | Reviewer, You |
+| 21 | Stimulants: sedation, cooling and blood-pressure plan by tier (only case reports for methamphetamine) | Reviewer |
+| 22 | Smoke: intubation triggers; whether the app mentions cyanide antidotes for dogs at all (no canine evidence) | Reviewer |
+| 23 | Anaphylaxis: epinephrine route and dose by tier, from the 2026 RECOVER first-aid guideline full text | Reviewer, You (access) |
+| 24 | Hemoabdomen: what a non-veterinary clinician should do en route (no source found) | Reviewer |
 | 19 | Exertional rhabdomyolysis and hypoglycemia: canine signs and treatment (two small studies, no treatment evidence) | Reviewer |
 
 ## In progress
@@ -50,9 +55,10 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [x] Hypothermia (draft; one veterinary review)
 - [ ] Canine normal vitals (no source retrieved yet)
 - [ ] Weight estimation
-- [ ] Smoke inhalation, CO and cyanide
-- [ ] Methamphetamine, cocaine, cannabis (duty toxicology)
-- [ ] Anaphylaxis, hemoabdomen, pericardial effusion
+- [x] Smoke inhalation, CO and cyanide (two drafts)
+- [x] Methamphetamine, cocaine, cannabis (duty toxicology; three drafts)
+- [x] Anaphylaxis, hemoabdomen (drafts)
+- [ ] Pericardial effusion
 - [ ] Airway, intubation, surgical tracheotomy
 - [ ] Burns, blast injury, gunshot and stab wounds
 - [ ] Structured vet handoff, HEMS policy, loading and restraint
@@ -60,8 +66,8 @@ Priority is working-dog relevance and how often the presentation occurs.
 
 ## Verification debt (Claude)
 
-- [ ] Resolve citations that still carry PubMed search links to DOIs: 16 older ones (list in `research/pathophysiology-dog-vs-human.md`) plus about 35 new ones in batch 2 (seizures, snake, chocolate, grapes, rodenticides, hypothermia, pneumothorax, rhabdomyolysis). `npm run validate` lists them
-- [ ] Read K9TCCC 2023 and RECOVER 2024 in full once reachable, then fill the numeric parameters marked `TODO`
+- [ ] Resolve citations that still carry PubMed search links to DOIs: 16 older ones (list in `research/pathophysiology-dog-vs-human.md`) plus about 70 new ones across batches 2 and 3. `npm run validate` lists them
+- [ ] Read K9TCCC 2023, RECOVER 2024 and the 2026 RECOVER anaphylaxis first-aid guideline in full once reachable, then fill the numeric parameters marked `TODO`
 - [ ] Fetch canine anatomy plates (tool built; needs host access)
 - [ ] Build the reviewer sign-off packet (one page per module: claims, sources, open questions, signature block)
 - [ ] Add Gramer 2010 (Vet J) to the MDR1 module sources

@@ -3,18 +3,41 @@
   "title": "Anaphylaxis",
   "domain": "medical",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Anaphylaxis in dogs varies widely in presentation, skin signs can be absent, and in the large series retrieved survival with treatment was high [3][4][5][6].",
+  "what_changes_from_human": [
+    {
+      "point": "Skin signs may be absent: 11 of 19 anaphylaxis cases in one series had none, and dermatological signs were absent in a quarter of dogs in another [4][3].",
+      "objective_id": "medical-anaph-01"
+    },
+    {
+      "point": "Dogs more often show vasoconstrictive shock (49%) than vasodilatory shock (13%), and 59% of dogs scanned had gallbladder wall edema on abdominal ultrasound [3].",
+      "objective_id": "medical-anaph-02"
+    },
+    {
+      "point": "Epinephrine is the drug of choice; antihistamines, corticosteroids, bronchodilators and fluids do not substitute for it [2].",
+      "objective_id": "medical-anaph-03"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "Anaphylaxis is a systemic type I hypersensitivity reaction. Many manifestations involve organs rich in mast cells: skin, lungs and gastrointestinal tract. Triggers include insect and reptile venom, drugs, vaccines and food [2].",
+      "In 232 dogs in Perth, 75% had dermatological signs, 76% gastrointestinal signs and 69% cardiovascular signs. 47% had evidence of insect exposure [3].",
+      "In one series vaccines were the most frequent trigger (58% of anaphylaxis cases) [4].",
+      "Coagulopathy (85%) and peritoneal effusion (65%) were common in 67 severe cases [5]. Hepatic rupture with hemoperitoneum was reported in one dog [7]."
+    ],
+    "management": [
+      "A 2026 RECOVER First Aid guideline gives 12 treatment recommendations and an algorithm for acute allergy and anaphylaxis in dogs and cats. All rest on low or very low quality evidence or expert opinion. The full text was not retrieved [1].",
+      "In 86 dogs, glucocorticoids were not associated with clinical improvement or survival [4].",
+      "Survival was 85% in 67 severe cases, where higher phosphorus, prolonged prothrombin time, hypoglycemia within 6 hours and need for dextrose were associated with death [5], and 92% in 49 severe cases that did not receive early epinephrine, where a higher shock index at presentation was associated with death [6]. Neither series can show whether epinephrine timing changes survival.",
+      "TODO: the RECOVER 2026 first-aid algorithm, and the canine epinephrine dose and route, from the full text and the veterinary reviewer."
+    ],
     "procedure_refs": []
   },
   "lens": {
@@ -49,7 +72,43 @@
       "transfer_trigger": "TODO"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "Treat suspected anaphylaxis as an emergency even without skin signs, and follow the current RECOVER first-aid algorithm for the drug details.",
+  "sources": [
+    {
+      "rank": 1,
+      "citation": "Burkitt-Creedon JM et al. 2026. RECOVER Guidelines: First Aid. Evidence, treatment recommendations, knowledge gap analysis, and clinical guidelines for acute allergy and anaphylaxis in dogs and cats. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=RECOVER%20Guidelines%3A%20First%20Aid.%20Evidence%2C%20Treatment%20Recommendations%2C%20Knowledge%20Gap%20Analysis%2C%20and%20Clinical%20Guidelines%20for%20Acute%20Allergy%20and%20Anaphylaxis%20in%20Dogs%20and%20Cats"
+    },
+    {
+      "rank": 3,
+      "citation": "Shmuel DL, Cortes Y. 2013. Anaphylaxis in dogs and cats. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Anaphylaxis%20in%20dogs%20and%20cats"
+    },
+    {
+      "rank": 3,
+      "citation": "Turner K et al. 2021. Clinical characteristics of two-hundred thirty-two dogs (2006-2018) treated for suspected anaphylaxis in Perth, Western Australia. Aust Vet J.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Clinical%20characteristics%20of%20two-hundred%20thirty-two%20dogs%20%282006-2018%29%20treated%20for%20suspected%20anaphylaxis%20in%20Perth%2C%20Western%20Australia"
+    },
+    {
+      "rank": 3,
+      "citation": "Fosset FTJ et al. 2023. Retrospective evaluation of hypersensitivity reactions and anaphylaxis in dogs (2003-2014): 86 cases. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Retrospective%20evaluation%20of%20hypersensitivity%20reactions%20and%20anaphylaxis%20in%20dogs%20%282003-2014%29%3A%2086%20cases"
+    },
+    {
+      "rank": 3,
+      "citation": "Smith M et al. 2020. Mortality rate and prognostic factors for dogs with severe anaphylaxis: 67 cases (2016-2018). J Am Vet Med Assoc.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Mortality%20rate%20and%20prognostic%20factors%20for%20dogs%20with%20severe%20anaphylaxis%3A%2067%20cases%20%282016-2018%29"
+    },
+    {
+      "rank": 3,
+      "citation": "Kadowaki T et al. 2026. Retrospective evaluation of outcomes in canine anaphylaxis patients receiving late epinephrine or no epinephrine: 49 cases (2019-2023). J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Retrospective%20Evaluation%20of%20Outcomes%20in%20Canine%20Anaphylaxis%20Patients%20Receiving%20Late%20Epinephrine%20or%20No%20Epinephrine%3A%2049%20Cases%20%282019-2023%29"
+    },
+    {
+      "rank": 3,
+      "citation": "Padmanabhan A et al. 2024. Acute hepatic rupture causing hemoperitoneum in a dog with anaphylaxis. Vet Med Sci.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Acute%20hepatic%20rupture%20causing%20hemoperitoneum%20in%20a%20dog%20with%20anaphylaxis"
+    }
+  ],
   "drug_refs": []
 }

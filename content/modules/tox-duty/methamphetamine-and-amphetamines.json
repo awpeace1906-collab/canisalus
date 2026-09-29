@@ -3,18 +3,36 @@
   "title": "Methamphetamine and amphetamines",
   "domain": "tox-duty",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Stimulant exposure is a duty hazard for working dogs. Street drugs are often adulterated, so presentations are non-specific, and most dogs improve with prompt treatment but severe cases can die [1][4].",
+  "what_changes_from_human": [
+    {
+      "point": "Presentations are non-specific because illicit drugs are adulterated with other substances [1].",
+      "objective_id": "tox-duty-amph-01"
+    },
+    {
+      "point": "Rapid on-site drug tests give many false positives because of low specificity [1].",
+      "objective_id": "tox-duty-amph-02"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "A methamphetamine case report (one 3.7 kg dog): extreme agitation, seizures, tachycardia, hyperthermia, hypertension, dilated pupils and disseminated intravascular coagulation [3].",
+      "In a lisdexamfetamine case, early neurological signs progressed to severe respiratory and cardiovascular signs and cardiopulmonary arrest, with widespread hemorrhage at necropsy [4].",
+      "One dog with amphetamine toxicosis developed severe rhabdomyolysis with myoglobinuria and recovered without kidney injury [5]."
+    ],
+    "management": [
+      "With prompt treatment the prognosis of amphetamine toxicosis in dogs is generally considered good, but a fatal case shows that prompt treatment does not always prevent death [4].",
+      "Intravenous lipid emulsion in 313 poisoned dogs (mostly mixed or unidentified toxicants, not stimulants specifically) had a positive effect in 74%, worsened signs in 4% and had suspected adverse effects in 6%; overall survival was 96%. The authors advise careful individual selection [6].",
+      "In one amphetamine case, serum amphetamine concentrations were lower 1 hour after lipid emulsion, which was the only treatment given in that hour (single case) [2].",
+      "TODO: a canine stimulant treatment protocol (sedation, cooling, seizure and blood pressure control) from the Oster 2023 full text or the veterinary reviewer. Only case reports were retrieved for methamphetamine."
+    ],
     "procedure_refs": []
   },
   "lens": {
@@ -49,7 +67,38 @@
       "transfer_trigger": "TODO"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "Treat an agitated, hyperthermic, tachycardic dog as a possible stimulant exposure, do not trust a rapid drug test, and get the dog to a veterinarian.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Oster E et al. 2023. Intoxication of dogs and cats with common stimulating, hallucinogenic and dissociative recreational drugs. Vet Anim Sci.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Intoxication%20of%20dogs%20and%20cats%20with%20common%20stimulating%2C%20hallucinogenic%20and%20dissociative%20recreational%20drugs"
+    },
+    {
+      "rank": 3,
+      "citation": "Harris S et al. 2022. Case report: successful intravenous lipid emulsion therapy for canine amphetamine toxicosis. Front Vet Sci.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Case%20Report%3A%20Successful%20Intravenous%20Lipid%20Emulsion%20Therapy%20for%20Canine%20Amphetamine%20Toxicosis"
+    },
+    {
+      "rank": 3,
+      "citation": "Pei Z et al. 2014. Methamphetamine intoxication in a dog: case report. BMC Vet Res.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Methamphetamine%20intoxication%20in%20a%20dog%3A%20case%20report"
+    },
+    {
+      "rank": 3,
+      "citation": "Martindale DM et al. 2024. Lisdexamfetamine dimesylate (Vyvanse) toxicosis in a dog. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Lisdexamfetamine%20dimesylate%20%28Vyvanse%29%20toxicosis%20in%20a%20dog"
+    },
+    {
+      "rank": 3,
+      "citation": "Smith MR et al. 2020. Severe rhabdomyolysis associated with acute amphetamine toxicosis in a dog. Case Rep Vet Med.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Severe%20Rhabdomyolysis%20Associated%20with%20Acute%20Amphetamine%20Toxicosis%20in%20a%20Dog"
+    },
+    {
+      "rank": 3,
+      "citation": "Markert C et al. 2023. Intravenous lipid emulsion for the treatment of poisonings in 313 dogs and 100 cats (2016-2020). Front Vet Sci.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Intravenous%20lipid%20emulsion%20for%20the%20treatment%20of%20poisonings%20in%20313%20dogs%20and%20100%20cats%20%282016-2020%29"
+    }
+  ],
   "drug_refs": []
 }
