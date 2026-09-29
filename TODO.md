@@ -59,7 +59,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [x] Methamphetamine, cocaine, cannabis (duty toxicology; three drafts)
 - [x] Anaphylaxis, hemoabdomen (drafts)
 - [x] Pericardial effusion (draft, two sources)
-- [ ] Airway, intubation, surgical tracheotomy
+- [x] Airway (draft, three sources; technique and scope TODO)
 - [ ] Burns, blast injury, gunshot and stab wounds
 - [ ] Structured vet handoff, HEMS policy, loading and restraint
 - [ ] Pathophysiology gaps: respiratory and airway, coagulation, renal and acid-base, glucose, seizures
