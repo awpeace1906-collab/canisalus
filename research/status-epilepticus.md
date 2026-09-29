@@ -10,7 +10,7 @@ Module: `content/modules/medical/status-epilepticus.json`. Draft. Not reviewed. 
 | 2 | Charalambous M et al. 2017. Intranasal midazolam vs rectal diazepam, canine status epilepticus. *J Vet Intern Med* | Randomized trial, 35 dogs | 3 |
 | 3 | Charalambous M et al. 2019. Intranasal vs intravenous midazolam. *J Vet Intern Med* | Randomized trial, 44 dogs | 3 |
 | 4 | Charalambous M et al. 2021. First-line management at home and in hospital. *BMC Vet Res* | Narrative review | 3 |
-| 5 | Bhatti S et al. 2023. Out-of-hospital rescue medication: an owner perspective. *Front Vet Sci* | Owner survey, 761 usable responses | 3 |
+| 5 | Kähn et al. 2023 (first author corrected from Bhatti). Out-of-hospital rescue medication: an owner perspective. *Front Vet Sci* | Owner survey, 761 usable responses | 3 |
 
 ## What the sources support
 
