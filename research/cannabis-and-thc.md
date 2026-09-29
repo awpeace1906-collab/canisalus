@@ -2,7 +2,7 @@
 
 Module: `content/modules/tox-duty/cannabis-and-thc.json`. Draft. Not reviewed.
 
-**Evidence:** Binagia 2024 (223 dogs, 100% survival); Loewen 2024 (38 dogs, plasma cannabinoids); Khokhar 2021 (veterinarian survey, 251 respondents); FitzGerald 2013 (review); Lauinger 2021 (15 dogs, human feces source); Brutlag 2018 (review, abstract only, not cited).
+**Evidence:** Binagia 2024 (223 dogs, 100% survival); Loewen 2024 (38 dogs, plasma cannabinoids); Amissah 2022 (veterinarian survey; first author corrected from Khokhar after PubMed check); FitzGerald 2013 (review); Lauinger 2021 (15 dogs, human feces source); Brutlag 2018 (review, abstract only, not cited).
 
 **Reported figures kept out of the module:** FitzGerald 2013 states a minimum lethal oral THC dose for dogs above 3 g/kg, with deaths seen from concentrated medical-grade THC butter. Second-hand review figure; reviewer decision.
 

@@ -72,8 +72,8 @@
   "sources": [
     {
       "rank": 3,
-      "citation": "Weingart C et al. 2021. Chocolate ingestion in 156 dogs. J Small Anim Pract.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Chocolate%20ingestion%20in%20156%20dogs"
+      "citation": "Weingart C et al. 2021. Chocolate ingestion in dogs: 156 events (2015-2019). J Small Anim Pract.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33788297/"
     },
     {
       "rank": 3,
@@ -83,12 +83,12 @@
     {
       "rank": 3,
       "citation": "Genareo C et al. 2025. Severe hypernatremia in a dog following activated charcoal treatment for chocolate ingestion. Can Vet J.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Severe%20hypernatremia%20in%20a%20dog%20following%20activated%20charcoal%20treatment%20for%20chocolate%20ingestion"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41030422/"
     },
     {
       "rank": 3,
       "citation": "Noble PJM et al. 2017. Heightened risk of canine chocolate exposure at Christmas and Easter. Vet Rec.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Heightened%20risk%20of%20canine%20chocolate%20exposure%20at%20Christmas%20and%20Easter"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29263290/"
     }
   ],
   "drug_refs": []

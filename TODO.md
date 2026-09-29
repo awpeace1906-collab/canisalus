@@ -1,6 +1,6 @@
 # Running to-do list
 
-Last updated: 2026-09-29 (batch 3 done: 7 more modules, 15 in total since the first pass). Owner column: **You** = needs Andrew, **Reviewer** = vet or physician, **Claude** = I can do it next.
+Last updated: 2026-09-29 (citation waves 1-2: 19 sources resolved to PubMed records; ~70 remain). Owner column: **You** = needs Andrew, **Reviewer** = vet or physician, **Claude** = I can do it next.
 
 ## Blocked on you
 
@@ -66,7 +66,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 
 ## Verification debt (Claude)
 
-- [ ] Resolve citations that still carry PubMed search links to DOIs: 16 older ones (list in `research/pathophysiology-dog-vs-human.md`) plus about 70 new ones across batches 2 and 3. `npm run validate` lists them
+- [ ] Resolve remaining citations (~70 still carry search links; `npm run validate` lists them). Done so far: chocolate, grapes (Wegenast 2022 PMID still unresolved), cannabis (first author corrected to Amissah), 6 anaphylaxis and hemoabdomen sources. Next waves: smoke, snake, seizures, blood groups, rodenticides, stimulants, hypothermia, pneumothorax
 - [ ] Read K9TCCC 2023, RECOVER 2024 and the 2026 RECOVER anaphylaxis first-aid guideline in full once reachable, then fill the numeric parameters marked `TODO`
 - [ ] Fetch canine anatomy plates (tool built; needs host access)
 - [ ] Build the reviewer sign-off packet (one page per module: claims, sources, open questions, signature block)
