@@ -6,7 +6,7 @@ Last updated: 2026-09-29 (citation waves 1-2: 19 sources resolved to PubMed reco
 
 | # | Item | Owner |
 |---|------|-------|
-| 1 | Create `main` on the repo (or set the working branch as default) so a draft PR can be opened | You |
+| 1 | ~~Create `main`~~ done; draft PR opens once the branch has a commit beyond main | Claude |
 | 2 | Allow `commons.wikimedia.org` and `upload.wikimedia.org` in the environment network settings so canine plates can be fetched | You |
 | 3 | Allow `jsomonline.org`, `specialoperationsmedicine.org`, `learning-media.allogy.com`, `crisis-medicine.com`, `acvecc-recover.org`, or upload the K9TCCC 2023, K9-TECC and RECOVER 2024 PDFs | You |
 | 4 | Approve the new **Pathophysiology: dog vs human** domain as an addition to the reviewer framework | You |
@@ -66,7 +66,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 
 ## Verification debt (Claude)
 
-- [ ] Resolve remaining citations (~60 still carry search links; `npm run validate` lists them). Done so far: chocolate, grapes (Wegenast 2022 PMID still unresolved), cannabis (first author corrected to Amissah), 6 anaphylaxis and hemoabdomen sources. Wave 3 done (smoke, snake, seizures; Padula 2020 corrected to Finney, Bhatti to Kähn). Next waves: blood groups, rodenticides, stimulants, hypothermia, pneumothorax
+- [ ] Resolve remaining citations (~59 still carry search links; `npm run validate` lists them). Done so far: chocolate, grapes (Wegenast 2022 PMID still unresolved), cannabis (first author corrected to Amissah), 6 anaphylaxis and hemoabdomen sources. Wave 3 done (smoke, snake, seizures; Padula 2020 corrected to Finney, Bhatti to Kähn). Next waves: blood groups, rodenticides, stimulants, hypothermia, pneumothorax
 - [ ] Read K9TCCC 2023, RECOVER 2024 and the 2026 RECOVER anaphylaxis first-aid guideline in full once reachable, then fill the numeric parameters marked `TODO`
 - [ ] Fetch canine anatomy plates (tool built; needs host access)
 - [ ] Build the reviewer sign-off packet (one page per module: claims, sources, open questions, signature block)
