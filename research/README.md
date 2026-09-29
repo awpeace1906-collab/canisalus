@@ -38,4 +38,9 @@ Sources in modules are resolved to a DOI or PubMed URL where PubMed could confir
 | MDR1 (ABCB1) sensitivity | `mdr1-abcb1.md` | Genotyping surveys; drug list not retrieved; breed evidence inconsistent |
 | Hemorrhage control | `hemorrhage-control.md` | Two veterinary review articles; K9TCCC not retrieved |
 | Pathophysiology: dog vs human | `pathophysiology-dog-vs-human.md` | Five compare-table modules; coverage gaps listed |
+| Status epilepticus | `status-epilepticus.md` | ACVIM consensus abstract plus two randomized trials; full consensus text not retrieved |
+| Snake envenomation | `snake-envenomation.md` | Regional series (US pit vipers, Australian elapids); no field first-aid source |
+| Chocolate | `chocolate.md` | 156-dog series; thresholds only second-hand |
+| Grapes and raisins | `grapes-and-raisins.md` | Two eras of series give very different risk; both stated |
+| Anticoagulant rodenticides | `anticoagulant-rodenticides.md` | Retrospective series; sources conflict on IV safety |
 | CPR (RECOVER) | `cpr-recover.md` | 2024 RECOVER abstracts only; numeric recommendations deliberately omitted |

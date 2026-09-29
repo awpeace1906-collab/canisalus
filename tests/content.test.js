@@ -61,13 +61,15 @@ test('gen_stubs refuses to overwrite modules that are past stub', () => {
   assert.ok(failed && out.includes('refusing to overwrite'), 'expected refusal; got: ' + out);
 });
 
-test('sources: retrieval links warn on drafts and block approval', () => {
+test('sources: search and retrieval links warn on drafts and block approval', () => {
   const m = base();
   m.sources = [{ rank: 3, citation: 'x', url: 'https://consensus.app/papers/details/abc/' }];
   m.compare = m.compare.map(r => ({ ...r, source_refs: [1] }));
-  assert.ok(validateModule(m, envs.tiers, new Set()).warns.some(w => w.includes('retrieval link')));
+  assert.ok(validateModule(m, envs.tiers, new Set()).warns.some(w => w.includes('search or retrieval link')));
+  m.sources = [{ rank: 3, citation: 'x', url: 'https://pubmed.ncbi.nlm.nih.gov/?term=abc' }];
+  assert.ok(validateModule(m, envs.tiers, new Set()).warns.some(w => w.includes('search or retrieval link')), 'pubmed search links count as unresolved');
   const a = { ...m, status: 'approved', last_verified: '2026-09-01', signoff: { vet: { name: 'a', credential: 'DVM', date: '2026-09-01' }, physician: { name: 'b', credential: 'MD', date: '2026-09-01' } } };
-  assert.ok(validateModule(a, envs.tiers, new Set()).errs.some(e => e.includes('retrieval link')));
+  assert.ok(validateModule(a, envs.tiers, new Set()).errs.some(e => e.includes('search or retrieval link')));
 });
 
 import { validatePlates } from '../tools/validate.js';

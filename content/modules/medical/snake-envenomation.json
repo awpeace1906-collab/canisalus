@@ -3,18 +3,41 @@
   "title": "Snake envenomation",
   "domain": "medical",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "The syndrome depends on the snake and the region, from coagulopathy to paralysis to both, and most dogs in the series retrieved survived with antivenom and hospital care [1][2].",
+  "what_changes_from_human": [
+    {
+      "point": "In Australian eastern brown snake bites, dogs show mainly neurotoxicity plus coagulopathy, whereas in humans coagulopathy is of primary significance [3].",
+      "objective_id": "medical-snake-01"
+    },
+    {
+      "point": "The syndrome, and therefore the plan, depends on the snake: pit viper, brown snake and red-bellied black snake bites look different [1][2][4].",
+      "objective_id": "medical-snake-02"
+    },
+    {
+      "point": "In a large pit viper series, older age, lower body weight and thoracic bites carried lower survival [1].",
+      "objective_id": "medical-snake-03"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "Eastern brown snake in dogs: lower motor neuropathy in 66% and preparalytic collapse in 31% on presentation, venom-induced consumptive coagulopathy in 92% and hemorrhage in 30% [2].",
+      "Red-bellied black snake in 17 dogs: hemolysis, raised CK, pigmenturia and a mildly prolonged clotting time, with bite-site swelling in 53% [4].",
+      "Pit viper (crotalid) envenomation in 282 dogs: 96.1% survived to discharge [1]."
+    ],
+    "management": [
+      "Three commercial crotalid antivenoms had similar survival. Infusion reactions were more frequent with the IgG product than with either F(ab')2 product [1].",
+      "In eastern brown snake envenomation, antivenom overall was associated with a survival advantage, but a higher total did not add benefit. Median time to normal coagulation tests was 24 hours [2].",
+      "Some severely paralysed dogs needed mechanical ventilation [3][4].",
+      "Human data: evidence that antivenom corrects venom-induced consumption coagulopathy is limited and varies by snake, and fresh frozen plasma may speed recovery in bleeding patients [6].",
+      "TODO: region-specific snake lists and any first-aid guidance. No retrieved source addresses field first aid (bandaging, immobilization, tourniquets) in dogs. The app needs a region setting because Australian and North American syndromes differ."
+    ],
     "procedure_refs": []
   },
   "lens": {
@@ -49,7 +72,38 @@
       "transfer_trigger": "TODO"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "Get the dog to a veterinarian who has antivenom, note the snake or region, and expect the picture to depend on the species.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Carotenuto S et al. 2021. Retrospective comparison of three antivenoms for the treatment of dogs with crotalid envenomation. J Am Vet Med Assoc.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Retrospective%20comparison%20of%20three%20antivenoms%20for%20the%20treatment%20of%20dogs%20with%20crotalid%20envenomation"
+    },
+    {
+      "rank": 3,
+      "citation": "Day SK et al. 2024. A retrospective analysis of clinical features, management and outcomes in dogs and cats with Eastern Brown Snake envenomation (2016-2022). Aust Vet J.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=A%20retrospective%20analysis%20of%20clinical%20features%2C%20management%20and%20outcomes%20in%20dogs%20and%20cats%20with%20Eastern%20Brown%20Snake%20envenomation"
+    },
+    {
+      "rank": 3,
+      "citation": "Padula AM et al. 2017. Eastern brown snake (Pseudonaja textilis) envenomation in dogs and cats: clinical signs, coagulation changes, brown snake venom antigen levels and treatment with a novel caprylic acid fractionated bivalent whole IgG equine antivenom. Toxicon.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Eastern%20brown%20snake%20%28Pseudonaja%20textilis%29%20envenomation%20in%20dogs%20and%20cats"
+    },
+    {
+      "rank": 3,
+      "citation": "Padula AM et al. 2020. Red-bellied black snake (Pseudechis porphyriacus) envenomation in 17 dogs. Aust Vet J.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Red-bellied%20black%20snake%20%28Pseudechis%20porphyriacus%29%20envenomation%20in%2017%20dogs"
+    },
+    {
+      "rank": 3,
+      "citation": "Lyon S et al. 2022. In vitro evaluation of canine whole blood with the addition of Crotalus atrox venom and antivenom using thromboelastography. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=In%20vitro%20evaluation%20of%20canine%20whole%20blood%20with%20the%20addition%20of%20Crotalus%20atrox%20venom%20and%20antivenom%20using%20thromboelastography"
+    },
+    {
+      "rank": 3,
+      "citation": "Maduwage K et al. 2014. Current treatment for venom-induced consumption coagulopathy resulting from snakebite (human data). PLoS Negl Trop Dis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Current%20Treatment%20for%20Venom-Induced%20Consumption%20Coagulopathy%20Resulting%20from%20Snakebite"
+    }
+  ],
   "drug_refs": []
 }

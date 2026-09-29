@@ -40,9 +40,9 @@ export function validateModule(m, tiers, drugIds, today = new Date()) {
     (m.compare || []).forEach((r, i) => { if (!(r.source_refs || []).length) errs.push(`approved but compare[${i}] has no source_refs`); });
   }
   // Retrieval-tool links are not citations. Every source must resolve to a DOI or PubMed record before approval.
-  const unresolved = (m.sources || []).filter(x => /consensus\.app/.test(x.url || ''));
+  const unresolved = (m.sources || []).filter(x => /consensus\.app|pubmed\.ncbi\.nlm\.nih\.gov\/\?term=/.test(x.url || ''));
   if (unresolved.length) {
-    const msg = `${unresolved.length} source(s) still use a retrieval link instead of a DOI or PubMed URL (citation details unverified)`;
+    const msg = `${unresolved.length} source(s) still use a search or retrieval link instead of a DOI or PubMed record (citation details unverified)`;
     if (m.status === 'approved') errs.push(msg); else warns.push(msg);
   }
   if (m.last_verified && monthsBetween(new Date(m.last_verified), today) > m.review_interval_months) warns.push('STALE: past review interval');
