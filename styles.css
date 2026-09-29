@@ -49,3 +49,17 @@ input[type=text], input[type=search], input[type=number], input[type=tel], texta
 .tab-item { flex: 1; display: flex; flex-direction: column; align-items: center; padding: 8px 0; text-decoration: none; color: var(--muted); font-size: 12px; min-height: 56px; }
 .tab-item.active { color: var(--accent); font-weight: 700; } .tab-icon { font-size: 20px; line-height: 1; }
 @media print { .tab-bar, .topbar { display: none; } }
+
+.compare { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.compare th, .compare td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+.compare thead th { font-size: .78rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.refs { color: var(--muted); }
+.plate { margin: 12px 0; } .plate img { max-width: 100%; height: auto; display: block; border-radius: 6px; background: #fff; }
+.plate figcaption { margin-top: 8px; font-size: .9rem; }
+@media (max-width: 640px) {
+  .compare thead { display: none; }
+  .compare tr { display: block; padding: 8px 0; border-bottom: 2px solid var(--line); }
+  .compare th[scope=row] { display: block; font-size: 1rem; border: 0; padding-bottom: 2px; }
+  .compare td { display: block; border: 0; padding: 4px 0; }
+  .compare td::before { content: attr(data-label); display: block; font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+}

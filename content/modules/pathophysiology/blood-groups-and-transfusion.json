@@ -1,0 +1,127 @@
+{
+  "id": "blood-groups-and-transfusion",
+  "title": "Blood groups and transfusion",
+  "domain": "pathophysiology",
+  "reversible": false,
+  "status": "draft",
+  "last_verified": null,
+  "review_interval_months": 24,
+  "signoff": {
+    "vet": null,
+    "physician": null
+  },
+  "why_this_matters": "Dogs do not have the ABO hazard that makes human transfusion unforgiving, but a mismatched first transfusion can quietly set up a severe reaction at the next one.",
+  "what_changes_from_human": [
+    {
+      "point": "Dogs lack naturally occurring red cell antibodies to DEA 1, so a first transfusion carries a negligible risk of an acute hemolytic reaction.",
+      "objective_id": "pathophys-blood-01"
+    },
+    {
+      "point": "Dogs can make antibodies within days of a transfusion, so any dog that has been transfused before needs a crossmatch.",
+      "objective_id": "pathophys-blood-02"
+    },
+    {
+      "point": "DEA 1 is the key group to type; blood typing before transfusion is recommended.",
+      "objective_id": "pathophys-blood-03"
+    }
+  ],
+  "content": {
+    "recognition": [],
+    "management": [],
+    "procedure_refs": []
+  },
+  "takeaway": "Type dogs before transfusion, crossmatch any dog that has been transfused before, and record every transfusion.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Silvestre-Ferreira AC et al. 2024. Dog blood type DEA 1 in two municipalities of Luanda Province of Angola. Vet Sci.",
+      "url": "https://consensus.app/papers/details/59e935c516885fcf931263593065a2ae/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Goy-Thollot I et al. 2017. Pre- and post-transfusion alloimmunization in dogs characterized by 2 antiglobulin-enhanced cross-match tests. J Vet Intern Med.",
+      "url": "https://consensus.app/papers/details/82d79b35fbfb574f97c38069bcef59aa/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Gavazza A et al. 2017. Prevalence of dog erythrocyte antigen 1 in 7,414 dogs in Italy. Vet Med Int.",
+      "url": "https://consensus.app/papers/details/9d96f438d39a5ff894396aba52950a74/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Herter L et al. 2022. Alloimmunization in dogs after transfusion: a serial cross-match study. J Vet Intern Med.",
+      "url": "https://consensus.app/papers/details/92b11290f0c05e9e89977ed4ebd8d7b1/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Euler CC et al. 2016. Survey of two new (Kai 1 and Kai 2) and other blood groups in dogs of North America. J Vet Intern Med.",
+      "url": "https://consensus.app/papers/details/ff011286a471576e8ebdc093dd3975ba/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Baran GR et al. 2018. Prevalence of dog erythrocyte antigen (DEA) 1 amongst dog blood donors at TANUVAS animal blood bank, India. Hematol Transfus Int J.",
+      "url": "https://consensus.app/papers/details/753879af0a155353aa43c21f4ccfc8c7/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Spada E et al. 2017. Dog erythrocyte antigens 1, 4, 7 and suspected naturally occurring anti-DEA 7 antibodies in Italian Corso dogs. Vet J.",
+      "url": "https://consensus.app/papers/details/d9d556c26b5a5b2f8cacc1ca62e6fb5d/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Guidetti M et al. 2019. Alloimmunization of a DEA 1-negative dog transfused with weakly DEA 1-positive blood. J Vet Intern Med.",
+      "url": "https://consensus.app/papers/details/f5cf8dfc2d1b5dd2853d8121ddc156af/?utm_source=claude_desktop"
+    }
+  ],
+  "drug_refs": [],
+  "kind": "pathophysiology",
+  "compare": [
+    {
+      "topic": "Natural antibodies",
+      "human": "ABO groups carry naturally occurring antibodies, so the first transfusion must be ABO-compatible.",
+      "canine": "Dogs do not have naturally occurring DEA antibodies; the risk of an acute hemolytic transfusion reaction at the first transfusion is negligible. A pre-transfusion crossmatch study found no naturally occurring alloantibodies. One breed study (Italian Corso dogs) found suspected naturally occurring anti-DEA 7 antibodies in 32%.",
+      "implication": "A first transfusion of unmatched blood is not immediately dangerous the way an ABO mismatch is in people. Blood typing before transfusion is still recommended.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        1,
+        2,
+        6,
+        7
+      ]
+    },
+    {
+      "topic": "Sensitization after a first mismatched transfusion",
+      "human": "Not applicable in the same way; ABO-incompatible blood is avoided at the first exposure.",
+      "canine": "A mismatched first transfusion can sensitize the dog. Calculated sensitization probability was 24.9% in one Angolan population, and about 20 to 25% for most Italian breeds; the chance of an acute hemolytic reaction after a second incompatible transfusion was 6.21% in the Angolan population.",
+      "implication": "A mismatched first transfusion buys trouble later, so record it and tell the receiving veterinarian.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        1,
+        3
+      ]
+    },
+    {
+      "topic": "Speed of antibody formation",
+      "human": "Antibody responses to transfused red cells develop over days to weeks.",
+      "canine": "Antibodies to red cells were detected as early as 1 day after transfusion. In a serial study, 12 of 21 dogs had a positive crossmatch within 4 days, and 11 of 25 DEA 1-matched recipients later became incompatible against other red cell antigens.",
+      "implication": "Any dog that has been transfused before, even recently and even if DEA 1-matched, needs a crossmatch before the next transfusion.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        2,
+        4
+      ]
+    },
+    {
+      "topic": "Which group to type",
+      "human": "ABO and Rh (D).",
+      "canine": "DEA 1 is the most immunogenic and clinically important canine blood group. About 60% of dogs were DEA 1-positive in North America (59.6%) and Italy (61.2%). Weakly DEA 1-positive blood was immunogenic in a DEA 1-negative recipient.",
+      "implication": "Store the dog's DEA 1 type in the K9 profile ahead of time. Treat weakly positive as positive when matching.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        3,
+        5,
+        8
+      ]
+    }
+  ]
+}

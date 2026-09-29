@@ -5,6 +5,8 @@ const BUNDLED_BASE = new URL('../../content/', import.meta.url).href;
 // Same-origin by default: the service worker refreshes content stale-while-revalidate.
 // Set to a cross-origin URL only if content moves off the app's own host.
 const REMOTE_BASE = null;
+/** URL for a file in the content tree (for example a plate), resolved by the same rule as modules. */
+export function assetUrl(rel) { return new URL(rel, REMOTE_BASE || BUNDLED_BASE).href; }
 const LS_HASHES = 'canisalus.hashes.v1';
 const CACHE_NAME = 'canisalus-content-v1';
 

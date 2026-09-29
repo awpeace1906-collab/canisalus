@@ -1,0 +1,88 @@
+{
+  "id": "cardiac-rhythm-and-sinus-arrhythmia",
+  "title": "Cardiac rhythm and sinus arrhythmia",
+  "domain": "pathophysiology",
+  "reversible": false,
+  "status": "draft",
+  "last_verified": null,
+  "review_interval_months": 24,
+  "signoff": {
+    "vet": null,
+    "physician": null
+  },
+  "why_this_matters": "An irregular rhythm that would alarm a human clinician is normal in a resting dog, and a monitor read by human habit will misfire.",
+  "what_changes_from_human": [
+    {
+      "point": "Respiratory sinus arrhythmia is large and normal in a resting dog, more than three times the human amplitude in one study.",
+      "objective_id": "pathophys-cardiac-01"
+    },
+    {
+      "point": "It is less marked at higher heart rates and absent during panting.",
+      "objective_id": "pathophys-cardiac-02"
+    }
+  ],
+  "content": {
+    "recognition": [],
+    "management": [],
+    "procedure_refs": []
+  },
+  "takeaway": "Respiratory sinus arrhythmia is normal in a resting dog; read rhythm in context and hand off what you saw.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Grosso G et al. 2021. Breath-by-breath analysis of respiratory sinus arrhythmia in dogs. Respir Physiol Neurobiol.",
+      "url": "https://consensus.app/papers/details/ac1efa63e22a525aae8ca96a1faafdc7/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Turcu CA et al. 2024. Quantification of respiratory sinus arrhythmia in control dogs and in dogs with various severity classes of myxomatous mitral valve disease. J Vet Cardiol.",
+      "url": "https://consensus.app/papers/details/a5b07400e35d59edb22241d0c6498bdf/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Moise NS et al. 2020. Beat-to-beat patterning of sinus rhythm reveals non-linear rhythm in the dog compared to the human. Front Physiol.",
+      "url": "https://consensus.app/papers/details/f44d303736695a1f835fa3203e4430ca/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Hanton G et al. 2006. The electrocardiogram of the Beagle dog: reference values and effect of sex, genetic strain, body position and heart rate. Lab Anim.",
+      "url": "https://consensus.app/papers/details/007b0dc7e6635ebe822bd0a01c4f1f12/?utm_source=claude_desktop"
+    }
+  ],
+  "drug_refs": [],
+  "kind": "pathophysiology",
+  "compare": [
+    {
+      "topic": "Sinus arrhythmia at rest",
+      "human": "Adult sinus rhythm is regular, with small respiratory variation.",
+      "canine": "Dogs have a clear respiratory sinus arrhythmia at rest. It averaged 40.1% of mean heart rate (peak to trough) in one study, more than three times the human value, and explained less than half of the canine sinus arrhythmia. Dog and human beat-to-beat patterns differ: the dog shows non-linear, wider interval distributions.",
+      "implication": "A variable heart rate that follows breathing is expected in a resting dog. Do not read it as abnormal on its own.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        1,
+        3
+      ]
+    },
+    {
+      "topic": "Effect of heart rate and panting",
+      "human": "Not applicable.",
+      "canine": "Sinus arrhythmia was less marked at high heart rates in a large Beagle ECG study but did not disappear. In two dogs, respiratory sinus arrhythmia was absent during panting.",
+      "implication": "A tachycardic or panting dog may show a regular-looking rhythm. Regularity is not proof of a normal dog.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        1,
+        4
+      ]
+    },
+    {
+      "topic": "Loss of sinus arrhythmia",
+      "human": "Not applicable.",
+      "canine": "In dogs with myxomatous mitral valve disease, loss of respiratory sinus arrhythmia is described as a negative prognostic factor, and the percentage decreased with disease severity up to acute congestive heart failure.",
+      "implication": "Absence of sinus arrhythmia in a calm resting dog is a finding worth reporting to the veterinarian.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        2
+      ]
+    }
+  ]
+}

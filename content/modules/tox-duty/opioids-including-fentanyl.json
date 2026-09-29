@@ -3,18 +3,41 @@
   "title": "Opioids including fentanyl",
   "domain": "tox-duty",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Illicit opioids such as fentanyl and carfentanil endanger working dogs of every discipline, and the most serious effect is respiratory depression [1].",
+  "what_changes_from_human": [
+    {
+      "point": "Doses are weight-based, and a fixed-dose human device delivers a different mg/kg in every dog [2].",
+      "objective_id": "tox-duty-opioid-01"
+    },
+    {
+      "point": "Expect renarcotization: effects returned after reversal in canine studies, so keep monitoring [4][7].",
+      "objective_id": "tox-duty-opioid-02"
+    },
+    {
+      "point": "The responder can be contaminated by powder on the dog's fur; protect and decontaminate [5].",
+      "objective_id": "tox-duty-opioid-03"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "The most serious effect is respiratory depression, up to respiratory arrest [1].",
+      "In a dog overdose model, signs were excessive sedation, bradycardia and hypothermia [4]."
+    ],
+    "management": [
+      "Naloxone is the antidote in operational K9s [1].",
+      "In a transdermal fentanyl overdose model, narcotic effects returned within 1 to 3 hours after hourly naloxone regimens ended [4]. Delay in re-sedation correlated with naloxone exposure in fentanyl-sedated dogs [7].",
+      "Intranasal naloxone from a commercial atomizer was well absorbed in healthy dogs after a short lag. The authors state that efficacy in poisoned dogs and effective doses still need study [2].",
+      "Both intranasal and intramuscular naloxone delivery contaminated responders with simulated powder from the dog's fur, more so with the intranasal route. Use PPE and decontaminate afterward [5].",
+      "An MDR1-mutant Collie had severe neurotoxicity after one butorphanol dose and needed about 40 hours of continuous naloxone (single case) [8].",
+      "TODO: canine naloxone dose and route source, selected by the veterinary reviewer. Study doses are listed in research/opioid-exposure.md and are not recommendations."
+    ],
     "procedure_refs": []
   },
   "lens": {
@@ -50,6 +73,47 @@
     }
   },
   "takeaway": "TODO",
-  "sources": [],
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Palmer L et al. 2017. Clinical update: the risk of opioid toxicity and naloxone use in operational K9s. J Spec Oper Med.",
+      "url": "https://consensus.app/papers/details/e6cc42ce05ac59ca93e9eaad0ede92da/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Wahler BM et al. 2019. Pharmacokinetics and pharmacodynamics of intranasal and intravenous naloxone hydrochloride administration in healthy dogs. Am J Vet Res.",
+      "url": "https://consensus.app/papers/details/e60e5ae95e3a5920b12b02078f0052ca/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Mills T et al. 2025. Pharmacokinetics and pharmacodynamics of naloxone, naltrexone and nalmefene in methadone-sedated working dogs. J Vet Pharmacol Ther.",
+      "url": "https://consensus.app/papers/details/2c66f32dab6a5273a4e7f169339a4288/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Freise KJ et al. 2012. Naloxone reversal of an overdose of a novel, long-acting transdermal fentanyl solution in laboratory Beagles. J Vet Pharmacol Ther.",
+      "url": "https://consensus.app/papers/details/e1d552953d5551669f2cc81212bb4737/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Essler JL et al. 2021. The first responder exposure to contaminating powder on dog fur during intranasal and intramuscular naloxone administration. J Vet Emerg Crit Care.",
+      "url": "https://consensus.app/papers/details/6b315de9a009519ab4f4da443a5ac222/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Essler JL et al. 2019. A randomized cross-over trial comparing intramuscular versus intranasal naloxone reversal of intravenous fentanyl on odor detection in working dogs. Animals.",
+      "url": "https://consensus.app/papers/details/31d782ebb6a1512b971c54034d5f10f1/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Voronkov M et al. 2025. Is fentanyl rebound an intrinsic feature of naloxone reversal? Pharmaceuticals.",
+      "url": "https://consensus.app/papers/details/e1da09d0927c5aaebeaafcd8af113597/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Nelson TS et al. 2025. Case report: adverse reaction to butorphanol in a Collie homozygous for the ABCB1-1Δ (MDR1) mutation. Front Vet Sci.",
+      "url": "https://consensus.app/papers/details/c9f285eefdf05fcdb05c304738b95e95/?utm_source=claude_desktop"
+    }
+  ],
   "drug_refs": []
 }

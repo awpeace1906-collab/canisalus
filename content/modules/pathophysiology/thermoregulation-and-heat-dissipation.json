@@ -1,0 +1,135 @@
+{
+  "id": "thermoregulation-and-heat-dissipation",
+  "title": "Thermoregulation and heat dissipation",
+  "domain": "pathophysiology",
+  "reversible": false,
+  "status": "draft",
+  "last_verified": null,
+  "review_interval_months": 24,
+  "signoff": {
+    "vet": null,
+    "physician": null
+  },
+  "why_this_matters": "Dogs lose heat mainly by panting, not sweating, so heat illness in a working dog develops and responds differently from heat illness in a person.",
+  "what_changes_from_human": [
+    {
+      "point": "Dogs lose heat mainly by panting and have fewer sweat glands than people, so anything that impairs panting removes their main way to cool.",
+      "objective_id": "pathophys-thermo-01"
+    },
+    {
+      "point": "Cool first, transport second: a dog's temperature can keep rising after exercise stops.",
+      "objective_id": "pathophys-thermo-02"
+    },
+    {
+      "point": "In the studies retrieved, partial water immersion cooled dogs faster than passive cooling or a cooling mat, and faster than alcohol on the paw pads.",
+      "objective_id": "pathophys-thermo-03"
+    }
+  ],
+  "content": {
+    "recognition": [],
+    "management": [],
+    "procedure_refs": []
+  },
+  "takeaway": "A dog cools by panting, so protect the airway, start cooling on scene, and do not let a hot dog sit in a hot vehicle.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Robertshaw D. 2006. Mechanisms for the control of respiratory evaporative heat loss in panting animals. J Appl Physiol.",
+      "url": "https://consensus.app/papers/details/9fab5adb17d75e9c9b19f021ce15feb4/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Goldberg MB et al. 1981. Panting in dogs: paths of air flow in response to heat and exercise. Respir Physiol.",
+      "url": "https://consensus.app/papers/details/e13946aed45a5ff5bd3d2c7139883d6c/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Blatt CM et al. 1972. Thermal panting in dogs: the lateral nasal gland, a source of water for evaporative cooling. Science.",
+      "url": "https://consensus.app/papers/details/8ae7a089abb054d9a4661014db59977e/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Russo A et al. 2024. Canine and human red blood cells: biochemical mechanisms for the control of heat dissipation. Stresses.",
+      "url": "https://consensus.app/papers/details/c706954a034153e8a6d6d3e57339220a/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Bruchim Y et al. 2017. Pathophysiology of heatstroke in dogs, revisited. Temperature.",
+      "url": "https://consensus.app/papers/details/3cd9af6097635273ac8fede537cb2868/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Davis MS et al. 2019. Comparison of postexercise cooling methods in working dogs. J Spec Oper Med.",
+      "url": "https://consensus.app/papers/details/3b13aad1c6615723be33673deab0fb21/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Carter AJ et al. 2024. Post-exercise management of exertional hyperthermia in dogs participating in dog sport (canicross) events in the UK. J Therm Biol.",
+      "url": "https://consensus.app/papers/details/00c7628b62f95ac39a66d511991fb0a8/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Parnes SC et al. 2023. A randomized cross-over study comparing cooling methods for exercise-induced hyperthermia in working dogs in training. Animals.",
+      "url": "https://consensus.app/papers/details/4004bb7550385c13b16d11e34f4ffe59/?utm_source=claude_desktop"
+    }
+  ],
+  "drug_refs": [],
+  "kind": "pathophysiology",
+  "compare": [
+    {
+      "topic": "Main route of heat loss",
+      "human": "Sweating: evaporation from the skin.",
+      "canine": "Panting: evaporation from the upper respiratory tract, with air moved over the nasal and oral surfaces. Dogs have a reduced number of sweat glands compared with humans.",
+      "implication": "A dog that cannot pant effectively has lost its main cooling route. Upper airway obstruction is a listed risk factor for canine heat stroke.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "topic": "Where the water for evaporation comes from",
+      "human": "Sweat glands over the skin.",
+      "canine": "The lateral nasal glands supply much of the water for panting, and their function is described as analogous to sweat glands in man.",
+      "implication": "Cooling in dogs is tied to the airway and nose, not the skin surface.",
+      "human_basis": "cited",
+      "source_refs": [
+        3
+      ]
+    },
+    {
+      "topic": "How heat stroke is defined",
+      "human": "Core temperature above about 40 °C with central nervous system dysfunction.",
+      "canine": "Core temperature above 41 °C with central nervous system dysfunction, in one review.",
+      "implication": "Do not carry the human threshold over to a dog unchanged. Reviewers to confirm the working definition for the app.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        5
+      ]
+    },
+    {
+      "topic": "Field cooling",
+      "human": "Cold-water immersion is a recognised first-line field treatment for exertional heat stroke.",
+      "canine": "Partial water immersion cooled dogs faster than passive cooling or a cooling mat in one study (time to 39 °C: 16, 36 and 48 minutes). Cold water (0.1 to 15 °C) cooled dogs effectively in a canicross study with no hypothermia or adverse effects seen. Alcohol on the paw pads cooled less efficiently than immersion and raised heart rate more.",
+      "implication": "Immersion or wet-plus-airflow rather than alcohol on the paw pads. Confirm any limits for a dog that is obtunded.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "topic": "Temperature after exercise stops",
+      "human": "Core temperature generally falls once exertion stops and cooling begins.",
+      "canine": "In a canicross study, a dog's temperature rose during the first 5 minutes after exercise in 24.4% of cooling profiles, and dogs housed in vehicles cooled less.",
+      "implication": "Cool first, transport second, and cool the vehicle before loading.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        7
+      ]
+    }
+  ]
+}

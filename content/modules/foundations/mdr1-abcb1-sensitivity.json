@@ -3,18 +3,36 @@
   "title": "MDR1 (ABCB1) sensitivity",
   "domain": "foundations",
   "reversible": false,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 24,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Some dogs, especially collie-lineage herding breeds, carry a gene mutation that lets drugs reach the brain, so a drug that is safe in most dogs can cause neurotoxicity [2][4].",
+  "what_changes_from_human": [
+    {
+      "point": "Breed lineage can predict drug neurotoxicity: a drug that is safe in most dogs can poison an MDR1-affected dog [2][7].",
+      "objective_id": "foundations-mdr1-01"
+    },
+    {
+      "point": "MDR1 status can be tested by genotyping, so record it in the K9 profile ahead of time [2][5].",
+      "objective_id": "foundations-mdr1-02"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "A 4-base-pair deletion in ABCB1 (MDR1) produces a nonfunctional P-glycoprotein at the blood-brain barrier. Affected dogs are more susceptible to neurotoxic effects of ivermectin, moxidectin and loperamide [2][4].",
+      "Most dogs with adverse reactions are homozygous, but heterozygotes can be affected [4].",
+      "Mutant allele frequency varies by breed and country. In one European survey: Smooth Collie 58.5%, Rough Collie 48.3%, Australian Shepherd 35%, Shetland Sheepdog 30.3%; Border Collie 0% in that survey [1]. The mutation was found in Border Collies in an Italian survey [3].",
+      "German Shepherd findings conflict: not detected in a Belgian sample [6], but reported in later work cited by a UK survey [4]. No source retrieved covers Belgian Malinois."
+    ],
+    "management": [
+      "One MDR1-mutant Collie had severe neurotoxicity after a single butorphanol dose and needed about 40 hours of continuous naloxone (single case) [7].",
+      "TODO: reviewer list of the drugs that should carry mdr1_caution. The list retrieved so far is only what the abstracts name.",
+      "TODO: reviewer decision on which working breeds should raise the caution when MDR1 status is unknown. The app currently uses a user-ticked herding-breed flag."
+    ],
     "procedure_refs": []
   },
   "lens": {
@@ -50,6 +68,42 @@
     }
   },
   "takeaway": "TODO",
-  "sources": [],
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Firdova Z et al. 2016. The prevalence of ABCB1:c.227_230delATAG mutation in affected dog breeds from European countries. Res Vet Sci.",
+      "url": "https://consensus.app/papers/details/2c31ab39b2ad5bc9b1181c91cd8e8d65/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Geyer J et al. 2005. Frequency of the nt230 (del4) MDR1 mutation in Collies and related dog breeds in Germany. J Vet Pharmacol Ther.",
+      "url": "https://consensus.app/papers/details/cc6683a6e20b5a00a79a7d1f2093fbe8/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Polli M et al. 2020. Genotypic and allelic frequencies of MDR1 gene in dogs in Italy. Vet Rec Open.",
+      "url": "https://consensus.app/papers/details/9ca49f8b14b552bbbfc2200c5ca05ee0/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Tappin SW et al. 2012. Frequency of the mutant MDR1 allele in dogs in the UK. Vet Rec.",
+      "url": "https://consensus.app/papers/details/8d5935f502fc5db697a18fdd7ceb2389/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Palocz O et al. 2026. Association between the nt230(del4) mutation and c.-6-180T>G polymorphism in the canine ABCB1 gene. Vet Med Int.",
+      "url": "https://consensus.app/papers/details/8f5c852272a9564da18f808341a5875d/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Van Poucke M et al. 2009. Presence of the ABCB1 (MDR1) deletion mutation causing ivermectin hypersensitivity in certain dog breeds in Belgium. Vlaams Diergeneeskd Tijdschr.",
+      "url": "https://consensus.app/papers/details/056c2bb0f13959779e9dd74ed09936e6/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Nelson TS et al. 2025. Case report: adverse reaction to butorphanol in a Collie homozygous for the ABCB1-1Δ (MDR1) mutation. Front Vet Sci.",
+      "url": "https://consensus.app/papers/details/c9f285eefdf05fcdb05c304738b95e95/?utm_source=claude_desktop"
+    }
+  ],
   "drug_refs": []
 }

@@ -1,6 +1,7 @@
 import json, os, re
 domains = {
  "foundations": ("Foundations", False, 24, ["Scene and bite safety","Muzzling and when not to","The handler as team member","Weight estimation","Canine normal vitals","Anatomy for access and monitoring","Human-drug landmines","MDR1 (ABCB1) sensitivity"]),
+ "pathophysiology": ("Pathophysiology: dog vs human", False, 24, ["Thermoregulation and heat dissipation","Hemorrhagic shock and the canine spleen","Blood groups and transfusion","Cardiac rhythm and sinus arrhythmia","Drug metabolism and toxic mechanisms"]),
  "arrest": ("Arrest", True, 12, ["CPR (RECOVER)","K9 reversible causes","Post-arrest care"]),
  "trauma": ("Trauma resuscitation", True, 12, ["K9 MARCH-PAWS primary survey","Hemorrhage control","Airway","Tension pneumothorax","Hemorrhagic shock and fluids","Tranexamic acid","Head injury","Hypothermia","Gunshot and stab wounds","Blast injury","Burns","Ocular injury","Fractures and splinting"]),
  "procedures": ("Procedures", True, 24, ["Peripheral IV access","Jugular access","Intraosseous access","Orotracheal intubation","Surgical tracheotomy","Needle thoracostomy","Tube thoracostomy","GDV decompression","Pericardiocentesis","Wound packing","Splinting","Restraint"]),
@@ -10,6 +11,23 @@ domains = {
  "handoff": ("Handoff and transport", False, 24, ["Structured vet handoff","Loading and restraint for transport","HEMS transport policy","Finding the nearest 24/7 vet ED"]),
  "legal": ("Scope and legal", False, 12, ["Jurisdiction card"]),
 }
+import sys, glob
+# Guard: this script OVERWRITES every module file. Refuse if any module has moved past 'stub'
+# (or the index has domains it does not know about) unless --force is passed.
+if "--force" not in sys.argv:
+    advanced = []
+    for f in glob.glob("content/modules/**/*.json", recursive=True):
+        try:
+            st = json.load(open(f)).get("status")
+        except Exception:
+            st = "unreadable"
+        if st not in ("stub",):
+            advanced.append(f)
+    # the one worked example is 'draft' by design; anything else is real work
+    advanced = [f for f in advanced if not f.endswith("gastric-dilatation-volvulus.json")]
+    if advanced:
+        print("refusing to overwrite: %d module(s) are past 'stub' (e.g. %s). Use --force only on a clean tree." % (len(advanced), advanced[0]))
+        sys.exit(1)
 envs = json.load(open("content/environments.json"))
 tiers = [t["id"] for t in envs["tiers"]]
 def slug(s): return re.sub(r"[^a-z0-9]+","-",s.lower()).strip("-")
@@ -26,6 +44,11 @@ for did,(label,rev,interval,mods) in domains.items():
              "why_this_matters": "TODO", "what_changes_from_human": [],
              "content": {"recognition": [], "management": [], "procedure_refs": []},
              "lens": empty_lens(), "takeaway": "TODO", "sources": [], "drug_refs": []}
+        if did == "pathophysiology":
+            # dog-vs-human reference: compare table instead of an environment lens
+            m["kind"] = "pathophysiology"
+            m["compare"] = []
+            del m["lens"]
         if mid == "gastric-dilatation-volvulus":
             m["status"] = "draft"
             m["why_this_matters"] = "Large, deep-chested working breeds are at risk, and GDV kills within hours without decompression and surgery."

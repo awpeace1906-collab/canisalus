@@ -7,6 +7,12 @@
       "review_interval_months": 24
     },
     {
+      "id": "pathophysiology",
+      "label": "Pathophysiology: dog vs human",
+      "reversible_default": false,
+      "review_interval_months": 24
+    },
+    {
       "id": "arrest",
       "label": "Arrest",
       "reversible_default": true,
@@ -103,6 +109,36 @@
       "title": "MDR1 (ABCB1) sensitivity",
       "domain": "foundations",
       "order": 7
+    },
+    {
+      "id": "thermoregulation-and-heat-dissipation",
+      "title": "Thermoregulation and heat dissipation",
+      "domain": "pathophysiology",
+      "order": 0
+    },
+    {
+      "id": "hemorrhagic-shock-and-the-canine-spleen",
+      "title": "Hemorrhagic shock and the canine spleen",
+      "domain": "pathophysiology",
+      "order": 1
+    },
+    {
+      "id": "blood-groups-and-transfusion",
+      "title": "Blood groups and transfusion",
+      "domain": "pathophysiology",
+      "order": 2
+    },
+    {
+      "id": "cardiac-rhythm-and-sinus-arrhythmia",
+      "title": "Cardiac rhythm and sinus arrhythmia",
+      "domain": "pathophysiology",
+      "order": 3
+    },
+    {
+      "id": "drug-metabolism-and-toxic-mechanisms",
+      "title": "Drug metabolism and toxic mechanisms",
+      "domain": "pathophysiology",
+      "order": 4
     },
     {
       "id": "cpr-recover",

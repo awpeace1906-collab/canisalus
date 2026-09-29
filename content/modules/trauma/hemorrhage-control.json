@@ -3,18 +3,39 @@
   "title": "Hemorrhage control",
   "domain": "trauma",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Hemorrhage is a leading cause of preventable death in trauma, and blood loss from a major artery can kill a dog in as little as 3 to 5 minutes [1].",
+  "what_changes_from_human": [
+    {
+      "point": "A tourniquet is not the default first step in dogs: direct pressure and packing come first [1][2].",
+      "objective_id": "trauma-hemorrhage-01"
+    },
+    {
+      "point": "A too-tight bandage around the neck, chest or abdomen can suffocate the dog [1].",
+      "objective_id": "trauma-hemorrhage-02"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "Most bleeding wounds are not initially life-threatening but become so with delay in control [1].",
+      "Common sources of massive hemorrhage: a major artery or large vessel (for example the external jugular) or a highly vascular organ such as the liver or spleen [1]."
+    ],
+    "management": [
+      "Direct pressure remains the most effective medical intervention for initial control [1].",
+      "Methods for the exsanguinating dog: direct pressure, wound packing, hemostatic dressings, pressure bandage, and possibly a tourniquet [1][2].",
+      "A tourniquet is lifesaving in people but has not been shown to be necessary for dogs with extremity injuries [1][2].",
+      "A circumferential bandage that is too tight around the neck, thorax or abdomen can occlude the airway or restrict breathing. Non-circumferential bandages often do not stop arterial bleeding [1].",
+      "When feasible, elevate and splint a bleeding extremity as an adjunct to other methods [1].",
+      "Definitive control of massive internal hemorrhage is best achieved by early surgery [1].",
+      "In one dog, junctional hemorrhage that failed pressure and packing was temporarily controlled with a Foley balloon catheter (single case report) [4].",
+      "TODO: K9TCCC 2023 and K9-TECC guidance on tourniquet placement, hemostatic agents and TXA. The full text could not be retrieved. The framework's claim that tourniquets slip on conical limbs has no retrieved source."
+    ],
     "procedure_refs": []
   },
   "lens": {
@@ -49,7 +70,28 @@
       "transfer_trigger": "TODO"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "Control bleeding with direct pressure and packing first, and never let a bandage restrict breathing.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Palmer L. 2022. Hemorrhage control: proper application of direct pressure, pressure dressings, and tourniquets for controlling acute life-threatening hemorrhage. J Vet Emerg Crit Care.",
+      "url": "https://consensus.app/papers/details/271111fde0c157378c27fc87dfa6bda5/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Palmer L. 2018. Clinical update: concepts of prehospital traumatic hemorrhage control in the operational K9. J Spec Oper Med.",
+      "url": "https://consensus.app/papers/details/b7e0a67f37d15992974f61e132bfef9d/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Edwards TH et al. 2021. Lessons learned from the battlefield and applicability to veterinary medicine, part 1: hemorrhage control. Front Vet Sci.",
+      "url": "https://consensus.app/papers/details/80858b1876de5e33ac44ca4912653226/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Wheeler RT et al. 2021. The use of a Foley balloon catheter to control junctional hemorrhage in a dog with severe vascular injury secondary to penetrating trauma. J Vet Emerg Crit Care.",
+      "url": "https://consensus.app/papers/details/baf37caefb235a0ea963a3c4e0f94212/?utm_source=claude_desktop"
+    }
+  ],
   "drug_refs": []
 }

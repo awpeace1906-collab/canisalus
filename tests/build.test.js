@@ -24,7 +24,8 @@ test('release build ships NO unapproved modules or drugs (stubs only in this rep
 test('dev build includes drafts; app name comes from app.config.json', () => {
   const out = tmp();
   const r = build({ release: false, out });
-  assert.equal(r.modules, 75); assert.equal(r.drugs, 1);
+  const onDisk = fs.readdirSync(new URL('../content/modules', import.meta.url), { recursive: true }).filter(f => f.endsWith('.json')).length;
+  assert.equal(r.modules, onDisk); assert.ok(onDisk >= 80); assert.equal(r.drugs, 1);
   const cfg = JSON.parse(fs.readFileSync(new URL('../app.config.json', import.meta.url)));
   const wm = JSON.parse(fs.readFileSync(path.join(out, 'manifest.webmanifest')));
   assert.equal(wm.name, cfg.store_title); assert.equal(wm.short_name, cfg.short_name);

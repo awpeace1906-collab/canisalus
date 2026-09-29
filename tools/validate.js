@@ -2,6 +2,7 @@
 // Content validator. Enforces guardrails that JSON Schema alone can't.
 // Usage: node tools/validate.js [--release]   (--release: fail if any module/drug isn't approved)
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Ajv2020 from 'ajv/dist/2020.js';
@@ -15,13 +16,20 @@ function monthsBetween(a, b) { return (b.getFullYear() - a.getFullYear()) * 12 +
 
 export function validateModule(m, tiers, drugIds, today = new Date()) {
   const errs = [], warns = [];
+  const clinical = (m.kind ?? 'clinical') === 'clinical';
   const required = tiers.filter(t => !t.optional).map(t => t.id);
-  for (const t of required) if (!m.lens || !m.lens[t]) errs.push(`lens missing tier '${t}'`);
+  if (clinical) for (const t of required) if (!m.lens || !m.lens[t]) errs.push(`lens missing tier '${t}'`);
   for (const [t, e] of Object.entries(m.lens || {})) {
     if (!tiers.find(x => x.id === t)) errs.push(`lens has unknown tier '${t}'`);
     for (const f of e.requires || []) if (!(f in tierFlags)) errs.push(`lens.${t}.requires unknown flag '${f}'`);
   }
   if ((m.what_changes_from_human || []).length > 3) errs.push('what_changes_from_human > 3 items');
+  const nSources = (m.sources || []).length;
+  (m.compare || []).forEach((r, i) => {
+    for (const n of r.source_refs || []) if (!(n >= 1 && n <= nSources)) errs.push(`compare[${i}] source_ref ${n} is not a source of this module`);
+    if (/\b\d+(\.\d+)?\s*(mg|mcg|µg|ug|g|ml|mL|units?|IU)\s*\/\s*kg\b/i.test(`${r.canine} ${r.implication}`)) errs.push(`compare[${i}] contains a dose-like figure in the canine or implication text; doses belong only in engine-checked drug entries`);
+  });
+  if (m.kind === 'pathophysiology' && (m.compare || []).length === 0 && m.status === 'approved') errs.push('approved pathophysiology module without compare rows');
   for (const d of m.drug_refs || []) if (!drugIds.has(d)) errs.push(`drug_ref '${d}' has no entry in content/drugs`);
   if (m.status === 'approved') {
     if (!m.signoff?.vet || !m.signoff?.physician) errs.push('approved without dual sign-off');
@@ -29,9 +37,26 @@ export function validateModule(m, tiers, drugIds, today = new Date()) {
     if (!(m.sources || []).length) errs.push('approved without sources');
     if (JSON.stringify(m).includes('TODO')) errs.push('approved but contains TODO');
     if ((m.what_changes_from_human || []).length === 0) errs.push('approved without what_changes_from_human');
+    (m.compare || []).forEach((r, i) => { if (!(r.source_refs || []).length) errs.push(`approved but compare[${i}] has no source_refs`); });
   }
   if (m.last_verified && monthsBetween(new Date(m.last_verified), today) > m.review_interval_months) warns.push('STALE: past review interval');
   return { errs, warns };
+}
+
+/** Plates must exist, match their checksum and be verified public domain. */
+export function validateFigures(m, contentRoot, readFile = f => fs.readFileSync(f)) {
+  const errs = [];
+  for (const f of m.figures || []) {
+    if (f.license !== 'public-domain') errs.push(`figure ${f.id}: license must be 'public-domain'`);
+    if (!f.credit || !f.sourceUrl) errs.push(`figure ${f.id}: credit and sourceUrl are required`);
+    const file = path.join(contentRoot, f.src);
+    if (!path.resolve(file).startsWith(path.resolve(contentRoot))) { errs.push(`figure ${f.id}: src escapes content/`); continue; }
+    let buf;
+    try { buf = readFile(file); } catch { errs.push(`figure ${f.id}: ${f.src} does not exist under content/`); continue; }
+    const sha = crypto.createHash('sha1').update(buf).digest('hex');
+    if (sha !== f.sha1) errs.push(`figure ${f.id}: sha1 is ${sha}, expected ${f.sha1}. The file is not the one credited`);
+  }
+  return errs;
 }
 
 export function validateDrug(d) {
@@ -77,6 +102,7 @@ function run({ release = false } = {}) {
     const m = JSON.parse(fs.readFileSync(f)); nTotal++; if (m.status === 'approved') nApproved++;
     const r = validateModule(m, envs.tiers, drugIds);
     if (!sv.module(m)) r.errs.push(...fmt(sv.module));
+    r.errs.push(...validateFigures(m, root));
     if (!domainIds.has(m.domain)) r.errs.push(`unknown domain '${m.domain}'`);
     if (!index.modules.some(x => x.id === m.id)) r.errs.push('module missing from content/index.json');
     if (seen.has(m.id)) r.errs.push('duplicate module id');

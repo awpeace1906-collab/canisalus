@@ -3,67 +3,329 @@
   "$id": "k9/module.schema.json",
   "title": "K9 content module",
   "type": "object",
-  "required": ["id", "title", "domain", "reversible", "status", "last_verified", "review_interval_months", "signoff", "why_this_matters", "what_changes_from_human", "content", "lens", "takeaway", "sources", "drug_refs"],
+  "required": [
+    "id",
+    "title",
+    "domain",
+    "reversible",
+    "status",
+    "last_verified",
+    "review_interval_months",
+    "signoff",
+    "why_this_matters",
+    "what_changes_from_human",
+    "content",
+    "takeaway",
+    "sources",
+    "drug_refs"
+  ],
   "additionalProperties": false,
   "properties": {
-    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
-    "title": {"type": "string"},
-    "domain": {"type": "string"},
-    "reversible": {"type": "boolean", "description": "Surfaces on the 'Can this be reversed?' home screen"},
-    "status": {"enum": ["stub", "draft", "in_review", "approved"]},
-    "last_verified": {"type": ["string", "null"], "format": "date"},
-    "review_interval_months": {"type": "integer", "minimum": 1},
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "reversible": {
+      "type": "boolean",
+      "description": "Surfaces on the 'Can this be reversed?' home screen"
+    },
+    "status": {
+      "enum": [
+        "stub",
+        "draft",
+        "in_review",
+        "approved"
+      ]
+    },
+    "last_verified": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "review_interval_months": {
+      "type": "integer",
+      "minimum": 1
+    },
     "signoff": {
       "type": "object",
-      "required": ["vet", "physician"],
+      "required": [
+        "vet",
+        "physician"
+      ],
       "properties": {
-        "vet": {"$ref": "#/$defs/signature"},
-        "physician": {"$ref": "#/$defs/signature"}
+        "vet": {
+          "$ref": "#/$defs/signature"
+        },
+        "physician": {
+          "$ref": "#/$defs/signature"
+        }
       }
     },
-    "why_this_matters": {"type": "string"},
+    "why_this_matters": {
+      "type": "string"
+    },
     "what_changes_from_human": {
-      "type": "array", "maxItems": 3,
-      "items": {"type": "object", "required": ["point", "objective_id"],
-        "properties": {"point": {"type": "string"}, "objective_id": {"type": "string"}}}
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "point",
+          "objective_id"
+        ],
+        "properties": {
+          "point": {
+            "type": "string"
+          },
+          "objective_id": {
+            "type": "string"
+          }
+        }
+      }
     },
     "content": {
       "type": "object",
       "properties": {
-        "recognition": {"type": "array", "items": {"type": "string"}},
-        "management": {"type": "array", "items": {"type": "string"}},
-        "procedure_refs": {"type": "array", "items": {"type": "string"}}
+        "recognition": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "management": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "procedure_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
     "lens": {
       "type": "object",
       "description": "Keyed by tier id from environments.json. Every non-optional tier must be present.",
-      "additionalProperties": {"$ref": "#/$defs/lensEntry"}
+      "additionalProperties": {
+        "$ref": "#/$defs/lensEntry"
+      }
     },
-    "takeaway": {"type": "string"},
-    "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
-    "drug_refs": {"type": "array", "items": {"type": "string"}, "description": "ids in content/drugs/"}
+    "takeaway": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "drug_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "ids in content/drugs/"
+    },
+    "kind": {
+      "enum": [
+        "clinical",
+        "pathophysiology"
+      ],
+      "default": "clinical",
+      "description": "pathophysiology modules are dog-vs-human reference: they carry a compare table and need no environment lens"
+    },
+    "compare": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/compareRow"
+      },
+      "description": "Dog vs human contrast rows (pathophysiology modules)."
+    },
+    "figures": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/figure"
+      },
+      "description": "Public-domain anatomy plates. Never add a plate that is not verified public domain."
+    }
   },
   "$defs": {
     "signature": {
-      "type": ["object", "null"],
-      "required": ["name", "credential", "date"],
-      "properties": {"name": {"type": "string"}, "credential": {"type": "string"}, "date": {"type": "string", "format": "date"}}
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "name",
+        "credential",
+        "date"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "credential": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
     },
     "lensEntry": {
       "type": "object",
-      "required": ["do_here", "leave_for_next", "transfer_trigger"],
+      "required": [
+        "do_here",
+        "leave_for_next",
+        "transfer_trigger"
+      ],
       "properties": {
-        "do_here": {"type": "array", "items": {"type": "string"}},
-        "leave_for_next": {"type": "array", "items": {"type": "string"}},
-        "transfer_trigger": {"type": "string"},
-        "requires": {"type": "array", "items": {"type": "string"}, "description": "Capability flags needed for do_here items; if a user's site lacks one, UI demotes the item to leave_for_next"},
-        "hidden": {"type": "boolean", "description": "Hide module content entirely at this tier"}
+        "do_here": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "leave_for_next": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "transfer_trigger": {
+          "type": "string"
+        },
+        "requires": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Capability flags needed for do_here items; if a user's site lacks one, UI demotes the item to leave_for_next"
+        },
+        "hidden": {
+          "type": "boolean",
+          "description": "Hide module content entirely at this tier"
+        }
       }
     },
     "source": {
-      "type": "object", "required": ["rank", "citation"],
-      "properties": {"rank": {"type": "integer", "minimum": 1, "maximum": 4}, "citation": {"type": "string"}, "url": {"type": "string"}}
+      "type": "object",
+      "required": [
+        "rank",
+        "citation"
+      ],
+      "properties": {
+        "rank": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "citation": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "compareRow": {
+      "type": "object",
+      "required": [
+        "topic",
+        "human",
+        "canine",
+        "implication",
+        "human_basis",
+        "source_refs"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "topic": {
+          "type": "string"
+        },
+        "human": {
+          "type": "string"
+        },
+        "canine": {
+          "type": "string"
+        },
+        "implication": {
+          "type": "string",
+          "description": "What a human-trained clinician should do differently. Never a dose."
+        },
+        "human_basis": {
+          "enum": [
+            "general-medical-knowledge",
+            "cited"
+          ],
+          "description": "general-medical-knowledge is confirmed by the physician reviewer at sign-off"
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "description": "1-based indexes into this module's sources[]. Support the canine side (and the human side when human_basis is cited)."
+        }
+      }
+    },
+    "figure": {
+      "type": "object",
+      "required": [
+        "id",
+        "src",
+        "caption",
+        "credit",
+        "license",
+        "sourceUrl",
+        "sha1"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "src": {
+          "type": "string",
+          "description": "path under content/, e.g. assets/figures/x.png"
+        },
+        "caption": {
+          "type": "string"
+        },
+        "credit": {
+          "type": "string"
+        },
+        "license": {
+          "const": "public-domain"
+        },
+        "sourceUrl": {
+          "type": "string"
+        },
+        "sha1": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "width": {
+          "type": "integer"
+        },
+        "height": {
+          "type": "integer"
+        }
+      }
     }
   }
 }

@@ -1,0 +1,130 @@
+{
+  "id": "drug-metabolism-and-toxic-mechanisms",
+  "title": "Drug metabolism and toxic mechanisms",
+  "domain": "pathophysiology",
+  "reversible": false,
+  "status": "draft",
+  "last_verified": null,
+  "review_interval_months": 24,
+  "signoff": {
+    "vet": null,
+    "physician": null
+  },
+  "why_this_matters": "Drugs and foods that are safe or familiar in people can poison dogs through different mechanisms, so human dose tables and human safety margins do not transfer.",
+  "what_changes_from_human": [
+    {
+      "point": "Species differences in drug metabolism can make a drug with a wide margin in one species fatal in another at a fraction of the dose.",
+      "objective_id": "pathophys-drug-01"
+    },
+    {
+      "point": "Xylitol is safe in people but causes insulin-driven hypoglycemia and can cause liver failure in dogs.",
+      "objective_id": "pathophys-drug-02"
+    },
+    {
+      "point": "Acetaminophen overdose in dogs mainly causes methemoglobinemia and hemolysis, not the liver injury seen in most species.",
+      "objective_id": "pathophys-drug-03"
+    }
+  ],
+  "content": {
+    "recognition": [],
+    "management": [],
+    "procedure_refs": []
+  },
+  "takeaway": "Nothing about a drug's behavior in people can be assumed in a dog; check for a canine source or call a veterinarian or poison control.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Martinez MN et al. 2021. Comparison of canine and human physiological factors: understanding interspecies differences that impact drug pharmacokinetics. AAPS J.",
+      "url": "https://consensus.app/papers/details/f715182b81795ca5bf077991ffecea0a/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Martignoni M et al. 2006. Species differences between mouse, rat, dog, monkey and human CYP-mediated drug metabolism, inhibition and induction. Expert Opin Drug Metab Toxicol.",
+      "url": "https://consensus.app/papers/details/9d27aa812b675565b1df679559a64ee8/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Murphy LA, Coleman AE. 2012. Xylitol toxicosis in dogs. Vet Clin North Am Small Anim Pract.",
+      "url": "https://consensus.app/papers/details/a92e36537c6d5f88adf031088bcb43fb/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Dunayer EK, Gwaltney-Brant SM. 2006. Acute hepatic failure and coagulopathy associated with xylitol ingestion in eight dogs. J Am Vet Med Assoc.",
+      "url": "https://consensus.app/papers/details/6655c37dce6950f4aaec25e5b6d97134/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Bates N. 2019. Xylitol toxicosis in dogs. Companion Animal.",
+      "url": "https://consensus.app/papers/details/ff5f71e88fbf58cb8d80c278d810b343/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Basit A et al. 2021. Comparison of tissue abundance of non-cytochrome P450 drug-metabolizing enzymes by quantitative proteomics between humans and laboratory animal species. Drug Metab Dispos.",
+      "url": "https://consensus.app/papers/details/f6a8f9d9a96559b99b214a44c41aa5f7/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Mealey KL. 2019. Comparative pharmacokinetics and pharmacodynamics. In: Pharmacotherapeutics for Veterinary Dispensing.",
+      "url": "https://consensus.app/papers/details/ff31b9400dd65b06953f611202f899b3/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "Geyer J et al. 2005. Frequency of the nt230 (del4) MDR1 mutation in Collies and related dog breeds in Germany. J Vet Pharmacol Ther.",
+      "url": "https://consensus.app/papers/details/cc6683a6e20b5a00a79a7d1f2093fbe8/?utm_source=claude_desktop"
+    },
+    {
+      "rank": 3,
+      "citation": "McConkey SE et al. 2009. The role of para-aminophenol in acetaminophen-induced methemoglobinemia in dogs and cats. J Vet Pharmacol Ther.",
+      "url": "https://consensus.app/papers/details/821efd2a696c56b098840eec81d548bb/?utm_source=claude_desktop"
+    }
+  ],
+  "drug_refs": [],
+  "kind": "pathophysiology",
+  "compare": [
+    {
+      "topic": "Safety margins and dosing",
+      "human": "Human dose tables and safety margins are built on human pharmacology.",
+      "canine": "Species differ in drug absorption, distribution, metabolism and excretion, especially phase II metabolism. Drugs with a wide therapeutic margin in some species can be fatal in another at a fraction of the dose. Enzyme isoforms in CYP1A, 2C, 2D and 3A families differ appreciably between species, and aldehyde oxidase was not detected in beagle dog liver.",
+      "implication": "Never carry a human dose or a 'safe in people' assumption over to a dog. Canine doses come only from canine sources.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        1,
+        2,
+        6,
+        7
+      ]
+    },
+    {
+      "topic": "Xylitol",
+      "human": "Wide margin of safety in people.",
+      "canine": "In dogs, xylitol is believed to stimulate excessive insulin secretion, causing severe hypoglycemia, potentially followed by acute hepatic failure and coagulopathy. Hypokalemia, hyperphosphatemia and thrombocytopenia can occur. Hypoglycemia can be delayed for hours after ingesting chewing gum. It is not seen in cats, rabbits or rodents.",
+      "implication": "Xylitol in human gum, sugar-free foods, some medicines and dental products is a hazard for dogs. Blood glucose monitoring is central, and hypoglycemia can be delayed. Contact a veterinarian or poison control.",
+      "human_basis": "cited",
+      "source_refs": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "topic": "Acetaminophen",
+      "human": "Overdose mainly causes hepatotoxicity through the metabolite NAPQI.",
+      "canine": "In dogs and cats, acetaminophen overdose primarily causes methemoglobinemia and hemolysis. In vitro, para-aminophenol rather than NAPQI produced methemoglobin, and deficient arylamine N-acetyltransferase activity in dogs and cats is proposed to contribute.",
+      "implication": "Look for methemoglobinemia and hemolysis, not only liver injury.",
+      "human_basis": "cited",
+      "source_refs": [
+        9
+      ]
+    },
+    {
+      "topic": "Breed-linked drug sensitivity",
+      "human": "Not a routine consideration when choosing a drug.",
+      "canine": "A nonsense mutation described in Collies and related breeds abolishes P-glycoprotein function at the blood-brain barrier and is associated with increased susceptibility to neurotoxic effects of several drugs. See the MDR1 module.",
+      "implication": "Check the K9 profile for MDR1 status before giving any drug flagged for caution.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        8
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import { staleness } from '../lib/staleness.js';
 import { renderLens, resolveFlags } from '../lib/lens.js';
 import { activeTierId, flagOverrides } from '../lib/prefs.js';
 import { flagOutdatedURL } from '../lib/appConfig.js';
+import { assetUrl } from '../lib/contentStore.js';
 
 /** Module template: header, why, what changes from human, content, environment lens, takeaway. */
 export function renderModule(m, store) {
@@ -26,7 +27,9 @@ export function renderModule(m, store) {
     card('Why this matters', el('p', {}, m.why_this_matters)),
     m.what_changes_from_human.length > 0 && card('What changes from human', el('ol', {}, m.what_changes_from_human.map(w => el('li', {}, w.point))), 'change'),
     (rec.length || mgmt.length) > 0 && card('Content', [rec.length > 0 && [el('h3', {}, 'Recognition'), list(rec)], mgmt.length > 0 && [el('h3', {}, 'Management'), list(mgmt)]]),
-    card(`At your setting: ${tier.label}`, lensBody(lens)),
+    (m.compare ?? []).length > 0 && card('Dog vs human', compareTable(m.compare)),
+    (m.figures ?? []).map(f => figureCard(f)),
+    (m.kind ?? 'clinical') === 'clinical' && card(`At your setting: ${tier.label}`, lensBody(lens)),
     m.drug_refs.length > 0 && card('Drugs', el('a', { href: '#/dose' }, 'Open dose calculator')),
     card('Clinical takeaway', el('p', {}, m.takeaway), 'takeaway'),
     m.sources.length > 0 && card('Sources', el('ol', {}, m.sources.map(s => el('li', {}, `[${s.rank}] `, s.url ? el('a', { href: s.url, target: '_blank', rel: 'noopener' }, s.citation) : s.citation)))),
@@ -43,4 +46,21 @@ function lensBody(lens) {
     el('h3', {}, 'Leave for next level'), lens.leaveForNext.length ? list(lens.leaveForNext) : el('p', { class: 'muted' }, 'Nothing.'),
     el('h3', {}, 'Transfer trigger'), el('p', {}, lens.transferTrigger),
   ];
+}
+
+/** Dog-vs-human contrast table. Stacks on narrow screens (labels come from data-label). */
+export function compareTable(rows) {
+  return el('table', { class: 'compare' },
+    el('thead', {}, el('tr', {}, ['Topic', 'Human', 'Dog', 'What changes'].map(h => el('th', { scope: 'col' }, h)))),
+    el('tbody', {}, rows.map(r => el('tr', {},
+      el('th', { scope: 'row', 'data-label': 'Topic' }, r.topic),
+      el('td', { 'data-label': 'Human' }, r.human, r.human_basis === 'general-medical-knowledge' && el('span', { class: 'muted small' }, ' (general medical knowledge)')),
+      el('td', { 'data-label': 'Dog' }, r.canine, el('span', { class: 'refs small' }, ` [${r.source_refs.join(', ')}]`)),
+      el('td', { 'data-label': 'What changes' }, r.implication)))));
+}
+
+function figureCard(f) {
+  return el('figure', { class: 'card plate' },
+    el('img', { src: assetUrl(f.src), alt: f.caption, loading: 'lazy', width: f.width, height: f.height }),
+    el('figcaption', {}, f.caption, el('span', { class: 'muted small' }, ` ${f.credit} `, el('a', { href: f.sourceUrl, target: '_blank', rel: 'noopener' }, 'Source'))));
 }

@@ -43,6 +43,10 @@ export function build({ release = false, out = path.join(ROOT, 'dist') } = {}) {
   const present = new Set(all.modules.map(m => m.json.id));
   w(c('index.json'), JSON.stringify({ domains: all.domains, modules: all.indexModules.filter(m => present.has(m.id)) }, null, 2));
   for (const { file, json } of [...all.modules, ...all.drugs]) w(c(rel(CONTENT_DIR, file)), JSON.stringify(json, null, 2));
+  for (const { json } of all.modules) for (const f of json.figures ?? []) {
+    const from = path.join(CONTENT_DIR, f.src);
+    if (fs.existsSync(from)) { fs.mkdirSync(path.dirname(c(f.src)), { recursive: true }); fs.copyFileSync(from, c(f.src)); }
+  }
   w(c('search-index.json'), JSON.stringify({ entries: buildSearchIndex(all.modules, all.domains) }, null, 2));
   w(c('manifest.json'), JSON.stringify(buildManifest(all.modules, all.drugs, release), null, 2));
 
