@@ -1,0 +1,83 @@
+{
+  "note": "Registry of every plate under content/assets. Human plates are here to pair with canine plates for contrast and compare. Canine plates are added by tools/fetch-plate.js.",
+  "plates": [
+    {
+      "id": "gray1195",
+      "src": "assets/figures/gray1195.png",
+      "kind": "human",
+      "subject": "Human neck, anterior view (larynx, thyroid and cricoid cartilages, cricothyroid membrane)",
+      "credit": "Plate: Henry Vandyke Carter, Gray's Anatomy of the Human Body, 20th ed. (1918), fig. 1195. Public domain.",
+      "license": "public-domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gray1195.png",
+      "sha1": "3a7149ddd2a1123123a09d56135cd3dca8e15507",
+      "width": 531,
+      "height": 500,
+      "provenance": "Copied from awpeace1906-collab/kairos content/assets/figures; checksum matches that repo's record."
+    },
+    {
+      "id": "gray1211",
+      "src": "assets/figures/gray1211.png",
+      "kind": "human",
+      "subject": "Human back, surface anatomy (spine, iliac crests, scapula)",
+      "credit": "Plate: Henry Vandyke Carter, Gray's Anatomy of the Human Body, 20th ed. (1918), fig. 1211. Public domain.",
+      "license": "public-domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gray1211.png",
+      "sha1": "5d7cd957f68e122238d355eb10cc7f0b12ea9e18",
+      "width": 504,
+      "height": 700,
+      "provenance": "Copied from awpeace1906-collab/kairos content/assets/figures; checksum matches that repo's record."
+    },
+    {
+      "id": "gray1215",
+      "src": "assets/figures/gray1215.png",
+      "kind": "human",
+      "subject": "Human left chest with the arm raised, lateral view",
+      "credit": "Plate: Henry Vandyke Carter, Gray's Anatomy of the Human Body, 20th ed. (1918), fig. 1215. Public domain.",
+      "license": "public-domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gray1215.png",
+      "sha1": "539890420519d1a54975ccc2363ae7b66d193dea",
+      "width": 463,
+      "height": 500,
+      "provenance": "Copied from awpeace1906-collab/kairos content/assets/figures; checksum matches that repo's record."
+    },
+    {
+      "id": "gray1217",
+      "src": "assets/figures/gray1217.png",
+      "kind": "human",
+      "subject": "Human left lateral chest and upper abdomen (used by Kairos for the ribs, lung, pleura and spleen overlay)",
+      "credit": "Plate: Henry Vandyke Carter, Gray's Anatomy of the Human Body, 20th ed. (1918), fig. 1217. Public domain.",
+      "license": "public-domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gray1217.png",
+      "sha1": "62b948741b90021b077f1e503d05a4944da25788",
+      "width": 280,
+      "height": 400,
+      "provenance": "Copied from awpeace1906-collab/kairos content/assets/figures; checksum matches that repo's record."
+    },
+    {
+      "id": "gray1218",
+      "src": "assets/figures/gray1218.png",
+      "kind": "human",
+      "subject": "Human anterior chest, surface anatomy (used by Kairos for the pericardiocentesis landmarks)",
+      "credit": "Plate: Henry Vandyke Carter, Gray's Anatomy of the Human Body, 20th ed. (1918), fig. 1218. Public domain.",
+      "license": "public-domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gray1218.png",
+      "sha1": "a9c762fa8e42b75b633151ec940124c66c1033f5",
+      "width": 409,
+      "height": 500,
+      "provenance": "Copied from awpeace1906-collab/kairos content/assets/figures; checksum matches that repo's record."
+    },
+    {
+      "id": "gray1220",
+      "src": "assets/figures/gray1220.png",
+      "kind": "human",
+      "subject": "Human abdomen, Gray's regions",
+      "credit": "Plate: Henry Vandyke Carter, Gray's Anatomy of the Human Body, 20th ed. (1918), fig. 1220. Public domain.",
+      "license": "public-domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gray1220.png",
+      "sha1": "6972393faf89d509405e7992b06025e14ae88b07",
+      "width": 434,
+      "height": 550,
+      "provenance": "Copied from awpeace1906-collab/kairos content/assets/figures; checksum matches that repo's record."
+    }
+  ]
+}

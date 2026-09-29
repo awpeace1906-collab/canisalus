@@ -15,6 +15,7 @@ Standalone offline-first PWA built on the Kairos engine pattern: vanilla JS, has
 | `npm run validate:release` | Same, and fails unless every module and drug is `approved` |
 | `npm run build:release` | Release gate, staleness check, then a build that ships approved content only |
 | `npm run ci` | Everything CI runs |
+| `node tools/fetch-plate.js` | Fetch a verified public-domain plate from Wikimedia Commons (needs the host allowed) |
 
 ## Layout
 
@@ -32,6 +33,10 @@ docs/                HANDOFF.md (build brief), framework.txt (reviewer framework
 ## Release gating
 
 Unapproved content is hidden, not shown as a draft. `tools/build.js --release` drops every module and drug that is not `approved` before anything is copied, so drafts never reach the shipped bundle. Until reviewers sign modules off, a release build is an empty shell. That is expected.
+
+## Research and reviewer material
+
+`research/` holds one dossier per module: every claim traced to a retrieved source, retrieval limits recorded, and open questions for the veterinary and physician reviewers. Start with `research/README.md`. Pathophysiology (dog vs human) modules carry a compare table; plates are documented in `research/plates.md`.
 
 ## What Kairos pieces are ported
 

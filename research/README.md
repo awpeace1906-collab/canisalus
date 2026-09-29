@@ -24,6 +24,10 @@ One dossier per module, written so a veterinary reviewer and a physician reviewe
 
 So the two most important rank-1 sources (K9TCCC and the RECOVER 2024 BLS clinical guideline) have **not** been read in full. Their content is not reproduced here.
 
+## Citation verification
+
+Sources in modules are resolved to a DOI or PubMed URL where PubMed could confirm the paper. Retrieval-tool metadata proved unreliable in two of about forty checks (wrong first author), so anything still carrying a `consensus.app` link is unverified and is flagged by `npm run validate`. See `pathophysiology-dog-vs-human.md` for the remaining list.
+
 ## Dossier index
 
 | Module | File | Evidence status |
@@ -33,4 +37,5 @@ So the two most important rank-1 sources (K9TCCC and the RECOVER 2024 BLS clinic
 | Opioids including fentanyl | `opioid-exposure.md` | Canine PK and case data; no guideline text retrieved; study doses listed, none adopted |
 | MDR1 (ABCB1) sensitivity | `mdr1-abcb1.md` | Genotyping surveys; drug list not retrieved; breed evidence inconsistent |
 | Hemorrhage control | `hemorrhage-control.md` | Two veterinary review articles; K9TCCC not retrieved |
+| Pathophysiology: dog vs human | `pathophysiology-dog-vs-human.md` | Five compare-table modules; coverage gaps listed |
 | CPR (RECOVER) | `cpr-recover.md` | 2024 RECOVER abstracts only; numeric recommendations deliberately omitted |

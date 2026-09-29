@@ -39,6 +39,12 @@ export function validateModule(m, tiers, drugIds, today = new Date()) {
     if ((m.what_changes_from_human || []).length === 0) errs.push('approved without what_changes_from_human');
     (m.compare || []).forEach((r, i) => { if (!(r.source_refs || []).length) errs.push(`approved but compare[${i}] has no source_refs`); });
   }
+  // Retrieval-tool links are not citations. Every source must resolve to a DOI or PubMed record before approval.
+  const unresolved = (m.sources || []).filter(x => /consensus\.app/.test(x.url || ''));
+  if (unresolved.length) {
+    const msg = `${unresolved.length} source(s) still use a retrieval link instead of a DOI or PubMed URL (citation details unverified)`;
+    if (m.status === 'approved') errs.push(msg); else warns.push(msg);
+  }
   if (m.last_verified && monthsBetween(new Date(m.last_verified), today) > m.review_interval_months) warns.push('STALE: past review interval');
   return { errs, warns };
 }
@@ -55,6 +61,17 @@ export function validateFigures(m, contentRoot, readFile = f => fs.readFileSync(
     try { buf = readFile(file); } catch { errs.push(`figure ${f.id}: ${f.src} does not exist under content/`); continue; }
     const sha = crypto.createHash('sha1').update(buf).digest('hex');
     if (sha !== f.sha1) errs.push(`figure ${f.id}: sha1 is ${sha}, expected ${f.sha1}. The file is not the one credited`);
+  }
+  return errs;
+}
+
+/** Registry check: every plate must exist, match its sha1, be public domain, and have a unique id. */
+export function validatePlates(registry, contentRoot, readFile) {
+  const errs = [], seen = new Set();
+  for (const p of registry.plates || []) {
+    if (seen.has(p.id)) errs.push(`plate ${p.id}: duplicate id`);
+    seen.add(p.id);
+    errs.push(...validateFigures({ figures: [{ ...p, caption: p.subject }] }, contentRoot, readFile));
   }
   return errs;
 }
@@ -109,6 +126,20 @@ function run({ release = false } = {}) {
     seen.add(m.id);
     if (release && m.status !== 'approved') r.errs.push(`not approved (status: ${m.status})`);
     report(f, r);
+  }
+  const platesPath = path.join(root, 'plates.json');
+  if (fs.existsSync(platesPath)) {
+    const reg = JSON.parse(fs.readFileSync(platesPath));
+    const ajvP = new Ajv2020({ allErrors: true, strict: false });
+    const vp = ajvP.compile(JSON.parse(fs.readFileSync(path.join(schemaDir, 'plates.schema.json'))));
+    const errs = [...(vp(reg) ? [] : (vp.errors || []).map(e => `schema ${e.instancePath || '/'} ${e.message}`)), ...validatePlates(reg, root)];
+    report(platesPath, { errs, warns: [] });
+    // every figure a module uses must be a registered plate (one place holds the licence record)
+    const ids = new Set(reg.plates.map(p => p.src));
+    for (const f of walk(path.join(root, 'modules'))) {
+      const m = JSON.parse(fs.readFileSync(f));
+      for (const fig of m.figures || []) if (!ids.has(fig.src)) report(f, { errs: [`figure ${fig.id}: ${fig.src} is not in content/plates.json`], warns: [] });
+    }
   }
   for (const [f, d] of drugs) {
     const r = validateDrug(d);

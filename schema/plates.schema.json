@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "k9/plates.schema.json",
+  "title": "Plate registry",
+  "type": "object",
+  "required": [
+    "plates"
+  ],
+  "properties": {
+    "note": {
+      "type": "string"
+    },
+    "plates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "src",
+          "kind",
+          "subject",
+          "credit",
+          "license",
+          "sourceUrl",
+          "sha1"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "src": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "human",
+              "canine"
+            ]
+          },
+          "subject": {
+            "type": "string"
+          },
+          "credit": {
+            "type": "string"
+          },
+          "license": {
+            "const": "public-domain"
+          },
+          "sourceUrl": {
+            "type": "string"
+          },
+          "sha1": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{40}$"
+          },
+          "width": {
+            "type": "integer"
+          },
+          "height": {
+            "type": "integer"
+          },
+          "planned_use": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "provenance": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

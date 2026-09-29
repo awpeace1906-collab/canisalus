@@ -60,3 +60,44 @@ test('gen_stubs refuses to overwrite modules that are past stub', () => {
   catch (e) { failed = true; out = e.stdout; }
   assert.ok(failed && out.includes('refusing to overwrite'), 'expected refusal; got: ' + out);
 });
+
+test('sources: retrieval links warn on drafts and block approval', () => {
+  const m = base();
+  m.sources = [{ rank: 3, citation: 'x', url: 'https://consensus.app/papers/details/abc/' }];
+  m.compare = m.compare.map(r => ({ ...r, source_refs: [1] }));
+  assert.ok(validateModule(m, envs.tiers, new Set()).warns.some(w => w.includes('retrieval link')));
+  const a = { ...m, status: 'approved', last_verified: '2026-09-01', signoff: { vet: { name: 'a', credential: 'DVM', date: '2026-09-01' }, physician: { name: 'b', credential: 'MD', date: '2026-09-01' } } };
+  assert.ok(validateModule(a, envs.tiers, new Set()).errs.some(e => e.includes('retrieval link')));
+});
+
+import { validatePlates } from '../tools/validate.js';
+import { classifyLicense, imageSize, buildPlateEntry, sha1 } from '../tools/lib/plates.js';
+
+test('plate registry in the repo is valid (files exist, checksums match)', () => {
+  const reg = readJson('../content/plates.json');
+  assert.ok(reg.plates.length >= 6);
+  assert.deepEqual(validatePlates(reg, new URL('../content', import.meta.url).pathname), []);
+});
+
+test('plate registry catches a swapped file and duplicate ids', () => {
+  const p = { id: 'a', src: 'assets/a.png', kind: 'human', subject: 's', credit: 'c', license: 'public-domain', sourceUrl: 'u', sha1: sha1(Buffer.from('x')) };
+  assert.ok(validatePlates({ plates: [p] }, '/x', () => Buffer.from('y'))[0].includes('not the one credited'));
+  assert.ok(validatePlates({ plates: [p, p] }, '/x', () => Buffer.from('x')).some(e => e.includes('duplicate id')));
+});
+
+test('licence gate: public domain tag AND an asserted year of 1930 or earlier are both required', () => {
+  const pd = { LicenseShortName: { value: 'Public domain' } };
+  assert.equal(classifyLicense(pd, { assertedPublicationYear: 1910 }).ok, true);
+  assert.equal(classifyLicense(pd, {}).ok, false, 'no asserted year');
+  assert.equal(classifyLicense(pd, { assertedPublicationYear: 1955 }).ok, false, 'too recent');
+  assert.equal(classifyLicense({ LicenseShortName: { value: 'CC BY-SA 4.0' } }, { assertedPublicationYear: 1900 }).ok, false, 'share-alike rejected');
+  assert.equal(classifyLicense({ LicenseShortName: { value: 'PD-old-70' } }, { assertedPublicationYear: 1920 }).ok, true);
+  assert.equal(classifyLicense({}, { assertedPublicationYear: 1920 }).ok, false, 'unknown licence');
+});
+
+test('image size and plate entry from real bytes', () => {
+  const buf = fs.readFileSync(new URL('../content/assets/figures/gray1195.png', import.meta.url));
+  assert.deepEqual(imageSize(buf), { width: 531, height: 500 });
+  const e = buildPlateEntry({ title: 'File:Test Dog 1.png', buf, ext: 'png', kind: 'canine', subject: 's', credit: 'c', sourceUrl: 'u' });
+  assert.equal(e.id, 'test-dog-1'); assert.equal(e.sha1, sha1(buf)); assert.equal(e.license, 'public-domain');
+});

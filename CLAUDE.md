@@ -10,7 +10,9 @@ Canine emergency reference for human-trained clinicians. Read `docs/HANDOFF.md` 
 - Unapproved, unsourced, non-canine or missing-route entries return `NO_CANINE_DOSE`.
 - A module or drug is `approved` only with vet and physician sign-off, `last_verified`, sources and no `TODO`.
 - Unapproved content is hidden in release builds. `npm run validate:release` must pass before a release.
-- Do not author clinical content or doses. All clinical values come from Andrew and the reviewers.
+- Clinical content may be drafted only from retrieved, cited sources (see `research/`), and stays `draft`. Never set `approved`, never add a signature, and never enter a dose that has no canine source chosen by the veterinary reviewer. Gaps are written as explicit `TODO` items, which block approval by design.
+- A source URL must be a DOI or PubMed link before approval. `consensus.app` retrieval links are unverified and are rejected for approved modules.
+- Plates must be verified public domain (`tools/fetch-plate.js` enforces this). Never add a plate by hand.
 - Never hardcode the app name; read it from `app.config.json`.
 
 ## Commands
