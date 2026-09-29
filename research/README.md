@@ -43,4 +43,7 @@ Sources in modules are resolved to a DOI or PubMed URL where PubMed could confir
 | Chocolate | `chocolate.md` | 156-dog series; thresholds only second-hand |
 | Grapes and raisins | `grapes-and-raisins.md` | Two eras of series give very different risk; both stated |
 | Anticoagulant rodenticides | `anticoagulant-rodenticides.md` | Retrospective series; sources conflict on IV safety |
+| Hypothermia | `hypothermia.md` | One veterinary review; rewarming-rate data conflict and are human or animal-model |
+| Tension pneumothorax | `tension-pneumothorax.md` | No canine needle-decompression study; human and swine data only |
+| Exertional rhabdomyolysis | `exertional-rhabdomyolysis.md` | Two small canine studies; no canine treatment evidence |
 | CPR (RECOVER) | `cpr-recover.md` | 2024 RECOVER abstracts only; numeric recommendations deliberately omitted |

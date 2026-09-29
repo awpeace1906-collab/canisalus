@@ -3,18 +3,35 @@
   "title": "Exertional rhabdomyolysis",
   "domain": "medical",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Exertional muscle breakdown occurs in working dogs and is a listed complication of canine heatstroke, but the canine evidence is thin [1][2][6].",
+  "what_changes_from_human": [
+    {
+      "point": "Canine exertional rhabdomyolysis has been studied with creatine kinase and myoglobin in endurance sled dogs, which correlated strongly [1].",
+      "objective_id": "medical-rhabdo-01"
+    },
+    {
+      "point": "Human hydration and outpatient rules are built on human cohorts and are not established for dogs [3][4][5].",
+      "objective_id": "medical-rhabdo-02"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "In endurance sled dogs, myoglobin and creatine kinase were higher in dogs with clinical rhabdomyolysis than in normal dogs and were strongly correlated (R = 0.91). Rhabdomyolysis appeared to occur early in endurance activity [1].",
+      "Rhabdomyolysis is a listed complication of canine heatstroke, along with acute kidney injury [6]."
+    ],
+    "management": [
+      "Cell-free DNA was not a useful marker in sled dogs, unlike myoglobin and creatine kinase [1].",
+      "In trained search and rescue dogs, CK and AST did not change after 20 minutes of submaximal search work, consistent with conditioning protecting against enzyme changes [2].",
+      "Human data, context only: acute kidney injury is a main complication, hydration is the commonest treatment, and outpatient care was safe in one cohort when admission creatinine was normal [3][4][5].",
+      "TODO: canine signs, treatment and the link to exertional hypoglycemia. Only two canine studies were retrieved and none tests a treatment. Do not extrapolate the human hydration or outpatient findings."
+    ],
     "procedure_refs": []
   },
   "lens": {
@@ -49,7 +66,38 @@
       "transfer_trigger": "TODO"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "In a working dog that collapses or is stiff after hard work, think muscle breakdown as well as heat, and hand the dog to a veterinarian who can check muscle and kidney values.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Devall VC et al. 2018. Serum myoglobin, creatine kinase, and cell-free DNA in endurance sled dogs and sled dogs with clinical rhabdomyolysis. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Serum%20myoglobin%2C%20creatine%20kinase%2C%20and%20cell-free%20DNA%20in%20endurance%20sled%20dogs%20and%20sled%20dogs%20with%20clinical%20rhabdomyolysis"
+    },
+    {
+      "rank": 3,
+      "citation": "Spinella G et al. 2021. Clinical evaluation of creatine kinase and aspartate aminotransferase for monitoring muscle effort in working dogs in different simulated fieldworks. Animals.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Clinical%20Evaluation%20of%20Creatine%20Kinase%20and%20Aspartate%20Aminotransferase%20for%20Monitoring%20Muscle%20Effort%20in%20Working%20Dogs%20in%20Different%20Simulated%20Fieldworks"
+    },
+    {
+      "rank": 3,
+      "citation": "Scalco RS et al. 2016. Exertional rhabdomyolysis: physiological response or manifestation of an underlying myopathy? (human data). BMJ Open Sport Exerc Med.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Exertional%20rhabdomyolysis%3A%20physiological%20response%20or%20manifestation%20of%20an%20underlying%20myopathy%3F"
+    },
+    {
+      "rank": 3,
+      "citation": "Rojas-Valverde D et al. 2020. Exertional rhabdomyolysis and acute kidney injury in endurance sports: a systematic review (human data). Eur J Sport Sci.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Exertional%20rhabdomyolysis%20and%20acute%20kidney%20injury%20in%20endurance%20sports%3A%20A%20systematic%20review"
+    },
+    {
+      "rank": 3,
+      "citation": "Vangstad M et al. 2026. Exertional rhabdomyolysis: clinical features, management, complications and prediction of acute kidney injury (human data). BMJ Open Sport Exerc Med.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Exertional%20rhabdomyolysis%3A%20clinical%20features%2C%20management%2C%20complications%20and%20prediction%20of%20acute%20kidney%20injury"
+    },
+    {
+      "rank": 3,
+      "citation": "Bruchim Y et al. 2017. Pathophysiology of heatstroke in dogs, revisited. Temperature.",
+      "url": "https://doi.org/10.1080/23328940.2017.1367457"
+    }
+  ],
   "drug_refs": []
 }

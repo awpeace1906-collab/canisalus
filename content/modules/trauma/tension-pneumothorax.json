@@ -3,18 +3,35 @@
   "title": "Tension pneumothorax",
   "domain": "trauma",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Tension pneumothorax kills quickly, and the human needle-decompression rules that responders know were built on human chest walls and fail often even there [4][5][6].",
+  "what_changes_from_human": [
+    {
+      "point": "Human needle-decompression rules (site, needle length) come from human chest walls and often fail there; do not carry them over to a dog [4][5][6].",
+      "objective_id": "trauma-ptx-01"
+    },
+    {
+      "point": "In dogs, iatrogenic pneumothorax (for example from a misplaced nasogastric tube) is a recognized cause [1][2].",
+      "objective_id": "trauma-ptx-02"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "In dogs with traumatic pneumomediastinum, common signs were tachycardia, tachypnea, subcutaneous emphysema, pneumothorax and dyspnea [3].",
+      "Pneumothorax followed nasogastric tube misplacement in the airway in 0.3% of 4,777 dogs in one study; 9 of 13 affected dogs developed respiratory compromise [1]."
+    ],
+    "management": [
+      "In the 13-dog series, 11 dogs needed thoracocentesis and 5 a thoracostomy tube; 5 arrested and 5 survived to discharge [1]. In a 6-dog series, pneumothorax resolved in all, with thoracocentesis in 3 and a chest tube in 1 [2].",
+      "In 52 dogs and cats with traumatic pneumomediastinum, most also had pneumothorax needing thoracocentesis, and 26 of 28 dogs with known outcome survived [3].",
+      "Human and animal-model context, not canine evidence: prehospital needle decompression was effective in only 18% in one adult series [6], failed in 58% of attempts in a swine model [5], and a human systematic review advised a needle longer than 7 cm [4]. A US EMS position statement summarizes the human evidence [7].",
+      "TODO: no retrieved source covers needle or finger decompression of tension pneumothorax in dogs by non-veterinarians. Canine landmarks, needle length and the framework's claim that pneumothorax is often bilateral in dogs all need a veterinary source."
+    ],
     "procedure_refs": []
   },
   "lens": {
@@ -49,7 +66,43 @@
       "transfer_trigger": "TODO"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "Suspect tension when a dog deteriorates fast after chest trauma, and get to a veterinarian; do not apply a human needle rule to a dog.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Odunayo A et al. 2023. Outcomes, including death, in dogs with pneumothorax following nasogastric feeding tube misplacement in the tracheobronchial tree: 13 cases (2017-2022). J Am Vet Med Assoc.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Outcomes%2C%20including%20death%2C%20in%20dogs%20with%20pneumothorax%20following%20nasogastric%20feeding%20tube%20misplacement%20in%20the%20tracheobronchial%20tree"
+    },
+    {
+      "rank": 3,
+      "citation": "Hanchate AN et al. 2025. Pneumothorax as a complication of nasogastric feeding tube placement in six dogs. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pneumothorax%20as%20a%20Complication%20of%20Nasogastric%20Feeding%20Tube%20Placement%20in%20Six%20Dogs"
+    },
+    {
+      "rank": 3,
+      "citation": "Klainbart S et al. 2024. Retrospective evaluation of traumatic pneumomediastinum in dogs and cats (2005-2022): 52 cases. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Retrospective%20evaluation%20of%20traumatic%20pneumomediastinum%20in%20dogs%20and%20cats%20%282005-2022%29%3A%2052%20cases"
+    },
+    {
+      "rank": 3,
+      "citation": "Robitaille-Fortin M et al. 2021. Prehospital decompression of pneumothorax: a systematic review of recent evidence (human data). Prehosp Disaster Med.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Prehospital%20Decompression%20of%20Pneumothorax%3A%20A%20Systematic%20Review%20of%20Recent%20Evidence"
+    },
+    {
+      "rank": 3,
+      "citation": "Martin MJ et al. 2012. Does needle thoracostomy provide adequate and effective decompression of tension pneumothorax? (swine model). J Trauma Acute Care Surg.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Does%20needle%20thoracostomy%20provide%20adequate%20and%20effective%20decompression%20of%20tension%20pneumothorax%3F"
+    },
+    {
+      "rank": 3,
+      "citation": "Kaserer A et al. 2017. Failure rate of prehospital chest decompression after severe thoracic trauma (human data). Am J Emerg Med.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Failure%20rate%20of%20prehospital%20chest%20decompression%20after%20severe%20thoracic%20trauma"
+    },
+    {
+      "rank": 2,
+      "citation": "Lyng JW et al. 2024. Prehospital Trauma Compendium: traumatic pneumothorax care, a position statement and resource document of NAEMSP (human data). Prehosp Emerg Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Prehospital%20Trauma%20Compendium%3A%20Traumatic%20Pneumothorax%20Care%20-%20a%20position%20statement%20and%20resource%20document%20of%20NAEMSP"
+    }
+  ],
   "drug_refs": []
 }

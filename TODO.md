@@ -1,6 +1,6 @@
 # Running to-do list
 
-Last updated: 2026-09-29 (batch 2 in progress). Owner column: **You** = needs Andrew, **Reviewer** = vet or physician, **Claude** = I can do it next.
+Last updated: 2026-09-29 (batch 2 done: 8 modules). Owner column: **You** = needs Andrew, **Reviewer** = vet or physician, **Claude** = I can do it next.
 
 ## Blocked on you
 
@@ -27,10 +27,13 @@ Last updated: 2026-09-29 (batch 2 in progress). Owner column: **You** = needs An
 | 14 | Chocolate: ingestion thresholds and decontamination window (only second-hand thresholds retrieved) | Reviewer |
 | 15 | Grapes and raisins: how to word risk when the amount is unknown (early series vs 2019 series differ a lot) | Reviewer |
 | 16 | Rodenticides: vitamin K1 route, dose, duration (retrieved sources conflict on IV safety) | Reviewer |
+| 17 | Tension pneumothorax: is needle decompression in scope at Tier 1 to 3, and with what canine landmarks and equipment (no canine source found) | Reviewer |
+| 18 | Hypothermia: definition thresholds and rewarming targets for dogs (only human and animal-model rewarming data found) | Reviewer |
+| 19 | Exertional rhabdomyolysis and hypoglycemia: canine signs and treatment (two small studies, no treatment evidence) | Reviewer |
 
 ## In progress
 
-- Batch 2 of module research (see below).
+- Nothing running. Batch 3 candidates are the unchecked items below.
 
 ## Next modules to research
 
@@ -41,9 +44,10 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [x] Chocolate and methylxanthines (draft, dossier written)
 - [x] Grapes and raisins (draft, dossier written)
 - [x] Anticoagulant rodenticides (draft, dossier written)
-- [ ] Exertional rhabdomyolysis and exertional hypoglycemia
-- [ ] Tension pneumothorax and needle thoracostomy
-- [ ] Hypothermia
+- [x] Exertional rhabdomyolysis (draft, thin evidence)
+- [ ] Exertional hypoglycemia (no canine source retrieved; still a stub)
+- [x] Tension pneumothorax (draft; no canine decompression evidence)
+- [x] Hypothermia (draft; one veterinary review)
 - [ ] Canine normal vitals (no source retrieved yet)
 - [ ] Weight estimation
 - [ ] Smoke inhalation, CO and cyanide
@@ -56,7 +60,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 
 ## Verification debt (Claude)
 
-- [ ] Resolve citations that still carry PubMed search links to DOIs: 16 older ones (list in `research/pathophysiology-dog-vs-human.md`) plus the 25 new ones in batch 2 (status epilepticus, snake, chocolate, grapes, rodenticides). `npm run validate` lists them
+- [ ] Resolve citations that still carry PubMed search links to DOIs: 16 older ones (list in `research/pathophysiology-dog-vs-human.md`) plus about 35 new ones in batch 2 (seizures, snake, chocolate, grapes, rodenticides, hypothermia, pneumothorax, rhabdomyolysis). `npm run validate` lists them
 - [ ] Read K9TCCC 2023 and RECOVER 2024 in full once reachable, then fill the numeric parameters marked `TODO`
 - [ ] Fetch canine anatomy plates (tool built; needs host access)
 - [ ] Build the reviewer sign-off packet (one page per module: claims, sources, open questions, signature block)

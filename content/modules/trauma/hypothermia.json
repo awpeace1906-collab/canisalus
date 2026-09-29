@@ -3,18 +3,36 @@
   "title": "Hypothermia",
   "domain": "trauma",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Hypothermia can follow environmental exposure, illness, medications, anesthesia or trauma, and even severely affected dogs, including those in cardiopulmonary arrest, can recover completely with appropriate therapy [1].",
+  "what_changes_from_human": [
+    {
+      "point": "Ordinary thermometers can miss hypothermia: nontraditional thermometers may be needed to diagnose it [1].",
+      "objective_id": "trauma-hypothermia-01"
+    },
+    {
+      "point": "Even dogs in cardiopulmonary arrest from hypothermia can recover fully, so resuscitation may need to be prolonged [1].",
+      "objective_id": "trauma-hypothermia-02"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "Hypothermia is diagnosed from presenting temperature or clinical signs, and may need nontraditional thermometers [1].",
+      "Human trauma data: hypothermia on admission was independently associated with higher mortality (23.4% vs 2.3%) in a 3-million-patient registry. This is human data and is context only [2]."
+    ],
+    "management": [
+      "Rewarming is the primary treatment for accidental hypothermia, from passive surface rewarming to extracorporeal rewarming. The goal is to return core temperature to a level that restores normal physiologic function [1].",
+      "Intravenous fluids and other supportive care are typically indicated. If cardiopulmonary arrest is present, prolonged resuscitation may be required [1].",
+      "In secondary hypothermia, reversing the underlying cause is important [1].",
+      "There are few prognostic indicators in hypothermic dogs, so early discouraging findings should not stop care [1].",
+      "TODO: target temperatures and rewarming rates for dogs. The retrieved rewarming-rate data come from human cohorts and rodent and swine models and point in different directions, so none is used."
+    ],
     "procedure_refs": []
   },
   "lens": {
@@ -49,7 +67,18 @@
       "transfer_trigger": "TODO"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "Stop the heat loss, rewarm, and keep resuscitating: a cold dog can still recover.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Brodeur A et al. 2017. Hypothermia and targeted temperature management in cats and dogs. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Hypothermia%20and%20targeted%20temperature%20management%20in%20cats%20and%20dogs"
+    },
+    {
+      "rank": 3,
+      "citation": "Jose A et al. 2024. Hypothermia on admission predicts poor outcomes in adult trauma patients (human data). Injury.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Hypothermia%20on%20admission%20predicts%20poor%20outcomes%20in%20adult%20trauma%20patients"
+    }
+  ],
   "drug_refs": []
 }
