@@ -61,7 +61,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [x] Pericardial effusion (draft, two sources)
 - [x] Airway (draft, three sources; technique and scope TODO)
 - [~] Burns (draft, thin evidence, two sources); blast, gunshot and stab wounds not started
-- [ ] Structured vet handoff, HEMS policy, loading and restraint
+- [~] Structured vet handoff (draft, human-data source only); HEMS policy, loading and restraint not started
 - [ ] Pathophysiology gaps: respiratory and airway, coagulation, renal and acid-base, glucose, seizures
 
 ## Verification debt (Claude)

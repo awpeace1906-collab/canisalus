@@ -3,53 +3,75 @@
   "title": "Structured vet handoff",
   "domain": "handoff",
   "reversible": false,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 24,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "A dog moving from a handler or medic to a veterinarian needs the same structured handoff a person gets; no veterinary handoff study was retrieved, and human evidence for SBAR is only moderate [1].",
+  "what_changes_from_human": [
+    {
+      "point": "Canine handoffs must carry facts a human handoff does not: breed, measured or estimated weight, DEA 1 blood type if known, MDR1 status and the regular veterinarian, all of which change what the receiving vet can safely give.",
+      "objective_id": "handoff-01"
+    },
+    {
+      "point": "A systematic review of SBAR in human care found moderate evidence for improved patient safety, especially for telephone communication, but a lack of high-quality research (human data) [1].",
+      "objective_id": "handoff-02"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "The app's handoff builder uses the SBAR order: Situation, Background (dog profile), Timeline and interventions, Assessment, Recommendation. This is a design choice, supported only by human data [1].",
+      "Weight is marked ESTIMATED when it was not measured; blank fields print as not recorded rather than being guessed.",
+      "TODO: veterinary evidence on handoff content (what emergency veterinarians say they need first), and a reviewer-approved minimum data set."
+    ],
+    "management": [
+      "Give the receiving veterinarian: what happened and when, every intervention and time, every drug given (including any human-labelled drug), weight and whether estimated, MDR1 and DEA 1 status, and the dog's regular veterinarian.",
+      "TODO: HEMS and ground transport policy, loading and restraint of a working dog. No source retrieved for these; not started."
+    ],
     "procedure_refs": []
   },
   "lens": {
     "handler": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "prehospital_als": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "flight_cct": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "human_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_gp": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "Hand the receiving veterinarian what happened, what was done and when, and the dog's weight and MDR1 status; say clearly what is estimated or unknown.",
+  "sources": [
+    {
+      "rank": 4,
+      "citation": "Müller M et al. 2018. Impact of the communication and patient hand-off tool SBAR on patient safety: a systematic review (human data). BMJ Open.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30139905/"
+    }
+  ],
   "drug_refs": []
 }
