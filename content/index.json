@@ -565,6 +565,12 @@
       "title": "Blood glucose in the sick dog",
       "domain": "pathophysiology",
       "order": 8
+    },
+    {
+      "id": "seizures-and-drug-resistance",
+      "title": "Seizures and drug resistance",
+      "domain": "pathophysiology",
+      "order": 9
     }
   ]
 }

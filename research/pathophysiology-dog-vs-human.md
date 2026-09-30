@@ -67,3 +67,10 @@ New module `blood-glucose-in-the-sick-dog`. Sources (abstract level): Hagley 202
 - **Scope:** the retrievable dog evidence is clinical epidemiology, not a physiological dog-vs-human comparison. The human column is general knowledge and flagged as such. Study cut-offs (80 and 120 mg/dL) are study definitions, not reference ranges.
 - **Seen, not used:** a 2026 review of pancreatic nerves across species (PMID 42626230; says canine pancreatic nerve organization resembles humans but differs in fiber type proportions; too general), xylitol and mushroom toxicosis papers that mention hypoglycemia (covered in toxicology modules).
 - **Gaps:** canine glucose reference values, working-dog exertional and fasting glucose (two searches returned nothing), and dog-vs-human counter-regulation.
+
+## Seizures and drug resistance (added 2026-09-30)
+
+New module `seizures-and-drug-resistance`, from the two seizure papers read in full (Charalambous 2021 review, PMC7934266; ACVIM 2023 consensus, PMC10800221, rationale text only).
+- Numbers are taken from the review text: SE in 0.5 to 2.6% of dogs admitted to emergency hospitals, 16.5% of dogs presenting for seizures, first sign in 58%; SE in 27-59% of idiopathic, 32-40% of structural, 7-23% of reactive seizures; mortality 25.3 to 38.5%; canine brain P-glycoprotein up 87 to 166% after SE.
+- The human column is partly from the same papers (ILAE definition, transporter over-expression described "in both humans and animals") and partly general knowledge; rows are flagged accordingly.
+- **Not supported:** any link between the MDR1 (ABCB1) mutation and antiseizure drug handling (no retrieved source); left as a TODO.
