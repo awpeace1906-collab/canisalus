@@ -30,7 +30,7 @@ Stimulant exposure is a duty hazard for working dogs. Street drugs are often adu
 
 | # | Citation | Link status |
 |---|----------|-------------|
-| 1 | Oster E et al. 2023. Intoxication of dogs and cats with common stimulating, hallucinogenic and dissociative recreational drugs. Vet Anim Sci. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Intoxication%20of%20dogs%20and%20cats%20with%20common%20stimulating%2C%20hallucinogenic%20and%20dissociative%20recreational%20drugs) |
+| 1 | Oster E et al. 2023. Intoxication of dogs and cats with common stimulating, hallucinogenic and dissociative recreational drugs. Vet Anim Sci. | record link (https://pubmed.ncbi.nlm.nih.gov/36798946/) |
 | 2 | Harris S et al. 2022. Case report: successful intravenous lipid emulsion therapy for canine amphetamine toxicosis. Front Vet Sci. | record link (https://pubmed.ncbi.nlm.nih.gov/35903141/) |
 | 3 | Pei Z et al. 2014. Methamphetamine intoxication in a dog: case report. BMC Vet Res. | record link (https://pubmed.ncbi.nlm.nih.gov/24962469/) |
 | 4 | Martindale DM et al. 2024. Case report of confirmed lisdexamfetamine toxicosis in a dog with postmortem findings (PubMed lists the title as "[Not Available]"). J Vet Emerg Crit Care. | record link (https://pubmed.ncbi.nlm.nih.gov/38412018/) |

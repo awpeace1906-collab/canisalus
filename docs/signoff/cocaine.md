@@ -29,7 +29,7 @@ Cocaine toxicosis is infrequently suspected in dogs, and neurological signs pred
 | # | Citation | Link status |
 |---|----------|-------------|
 | 1 | Thomas E et al. 2014. Presumptive cocaine toxicosis in 19 dogs: 2004-2012. J Vet Emerg Crit Care. | record link (https://pubmed.ncbi.nlm.nih.gov/24739034/) |
-| 2 | Oster E et al. 2023. Intoxication of dogs and cats with common stimulating, hallucinogenic and dissociative recreational drugs. Vet Anim Sci. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Intoxication%20of%20dogs%20and%20cats%20with%20common%20stimulating%2C%20hallucinogenic%20and%20dissociative%20recreational%20drugs) |
+| 2 | Oster E et al. 2023. Intoxication of dogs and cats with common stimulating, hallucinogenic and dissociative recreational drugs. Vet Anim Sci. | record link (https://pubmed.ncbi.nlm.nih.gov/36798946/) |
 
 ## Open items (7)
 
