@@ -1,0 +1,78 @@
+{
+  "id": "coagulation-and-bleeding-disorders",
+  "title": "Coagulation and bleeding disorders",
+  "domain": "pathophysiology",
+  "reversible": false,
+  "status": "draft",
+  "last_verified": null,
+  "review_interval_months": 24,
+  "signoff": {
+    "vet": null,
+    "physician": null
+  },
+  "why_this_matters": "Clot-consuming snake venoms acted faster on dog plasma than on human plasma in the laboratory, and breed-linked bleeding disorders such as von Willebrand disease change how much a dog bleeds from an ordinary injury.",
+  "what_changes_from_human": [
+    {
+      "point": "In vitro, all 11 procoagulant snake venoms tested acted faster on dog plasma than on cat or human plasma, so dogs may become coagulopathic sooner after envenomation; dog plasma also clotted faster on its own than cat plasma.",
+      "objective_id": "pathophys-coag-01"
+    },
+    {
+      "point": "Von Willebrand disease was found in 1.43% of 350 dogs of various breeds in one Brazilian survey, and a case report notes Doberman Pinschers have a high prevalence; a history of bleeding, or a predisposed breed, matters before procedures.",
+      "objective_id": "pathophys-coag-02"
+    }
+  ],
+  "content": {
+    "recognition": [],
+    "management": [],
+    "procedure_refs": []
+  },
+  "takeaway": "Snake venom can push a dog into a clotting disorder sooner than a person; ask about breed and bleeding history, and get snakebite dogs to a veterinarian early.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Zdenek CN et al. 2020. Pets in peril: the relative susceptibility of cats and dogs to procoagulant snake venoms. Comp Biochem Physiol C Toxicol Pharmacol.",
+      "url": "https://doi.org/10.1016/j.cbpc.2020.108769"
+    },
+    {
+      "rank": 3,
+      "citation": "Mattoso CRS et al. 2010. Prevalence of von Willebrand disease in dogs from Sao Paulo State, Brazil. J Vet Diagn Invest.",
+      "url": "https://doi.org/10.1177/104063871002200109"
+    },
+    {
+      "rank": 4,
+      "citation": "Conti-Patara A et al. 2020. Dal-induced red blood cell incompatibilities in a Doberman Pinscher with von Willebrand factor deficiency and ehrlichiosis (case report). J Vet Emerg Crit Care.",
+      "url": "https://doi.org/10.1111/vec.13015"
+    },
+    {
+      "rank": 4,
+      "citation": "Kochi M et al. 2021. Late recanalization after complete occlusion of patent ductus arteriosus in a Pembroke Welsh Corgi with von Willebrand disease (case report). Vet Med Sci.",
+      "url": "https://doi.org/10.1002/vms3.634"
+    }
+  ],
+  "drug_refs": [],
+  "kind": "pathophysiology",
+  "compare": [
+    {
+      "topic": "Speed of clotting and vulnerability to procoagulant venom",
+      "human": "Procoagulant venoms acted more slowly on human plasma than on dog plasma in the same test system.",
+      "canine": "All 11 venoms tested, including eastern brown snake venom, acted faster on dog plasma than on cat or human plasma. Dog plasma also clotted faster spontaneously after recalcification than cat plasma (no human comparison was reported). In Australia, only 31% of dogs survived eastern brown snake bites without antivenom against 66% of cats.",
+      "implication": "After a bite from a clot-consuming snake, a dog may reach coagulopathy sooner than a person would; first aid, transport and antivenom should not be delayed. This is laboratory plasma data plus clinical records, not a bedside test.",
+      "human_basis": "cited",
+      "source_refs": [
+        1
+      ]
+    },
+    {
+      "topic": "Inherited bleeding disorder: von Willebrand disease",
+      "human": "Von Willebrand disease is the commonest inherited bleeding disorder in people.",
+      "canine": "In 350 dogs in Sao Paulo State, Brazil, with no history of abnormal bleeding, 1.43% had von Willebrand disease; von Willebrand factor antigen was the best diagnostic test. A case report states Doberman Pinschers have a high prevalence, and a Pembroke Welsh Corgi with the disease had unexpected bleeding and a late procedural complication.",
+      "implication": "Ask the handler about breed and any bleeding history. An unexplained bleed in a predisposed breed may be inherited, and a bleeding dog should not be assumed to be traumatized alone.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

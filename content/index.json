@@ -547,6 +547,12 @@
       "title": "Respiratory mechanics and oxygen transport",
       "domain": "pathophysiology",
       "order": 5
+    },
+    {
+      "id": "coagulation-and-bleeding-disorders",
+      "title": "Coagulation and bleeding disorders",
+      "domain": "pathophysiology",
+      "order": 6
     }
   ]
 }

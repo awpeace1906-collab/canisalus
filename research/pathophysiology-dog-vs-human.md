@@ -46,3 +46,10 @@ New compare module `respiratory-mechanics-and-oxygen-transport`. Sources: Clerba
 - **Contested point:** the widely taught idea that a dog's two pleural cavities communicate is *not* settled. The only experiment retrieved says disease stays in one cavity unless the mediastinum is injured; a small clinical series found bilateral pneumothorax in 5 of 6 dogs. The module presents both and asserts neither.
 - **Not used:** two PubMed hits on collateral ventilation (Port 1977, Leakakos 1994) say nothing specific about dogs in their abstracts. Collateral ventilation in dogs remains unsourced.
 - **Gaps:** panting mechanics beyond the thermoregulation module, brachycephalic airway physiology, lung volumes and compliance.
+
+## Coagulation and bleeding disorders (added 2026-09-30)
+
+New compare module `coagulation-and-bleeding-disorders`. Sources: Zdenek 2020 (in vitro procoagulant venoms on dog, cat and human plasma; abstract level), Mattoso 2010 (vWD prevalence, 350 dogs, Brazil), and two case reports (Conti-Patara 2020, Kochi 2021) used only for the breed and clinical illustration.
+- **Weak spots:** the vWD prevalence is one regional survey of mixed breeds; the Doberman prevalence statement comes from a case report's conclusion, not a survey. Neither gives breed-specific numbers.
+- **Searches that returned nothing usable:** reference intervals and thromboelastography in healthy dogs vs humans; canine platelet function and aspirin or clopidogrel species differences; a general canine-vs-human hemostasis review.
+- **Gaps:** canine hemophilia, platelet function, fibrinolysis and hypercoagulability in dogs, and DIC. Reviewers should nominate a comparative hemostasis review.
