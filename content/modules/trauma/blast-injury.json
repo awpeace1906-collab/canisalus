@@ -3,53 +3,75 @@
   "title": "Blast injury",
   "domain": "trauma",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Explosions killed about a quarter of deployed military working dogs that died, and only military working dogs, not civilian or operational dogs in the comparison registry, sustained trauma from explosions [1][2].",
+  "what_changes_from_human": [
+    {
+      "point": "In deployed military working dogs, explosions accounted for 22.3% of injuries and were seen only in that group; explosion or blast caused 26.1% of deaths, and a larger share in Afghanistan (30.2%) than Iraq (17.2%) [1][2].",
+      "objective_id": "trauma-blast-01"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "Among 92 deployed military working dogs that died, explosion or blast was the second commonest external cause (26.1%) after gunshot wounds (31.5%) [1].",
+      "Military working dogs and civilian dogs both had good prognosis for survival to discharge after trauma in a registry comparison [2].",
+      "TODO: canine blast injury patterns (blast lung, hearing, eye and brain injury, fragment wounds) and first aid. No canine clinical source on blast-specific injury was retrieved; do not import human blast triage."
+    ],
+    "management": [
+      "TODO: field management of a dog after an explosion. Treat as penetrating trauma and severe bleeding first; see the gunshot and stab wounds, hemorrhage control and airway modules. Reviewer decides scope."
+    ],
     "procedure_refs": []
   },
   "lens": {
     "handler": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "prehospital_als": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "flight_cct": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "human_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_gp": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "A dog exposed to an explosion may have hidden injuries as well as obvious wounds; control bleeding, watch breathing, and get to a veterinarian.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Miller L et al. 2018. Causes of death in military working dogs during Operation Iraqi Freedom and Operation Enduring Freedom, 2001-2013. Mil Med.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29547926/"
+    },
+    {
+      "rank": 3,
+      "citation": "Edwards TH et al. 2021. Comparison of trauma sustained by civilian dogs and deployed military working dogs. J Vet Emerg Crit Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34014602/"
+    }
+  ],
   "drug_refs": []
 }

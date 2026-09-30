@@ -60,7 +60,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [x] Anaphylaxis, hemoabdomen (drafts)
 - [x] Pericardial effusion (draft, two sources)
 - [x] Airway (draft, three sources; technique and scope TODO)
-- [~] Burns (draft, thin evidence, two sources); blast, gunshot and stab wounds not started
+- [x] Burns, gunshot and stab wounds, blast injury: all drafted (2026-09-30). Stab wounds and blast-specific injuries still have no canine source
 - [~] Structured vet handoff (draft, human-data source only); HEMS policy, loading and restraint not started
 - [~] Pathophysiology gaps: respiratory, coagulation (thin) and blood chemistry and acid-base reference ranges done (2026-09-30); kidney physiology, glucose, seizures remain
 
