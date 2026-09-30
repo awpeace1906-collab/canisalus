@@ -8,7 +8,7 @@ Last updated: 2026-09-30 (citation waves 1-2: 19 sources resolved to PubMed reco
 |---|------|-------|
 | 1 | ~~Create `main`~~ done; draft PR opens once the branch has a commit beyond main | Claude |
 | 2 | Allow `commons.wikimedia.org` and `upload.wikimedia.org` in the environment network settings so canine plates can be fetched | You |
-| 3 | The 2026 RECOVER first-aid guidelines are now read in full via PubMed Central (open access). Still needed: K9TCCC 2023 and K9-TECC full text, RECOVER 2024 CPR full text: allow `jsomonline.org`, `specialoperationsmedicine.org`, `learning-media.allogy.com`, `crisis-medicine.com`, `acvecc-recover.org`, or upload the K9TCCC 2023, K9-TECC and RECOVER 2024 PDFs | You |
+| 3 | The 2026 RECOVER first-aid guidelines are now read in full via PubMed Central (open access). Still needed: K9TCCC 2023 and K9-TECC full text, RECOVER 2024 CPR full text (checked: not in PubMed Central, needs the journal PDFs): allow `jsomonline.org`, `specialoperationsmedicine.org`, `learning-media.allogy.com`, `crisis-medicine.com`, `acvecc-recover.org`, or upload the K9TCCC 2023, K9-TECC and RECOVER 2024 PDFs | You |
 | 4 | Approve the new **Pathophysiology: dog vs human** domain as an addition to the reviewer framework | You |
 | 5 | Name vet and physician reviewers per domain | You |
 | 6 | USPTO and App Store trademark check on CaniSalus | You |
