@@ -35,7 +35,7 @@
     {
       "rank": 3,
       "citation": "Robertshaw D. 2006. Mechanisms for the control of respiratory evaporative heat loss in panting animals. J Appl Physiol.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Mechanisms%20for%20the%20control%20of%20respiratory%20evaporative%20heat%20loss%20in%20panting%20animals"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16675613/"
     },
     {
       "rank": 3,
@@ -45,7 +45,7 @@
     {
       "rank": 3,
       "citation": "Blatt CM et al. 1972. Thermal panting in dogs: the lateral nasal gland, a source of water for evaporative cooling. Science.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Thermal%20panting%20in%20dogs%3A%20the%20lateral%20nasal%20gland%2C%20a%20source%20of%20water%20for%20evaporative%20cooling"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/5052734/"
     },
     {
       "rank": 3,
@@ -92,7 +92,7 @@
     {
       "topic": "Where the water for evaporation comes from",
       "human": "Sweat glands over the skin.",
-      "canine": "The lateral nasal glands supply much of the water for panting, and their function is described as analogous to sweat glands in man.",
+      "canine": "The lateral nasal glands are described as supplying a large part of the water for panting and as analogous to sweat glands in man; their evaporation could account for 19 to 36 percent of the increase in respiratory evaporation with thermal panting.",
       "implication": "Cooling in dogs is tied to the airway and nose, not the skin surface.",
       "human_basis": "cited",
       "source_refs": [

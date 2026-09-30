@@ -39,3 +39,24 @@ Respiratory anatomy and physiology (upper airway, brachycephalic breeds), coagul
 ## Citation status
 
 Verified to a DOI or PubMed record against PubMed metadata: the citations with `https://doi.org/` or `pubmed.ncbi.nlm.nih.gov` URLs. Two retrieval-tool authorship errors were caught and corrected during verification (the Italian MDR1 survey is Marelli et al., and the mitral-valve RSA study is Baisan et al.). **Sixteen citations still carry a retrieval link** (Van Poucke 2009, Ramos 2023 abstract, Gavazza 2017, Baran 2018, Spada 2017, Guidetti 2019, Martinez 2021, Bates 2019, Mealey 2019 chapter, Edwards 2021 Transfusion, Pottecher 2013 letter, Bar-Joseph 1985, Robertshaw 2006, Goldberg 1981, Blatt 1972, Russo 2024). Their author and year details are unverified against PubMed. `npm run validate` warns on them, and blocks approval of any module that still has one.
+
+## Respiratory mechanics and oxygen transport (added 2026-09-30)
+
+New compare module `respiratory-mechanics-and-oxygen-transport`. Sources: Clerbaux 1993 (oxygen dissociation curve, man vs dog, 4 species; abstract level), von Recum 1977 (39 dogs, mediastinum), Boysen 2019 (6 dogs, bilateral pneumothorax), Thawley 2026 (oxygen target).
+- **Contested point:** the widely taught idea that a dog's two pleural cavities communicate is *not* settled. The only experiment retrieved says disease stays in one cavity unless the mediastinum is injured; a small clinical series found bilateral pneumothorax in 5 of 6 dogs. The module presents both and asserts neither.
+- **Not used:** two PubMed hits on collateral ventilation (Port 1977, Leakakos 1994) say nothing specific about dogs in their abstracts. Collateral ventilation in dogs remains unsourced.
+- **Gaps:** panting mechanics beyond the thermoregulation module, brachycephalic airway physiology, lung volumes and compliance.
+
+## Coagulation and bleeding disorders (added 2026-09-30)
+
+New compare module `coagulation-and-bleeding-disorders`. Sources: Zdenek 2020 (in vitro procoagulant venoms on dog, cat and human plasma; abstract level), Mattoso 2010 (vWD prevalence, 350 dogs, Brazil), and two case reports (Conti-Patara 2020, Kochi 2021) used only for the breed and clinical illustration.
+- **Weak spots:** the vWD prevalence is one regional survey of mixed breeds; the Doberman prevalence statement comes from a case report's conclusion, not a survey. Neither gives breed-specific numbers.
+- **Searches that returned nothing usable:** reference intervals and thromboelastography in healthy dogs vs humans; canine platelet function and aspirin or clopidogrel species differences; a general canine-vs-human hemostasis review.
+- **Gaps:** canine hemophilia, platelet function, fibrinolysis and hypercoagulability in dogs, and DIC. Reviewers should nominate a comparative hemostasis review.
+
+## Blood chemistry and acid-base reference ranges (added 2026-09-30)
+
+New module `blood-chemistry-and-acid-base-reference-ranges`, planned as "renal and acid-base". The evidence retrieved supports reference-range interpretation, not a kidney comparison, so it was scoped that way.
+Sources (abstract level): O'Brien 2014 (68 puppies), Mesa-Sanchez 2012 (Galgo Espanol), Bachmann 2018 (tube vs syringe, 51 dogs), Vanova-Uhrikova 2017 (224 healthy dogs; the abstract gives no numbers, so none are entered).
+- **Not used:** Kokubo 1984 (renal inner medulla histology of man, swine, dog, hamster; correlates with concentrating ability but states no clear dog-vs-human result), Shaw 1989 (ammonium chloride acid load; a diagnostic test dose, not a field topic).
+- **Gaps:** dog vs human kidney physiology (concentrating ability, GFR, creatinine), renal toxin handling, and actual canine reference numbers.

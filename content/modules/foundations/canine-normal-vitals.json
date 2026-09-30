@@ -3,53 +3,75 @@
   "title": "Canine normal vitals",
   "domain": "foundations",
   "reversible": false,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 24,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Human vital-sign ranges do not transfer to dogs, and a resting respiratory rate above the healthy range is an early sign of trouble; only one healthy-dog respiratory rate dataset has been retrieved so far [1].",
+  "what_changes_from_human": [
+    {
+      "point": "In 114 apparently healthy adult dogs measured at home, the mean sleeping respiratory rate was 13 breaths/min and no dog averaged above 23; mean resting rate was 19 breaths/min [1].",
+      "objective_id": "foundations-vitals-01"
+    },
+    {
+      "point": "Instantaneous sleeping rates above 30 breaths/min were rare (3 dogs), so a sustained rate above 30 in a sleeping or calm dog is unusual [1].",
+      "objective_id": "foundations-vitals-02"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "Respiratory rate: sleeping mean 13 (all dogs under 23); resting mean 19 breaths/min. Age, body weight and location did not change the sleeping rate [1].",
+      "The study measured dogs at home; hospital or field values, and dogs that are panting, excited or hot, are not covered [1].",
+      "TODO: heart rate by size and fitness, including the normal sinus arrhythmia (see the cardiac rhythm module), rectal temperature range, capillary refill and mucous membrane color, and blood pressure. No canine reference source retrieved yet; do not fill from human ranges."
+    ],
+    "management": [
+      "Reference values only; this module gives no treatment.",
+      "TODO: working-dog and athlete values (resting heart rate is often lower), and how to take each vital sign in a dog."
+    ],
     "procedure_refs": []
   },
   "lens": {
     "handler": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "prehospital_als": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "flight_cct": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "human_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_gp": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "Dogs breathe slowly at rest (about 13 to 19 breaths per minute in healthy adults); do not judge a dog by human vital-sign ranges.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Rishniw M et al. 2012. Sleeping respiratory rates in apparently healthy adult dogs. Res Vet Sci.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22240295/"
+    }
+  ],
   "drug_refs": []
 }

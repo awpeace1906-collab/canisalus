@@ -24,7 +24,8 @@
   "content": {
     "recognition": [
       "In dogs with traumatic pneumomediastinum, common signs were tachycardia, tachypnea, subcutaneous emphysema, pneumothorax and dyspnea [3].",
-      "Pneumothorax followed nasogastric tube misplacement in the airway in 0.3% of 4,777 dogs in one study; 9 of 13 affected dogs developed respiratory compromise [1]."
+      "Pneumothorax followed nasogastric tube misplacement in the airway in 0.3% of 4,777 dogs in one study; 9 of 13 affected dogs developed respiratory compromise [1].",
+      "Whether a dog's pneumothorax stays on one side is disputed: disease stayed in one pleural cavity unless the mediastinum was injured in a 39-dog experiment [8], but 5 of 6 dogs in a 2019 ultrasound series had pneumothorax on both sides [9]. Assess both sides. See the respiratory pathophysiology module."
     ],
     "management": [
       "In the 13-dog series, 11 dogs needed thoracocentesis and 5 a thoracostomy tube; 5 arrested and 5 survived to discharge [1]. In a 6-dog series, pneumothorax resolved in all, with thoracocentesis in 3 and a chest tube in 1 [2].",
@@ -71,37 +72,47 @@
     {
       "rank": 3,
       "citation": "Odunayo A et al. 2023. Outcomes, including death, in dogs with pneumothorax following nasogastric feeding tube misplacement in the tracheobronchial tree: 13 cases (2017-2022). J Am Vet Med Assoc.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Outcomes%2C%20including%20death%2C%20in%20dogs%20with%20pneumothorax%20following%20nasogastric%20feeding%20tube%20misplacement%20in%20the%20tracheobronchial%20tree"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37146975/"
     },
     {
       "rank": 3,
       "citation": "Hanchate AN et al. 2025. Pneumothorax as a complication of nasogastric feeding tube placement in six dogs. J Vet Emerg Crit Care.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pneumothorax%20as%20a%20Complication%20of%20Nasogastric%20Feeding%20Tube%20Placement%20in%20Six%20Dogs"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40492373/"
     },
     {
       "rank": 3,
       "citation": "Klainbart S et al. 2024. Retrospective evaluation of traumatic pneumomediastinum in dogs and cats (2005-2022): 52 cases. J Vet Emerg Crit Care.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Retrospective%20evaluation%20of%20traumatic%20pneumomediastinum%20in%20dogs%20and%20cats%20%282005-2022%29%3A%2052%20cases"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38728066/"
     },
     {
       "rank": 3,
       "citation": "Robitaille-Fortin M et al. 2021. Prehospital decompression of pneumothorax: a systematic review of recent evidence (human data). Prehosp Disaster Med.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Prehospital%20Decompression%20of%20Pneumothorax%3A%20A%20Systematic%20Review%20of%20Recent%20Evidence"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34030755/"
     },
     {
       "rank": 3,
-      "citation": "Martin MJ et al. 2012. Does needle thoracostomy provide adequate and effective decompression of tension pneumothorax? (swine model). J Trauma Acute Care Surg.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Does%20needle%20thoracostomy%20provide%20adequate%20and%20effective%20decompression%20of%20tension%20pneumothorax%3F"
+      "citation": "Martin M et al. 2012. Does needle thoracostomy provide adequate and effective decompression of tension pneumothorax? (swine model). J Trauma Acute Care Surg.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22902737/"
     },
     {
       "rank": 3,
       "citation": "Kaserer A et al. 2017. Failure rate of prehospital chest decompression after severe thoracic trauma (human data). Am J Emerg Med.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Failure%20rate%20of%20prehospital%20chest%20decompression%20after%20severe%20thoracic%20trauma"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27939518/"
     },
     {
       "rank": 2,
       "citation": "Lyng JW et al. 2024. Prehospital Trauma Compendium: traumatic pneumothorax care, a position statement and resource document of NAEMSP (human data). Prehosp Emerg Care.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Prehospital%20Trauma%20Compendium%3A%20Traumatic%20Pneumothorax%20Care%20-%20a%20position%20statement%20and%20resource%20document%20of%20NAEMSP"
+    },
+    {
+      "rank": 3,
+      "citation": "von Recum AF. 1977. The mediastinum and hemothorax, pyothorax, and pneumothorax in the dog. J Am Vet Med Assoc.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/914683/"
+    },
+    {
+      "rank": 3,
+      "citation": "Boysen S et al. 2019. Abnormal curtain signs identified with a novel lung ultrasound protocol in six dogs with pneumothorax. Front Vet Sci.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31555674/"
     }
   ],
   "drug_refs": []

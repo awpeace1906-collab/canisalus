@@ -541,6 +541,24 @@
       "title": "Jurisdiction card",
       "domain": "legal",
       "order": 0
+    },
+    {
+      "id": "respiratory-mechanics-and-oxygen-transport",
+      "title": "Respiratory mechanics and oxygen transport",
+      "domain": "pathophysiology",
+      "order": 5
+    },
+    {
+      "id": "coagulation-and-bleeding-disorders",
+      "title": "Coagulation and bleeding disorders",
+      "domain": "pathophysiology",
+      "order": 6
+    },
+    {
+      "id": "blood-chemistry-and-acid-base-reference-ranges",
+      "title": "Blood chemistry and acid-base reference ranges",
+      "domain": "pathophysiology",
+      "order": 7
     }
   ]
 }

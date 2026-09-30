@@ -4,7 +4,7 @@ Module: `content/modules/medical/snake-envenomation.json`. Draft. Not reviewed.
 
 ## Evidence retrieved (abstracts)
 
-Carotenuto 2021 (282 dogs, crotalid, three antivenoms); Day 2024 (240 dogs and 98 cats, eastern brown snake); Padula 2017 (eastern brown snake, 16 dogs and cats); Padula 2020 (red-bellied black snake, 17 dogs); Lyon 2022 (in vitro thromboelastography, rattlesnake venom); Maduwage 2014 (human VICC review, context only).
+Carotenuto 2021 (282 dogs, crotalid, three antivenoms); Day 2024 (240 dogs and 98 cats, eastern brown snake); Padula 2017 (eastern brown snake, 16 dogs and cats); Padula 2020 (red-bellied black snake, 17 dogs); Altemus Bailey 2022 (first author corrected from Lyon) (in vitro thromboelastography, rattlesnake venom); Maduwage 2014 (human VICC review, context only).
 
 ## Key point for the app: region matters
 

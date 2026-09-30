@@ -26,7 +26,9 @@
       "A 4-base-pair deletion in ABCB1 (MDR1) produces a nonfunctional P-glycoprotein at the blood-brain barrier. Affected dogs are more susceptible to neurotoxic effects of ivermectin, moxidectin and loperamide [2][4].",
       "Most dogs with adverse reactions are homozygous, but heterozygotes can be affected [4].",
       "Mutant allele frequency varies by breed and country. In one European survey: Smooth Collie 58.5%, Rough Collie 48.3%, Australian Shepherd 35%, Shetland Sheepdog 30.3%; Border Collie 0% in that survey [1]. The mutation was found in Border Collies in an Italian survey [3].",
-      "German Shepherd findings conflict: not detected in a Belgian sample [6], but reported in later work cited by a UK survey [4]. No source retrieved covers Belgian Malinois."
+      "German Shepherd findings conflict: not detected in a Belgian sample [6], but reported in later work cited by a UK survey [4]. No source retrieved covers Belgian Malinois.",
+      "In 7,378 dogs screened in Germany, mutant MDR1 allele frequency was 59% in Collies, 45% in Longhaired Whippets, 30% in Shetland Sheepdogs, 24% in Miniature Australian Shepherds, 22% in Australian Shepherds, 17% in Wallers, 14% in White Swiss Shepherds, 4% in Old English Sheepdogs and 1% in Border Collies; 8% in herding-breed mixes and 2% in other mixed breeds. It was not found in Bearded Collies, Kelpies, Australian Cattle Dogs, Greyhounds and several other related breeds screened [8]. German data; other countries may differ.",
+      "Because the mutation is widespread across breeds and also occurs in mixed breeds, it is difficult for veterinarians and owners to tell whether MDR1-related drug sensitivity applies to an individual dog [8]."
     ],
     "management": [
       "One MDR1-mutant Collie had severe neurotoxicity after a single butorphanol dose and needed about 40 hours of continuous naloxone (single case) [7].",
@@ -103,6 +105,11 @@
       "rank": 3,
       "citation": "Nelson TS et al. 2025. Case report: adverse reaction to butorphanol in a Collie homozygous for the ABCB1-1Δ (MDR1) mutation. Front Vet Sci.",
       "url": "https://doi.org/10.3389/fvets.2025.1603375"
+    },
+    {
+      "rank": 3,
+      "citation": "Gramer I et al. 2010. Breed distribution of the nt230(del4) MDR1 mutation in dogs. Vet J.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20655253/"
     }
   ],
   "drug_refs": []

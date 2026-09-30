@@ -51,3 +51,8 @@ Module: `content/modules/tox-duty/opioids-including-fentanyl.json` and drug `con
 ## Proposed sources array (all `rank: 3` unless a reviewer re-ranks O1 to 2)
 
 O1-O8, DOIs to be added.
+
+## RECOVER 2026 first-aid guideline (naloxone, section 3.9) read in full text (added 2026-09-30)
+
+Thawley 2026, JVECC 36 Suppl 1 (PMID 42640821, PMC13505872). Recommendations copied into the module: naloxone IN or IM for altered mentation or respiratory rate below 10 per minute when opioid exposure is suspected (strong, low quality); BLS first if apneic or agonal; IN or IM when no vascular access (weak, low quality); none if rescuer risk is high.
+The recommendations state **no dose**. Dose information in the text, for the vet reviewer only and not adopted: Barr et al. gave working dogs a sedative dose of fentanyl (0.3 mg IV) and found IN or IM naloxone 4 mg reversed sedation within 5 minutes; respiratory depression was not assessed.
