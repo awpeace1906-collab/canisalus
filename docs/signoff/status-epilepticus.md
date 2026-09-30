@@ -21,7 +21,11 @@ Seizure emergencies are unlikely to stop on their own and become harder to treat
 ## Management
 
 - Benzodiazepines are the first-line drugs for canine status epilepticus and cluster seizures [1][4].
-- An ACVIM consensus statement recommends an early, rapid, stage-based approach, with management of complications and underlying causes alongside seizure medication [1].
+- The 2023 ACVIM consensus (full text read; its numbered recommendation lines did not extract, so the points below come from its rationale text) defines status epilepticus as a seizure lasting over 5 minutes or 2 or more seizures without recovery of consciousness between, and advises an early, stage-based approach with treatment of complications and causes (for example hypoglycemia, hyperthermia, hypoxemia, electrolytes) started in parallel with seizure drugs [1].
+- ACVIM: a benzodiazepine should stop the seizure within 5 minutes to count as effective; the panel advises about 2 minutes between the first boluses rather than waiting 5, and, if status epilepticus recurs after 2 boluses, a third bolus followed at once by an IV benzodiazepine infusion, avoiding repeated diazepam boluses because of accumulation [1].
+- ACVIM: when intranasal midazolam is unavailable, owners can use rectal diazepam (the injectable formulation) because it may still help; intramuscular midazolam is an effective and safe alternative when IV or intranasal routes are not available. Midazolam is preferred over diazepam for an IV infusion in dogs, and especially cats [1].
+- ACVIM in hospital: phenobarbital and levetiracetam are the second-line drugs and may be started early alongside repeated benzodiazepines. For refractory cases the panel suggests dexmedetomidine then ketamine (or the reverse), and only then propofol, a barbiturate and inhalant anesthesia, which carry more complications and need airway control [1].
+- ACVIM for cluster seizures: oral levetiracetam is a first choice out of hospital (rectal if oral is impossible); in hospital IV midazolam is first for dogs and cats, with IV levetiracetam added [1].
 - In a randomized trial in dogs in status epilepticus before IV access, intranasal midazolam by atomizer stopped seizures in 14 of 20 dogs versus 3 of 15 with rectal diazepam [2].
 - Intranasal and intravenous midazolam had similar success (76% and 61%), and intranasal was faster when the time to place an IV catheter was counted [3].
 - In the 2021 review's assessment, intranasal midazolam is likely an effective and safe first choice at home and in hospital, especially when IV access has not been established; rectal diazepam is unlikely to be as effective [4].
@@ -46,7 +50,7 @@ Seizure emergencies are unlikely to stop on their own and become harder to treat
 
 ## Open items (7)
 
-- [ ] `content.management[13]`: TODO: the stage-based algorithm and second-line drugs from the ACVIM consensus full text (not retrieved), and the canine benzodiazepine drug and dose chosen by the veterinary reviewer. The 2021 review lists dose ranges; they are recorded in research/status-epilepticus.md and are not adopted here.
+- [ ] `content.management[17]`: TODO: the stage-based algorithm and second-line drugs from the ACVIM consensus full text (not retrieved), and the canine benzodiazepine drug and dose chosen by the veterinary reviewer. The 2021 review lists dose ranges; they are recorded in research/status-epilepticus.md and are not adopted here.
 - [ ] `lens.handler.transfer_trigger`: TODO
 - [ ] `lens.prehospital_als.transfer_trigger`: TODO
 - [ ] `lens.flight_cct.transfer_trigger`: TODO

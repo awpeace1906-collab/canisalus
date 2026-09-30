@@ -8,7 +8,7 @@ Last updated: 2026-09-30 (citation waves 1-2: 19 sources resolved to PubMed reco
 |---|------|-------|
 | 1 | ~~Create `main`~~ done; draft PR opens once the branch has a commit beyond main | Claude |
 | 2 | Allow `commons.wikimedia.org` and `upload.wikimedia.org` in the environment network settings so canine plates can be fetched | You |
-| 3 | The 2026 RECOVER first-aid guidelines are now read in full via PubMed Central (open access). Still needed: K9TCCC 2023 and K9-TECC full text, RECOVER 2024 CPR full text (checked: not in PubMed Central, needs the journal PDFs): allow `jsomonline.org`, `specialoperationsmedicine.org`, `learning-media.allogy.com`, `crisis-medicine.com`, `acvecc-recover.org`, or upload the K9TCCC 2023, K9-TECC and RECOVER 2024 PDFs | You |
+| 3 | The 2026 RECOVER first-aid guidelines and the ACVIM 2023 seizure consensus (rationale text only; figures, tables and doses missing) are now read in full via PubMed Central (open access). Still needed: K9TCCC 2023 and K9-TECC full text, RECOVER 2024 CPR full text (checked: not in PubMed Central, needs the journal PDFs): allow `jsomonline.org`, `specialoperationsmedicine.org`, `learning-media.allogy.com`, `crisis-medicine.com`, `acvecc-recover.org`, or upload the K9TCCC 2023, K9-TECC and RECOVER 2024 PDFs | You |
 | 4 | Approve the new **Pathophysiology: dog vs human** domain as an addition to the reviewer framework | You |
 | 5 | Name vet and physician reviewers per domain | You |
 | 6 | USPTO and App Store trademark check on CaniSalus | You |
@@ -67,7 +67,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 ## Verification debt (Claude)
 
 - [ ] Resolve remaining citations (~30 still carry search links; `npm run validate` lists them). Done so far: chocolate, grapes (Wegenast 2022 PMID still unresolved), cannabis (first author corrected to Amissah), 6 anaphylaxis and hemoabdomen sources. Wave 3 done (smoke, snake, seizures; Padula 2020 corrected to Finney, Bhatti to Kähn). Next waves: blood groups, rodenticides, stimulants, hypothermia, pneumothorax
-- [ ] Read K9TCCC 2023, RECOVER 2024 and the 2026 RECOVER anaphylaxis first-aid guideline in full once reachable, then fill the numeric parameters marked `TODO`
+
 - [ ] Fetch canine anatomy plates (tool built; needs host access)
 - [x] Reviewer sign-off packets: `npm run packets` writes `docs/signoff/` (one page per drafted module, blank signature block). Regenerate after content changes
 - [x] Gramer 2010 added to MDR1 module (breed allele frequencies; informs decision 8)
