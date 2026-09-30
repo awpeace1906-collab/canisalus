@@ -559,6 +559,12 @@
       "title": "Blood chemistry and acid-base reference ranges",
       "domain": "pathophysiology",
       "order": 7
+    },
+    {
+      "id": "blood-glucose-in-the-sick-dog",
+      "title": "Blood glucose in the sick dog",
+      "domain": "pathophysiology",
+      "order": 8
     }
   ]
 }

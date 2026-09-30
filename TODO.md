@@ -62,7 +62,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [x] Airway (draft, three sources; technique and scope TODO)
 - [x] Burns, gunshot and stab wounds, blast injury: all drafted (2026-09-30). Stab wounds and blast-specific injuries still have no canine source
 - [~] Structured vet handoff drafted (human-data source only). HEMS policy, loading and restraint: searched 2026-09-30, no canine source retrievable (PubMed returns pharmacology and a drone survey); needs an agency or vet-reviewer policy rather than literature
-- [~] Pathophysiology gaps: respiratory, coagulation (thin) and blood chemistry and acid-base reference ranges done (2026-09-30); kidney physiology, glucose, seizures remain
+- [~] Pathophysiology gaps: respiratory, coagulation (thin) and blood chemistry and acid-base reference ranges done (2026-09-30); kidney physiology and seizures remain; glucose drafted 2026-09-30 (clinical, not physiological)
 
 ## Verification debt (Claude)
 

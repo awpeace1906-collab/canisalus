@@ -1,7 +1,7 @@
 import json, os, re
 domains = {
  "foundations": ("Foundations", False, 24, ["Scene and bite safety","Muzzling and when not to","The handler as team member","Weight estimation","Canine normal vitals","Anatomy for access and monitoring","Human-drug landmines","MDR1 (ABCB1) sensitivity"]),
- "pathophysiology": ("Pathophysiology: dog vs human", False, 24, ["Thermoregulation and heat dissipation","Hemorrhagic shock and the canine spleen","Blood groups and transfusion","Cardiac rhythm and sinus arrhythmia","Drug metabolism and toxic mechanisms","Respiratory mechanics and oxygen transport","Coagulation and bleeding disorders","Blood chemistry and acid-base reference ranges"]),
+ "pathophysiology": ("Pathophysiology: dog vs human", False, 24, ["Thermoregulation and heat dissipation","Hemorrhagic shock and the canine spleen","Blood groups and transfusion","Cardiac rhythm and sinus arrhythmia","Drug metabolism and toxic mechanisms","Respiratory mechanics and oxygen transport","Coagulation and bleeding disorders","Blood chemistry and acid-base reference ranges","Blood glucose in the sick dog"]),
  "arrest": ("Arrest", True, 12, ["CPR (RECOVER)","K9 reversible causes","Post-arrest care"]),
  "trauma": ("Trauma resuscitation", True, 12, ["K9 MARCH-PAWS primary survey","Hemorrhage control","Airway","Tension pneumothorax","Hemorrhagic shock and fluids","Tranexamic acid","Head injury","Hypothermia","Gunshot and stab wounds","Blast injury","Burns","Ocular injury","Fractures and splinting"]),
  "procedures": ("Procedures", True, 24, ["Peripheral IV access","Jugular access","Intraosseous access","Orotracheal intubation","Surgical tracheotomy","Needle thoracostomy","Tube thoracostomy","GDV decompression","Pericardiocentesis","Wound packing","Splinting","Restraint"]),

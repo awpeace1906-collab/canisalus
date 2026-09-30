@@ -60,3 +60,10 @@ New module `blood-chemistry-and-acid-base-reference-ranges`, planned as "renal a
 Sources (abstract level): O'Brien 2014 (68 puppies), Mesa-Sanchez 2012 (Galgo Espanol), Bachmann 2018 (tube vs syringe, 51 dogs), Vanova-Uhrikova 2017 (224 healthy dogs; the abstract gives no numbers, so none are entered).
 - **Not used:** Kokubo 1984 (renal inner medulla histology of man, swine, dog, hamster; correlates with concentrating ability but states no clear dog-vs-human result), Shaw 1989 (ammonium chloride acid load; a diagnostic test dose, not a field topic).
 - **Gaps:** dog vs human kidney physiology (concentrating ability, GFR, creatinine), renal toxin handling, and actual canine reference numbers.
+
+## Blood glucose in the sick dog (added 2026-09-30)
+
+New module `blood-glucose-in-the-sick-dog`. Sources (abstract level): Hagley 2020 (660 ER dogs), Parratt 2018 (386 coma or stupor animals, 168 dogs), Verkinderen 2025 (49 dogs with insulin-induced hypoglycemic seizures).
+- **Scope:** the retrievable dog evidence is clinical epidemiology, not a physiological dog-vs-human comparison. The human column is general knowledge and flagged as such. Study cut-offs (80 and 120 mg/dL) are study definitions, not reference ranges.
+- **Seen, not used:** a 2026 review of pancreatic nerves across species (PMID 42626230; says canine pancreatic nerve organization resembles humans but differs in fiber type proportions; too general), xylitol and mushroom toxicosis papers that mention hypoglycemia (covered in toxicology modules).
+- **Gaps:** canine glucose reference values, working-dog exertional and fasting glucose (two searches returned nothing), and dog-vs-human counter-regulation.
