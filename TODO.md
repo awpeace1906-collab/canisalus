@@ -1,6 +1,6 @@
 # Running to-do list
 
-Last updated: 2026-09-29 (citation waves 1-2: 19 sources resolved to PubMed records; ~70 remain). Owner column: **You** = needs Andrew, **Reviewer** = vet or physician, **Claude** = I can do it next.
+Last updated: 2026-09-30 (citation waves 1-2: 19 sources resolved to PubMed records; ~70 remain). Owner column: **You** = needs Andrew, **Reviewer** = vet or physician, **Claude** = I can do it next.
 
 ## Blocked on you
 
@@ -8,14 +8,14 @@ Last updated: 2026-09-29 (citation waves 1-2: 19 sources resolved to PubMed reco
 |---|------|-------|
 | 1 | ~~Create `main`~~ done; draft PR opens once the branch has a commit beyond main | Claude |
 | 2 | Allow `commons.wikimedia.org` and `upload.wikimedia.org` in the environment network settings so canine plates can be fetched | You |
-| 3 | Allow `jsomonline.org`, `specialoperationsmedicine.org`, `learning-media.allogy.com`, `crisis-medicine.com`, `acvecc-recover.org`, or upload the K9TCCC 2023, K9-TECC and RECOVER 2024 PDFs | You |
+| 3 | The 2026 RECOVER first-aid guidelines are now read in full via PubMed Central (open access). Still needed: K9TCCC 2023 and K9-TECC full text, RECOVER 2024 CPR full text: allow `jsomonline.org`, `specialoperationsmedicine.org`, `learning-media.allogy.com`, `crisis-medicine.com`, `acvecc-recover.org`, or upload the K9TCCC 2023, K9-TECC and RECOVER 2024 PDFs | You |
 | 4 | Approve the new **Pathophysiology: dog vs human** domain as an addition to the reviewer framework | You |
 | 5 | Name vet and physician reviewers per domain | You |
 | 6 | USPTO and App Store trademark check on CaniSalus | You |
-| 7 | Decide: naloxone dose source for the app (vet reviewer picks; study doses are in `research/opioid-exposure.md`) | Reviewer |
+| 7 | Decide: naloxone dose source for the app (vet reviewer picks). RECOVER 2026 gives routes and triggers, no dose; study doses are in `research/opioid-exposure.md` | Reviewer |
 | 8 | Decide: replace the "herding breed" tick with an explicit breed list for the MDR1 caution. Gramer 2010 breed allele frequencies are now in the MDR1 module to support it | Reviewer |
 | 9 | Decide: trocar decompression scope at Tier 2 and Tier 3 (GDV) | Reviewer |
-| 10 | Decide: the temperature at which to stop active cooling (heat stroke), with a source | Reviewer |
+| 10 | Confirm: the temperature at which to stop active cooling. RECOVER 2026 says 39.7 to 40 C (weak, expert opinion); the framework's 39.4 C differs | Reviewer |
 | 11 | Decide: human blood products and colloids as a bridge (framework open question; no source retrieved) | Reviewer |
 
 ## New reviewer decisions from batch 2
@@ -50,7 +50,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [x] Grapes and raisins (draft, dossier written)
 - [x] Anticoagulant rodenticides (draft, dossier written)
 - [x] Exertional rhabdomyolysis (draft, thin evidence)
-- [ ] Exertional hypoglycemia (no canine source retrieved; still a stub)
+- [x] Hypoglycemia (draft from RECOVER 2026; no exertional-specific source; sugar amount TODO)
 - [x] Tension pneumothorax (draft; no canine decompression evidence)
 - [x] Hypothermia (draft; one veterinary review)
 - [x] Canine normal vitals (draft, respiratory rate only; heart rate, temperature, CRT still TODO)

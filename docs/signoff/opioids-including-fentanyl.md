@@ -26,7 +26,9 @@ Illicit opioids such as fentanyl and carfentanil endanger working dogs of every 
 - Intranasal naloxone from a commercial atomizer was well absorbed in healthy dogs after a short lag. The authors state that efficacy in poisoned dogs and effective doses still need study [2].
 - Both intranasal and intramuscular naloxone delivery contaminated responders with simulated powder from the dog's fur, more so with the intranasal route. Use PPE and decontaminate afterward [5].
 - An MDR1-mutant Collie had severe neurotoxicity after one butorphanol dose and needed about 40 hours of continuous naloxone (single case) [8].
-- TODO: canine naloxone dose and route source, selected by the veterinary reviewer. Study doses are listed in research/opioid-exposure.md and are not recommendations.
+- RECOVER 2026: give naloxone intranasally or intramuscularly in the prehospital setting to dogs and cats with altered mentation or a respiratory rate below 10 breaths per minute when opioid exposure is suspected (strong, low quality) [9].
+- If the animal is unresponsive and agonal, gasping or apneic, start basic life support first and then give naloxone by the IN or IM route as soon as possible (strong, very low quality); IN or IM is suggested when there is no vascular access (weak, low quality); do not give it when risk to the rescuer is high (strong, expert opinion) [9].
+- TODO: canine naloxone dose and concentration by route, selected by the veterinary reviewer. The guideline states routes and triggers but its recommendations do not state a dose; study doses are in research/opioid-exposure.md and are not recommendations.
 
 ## Sources
 
@@ -40,10 +42,11 @@ Illicit opioids such as fentanyl and carfentanil endanger working dogs of every 
 | 6 | Essler JL et al. 2019. A randomized cross-over trial comparing intramuscular versus intranasal naloxone reversal of intravenous fentanyl on odor detection in working dogs. Animals. | record link (https://doi.org/10.3390/ani9060385) |
 | 7 | Voronkov M et al. 2025. Is fentanyl rebound an intrinsic feature of naloxone reversal? Pharmaceuticals. | record link (https://doi.org/10.3390/ph18111634) |
 | 8 | Nelson TS et al. 2025. Case report: adverse reaction to butorphanol in a Collie homozygous for the ABCB1-1Δ (MDR1) mutation. Front Vet Sci. | record link (https://doi.org/10.3389/fvets.2025.1603375) |
+| 9 | Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35. | record link (https://pubmed.ncbi.nlm.nih.gov/42640821/) |
 
 ## Open items (8)
 
-- [ ] `content.management[6]`: TODO: canine naloxone dose and route source, selected by the veterinary reviewer. Study doses are listed in research/opioid-exposure.md and are not recommendations.
+- [ ] `content.management[8]`: TODO: canine naloxone dose and concentration by route, selected by the veterinary reviewer. The guideline states routes and triggers but its recommendations do not state a dose; study doses are in research/opioid-exposure.md and are not recommendations.
 - [ ] `lens.handler.transfer_trigger`: TODO
 - [ ] `lens.prehospital_als.transfer_trigger`: TODO
 - [ ] `lens.flight_cct.transfer_trigger`: TODO

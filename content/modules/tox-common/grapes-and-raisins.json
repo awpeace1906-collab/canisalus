@@ -28,6 +28,7 @@
       "In dogs that developed renal failure, hypercalcemia and a raised calcium-phosphorus product were common, and extreme values were negative prognostic indicators [2]."
     ],
     "management": [
+      "RECOVER 2026 first aid: do not routinely give emetics before arrival at a veterinary facility (strong, low quality); emesis may be suggested only if a veterinary facility is not immediately reachable and a veterinarian or animal poison control center recommends it (weak, expert opinion) [8].",
       "In a 139-dog series, AKI prevalence was 6.7% (8 of 120 with data), 88% underwent gastrointestinal decontamination and 138 of 139 survived. The authors state the retrospective design prevents conclusions about the value of decontamination [1].",
       "In the earlier 43-dog series of dogs that had already developed renal signs, 53% survived, and reduced urine output, ataxia or weakness predicted a negative outcome [2].",
       "AKI was also reported after cream of tartar and tamarinds, supporting tartaric acid as the likely toxic component [4].",
@@ -105,6 +106,11 @@
       "rank": 3,
       "citation": "Cook M et al. 2025. Evaluation of the safety and pharmacokinetics of single-dose oral probenecid administration in healthy dogs. J Vet Intern Med.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40884532/"
+    },
+    {
+      "rank": 1,
+      "citation": "Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42640821/"
     }
   ],
   "drug_refs": []

@@ -21,6 +21,7 @@ Chocolate remains a common cause of intoxication in dogs, cited at 25% of acute 
 
 ## Management
 
+- RECOVER 2026 first aid: do not routinely give emetics before arrival at a veterinary facility (strong, low quality); emesis may be suggested only if a veterinary facility is not immediately reachable and a veterinarian or animal poison control center recommends it (weak, expert opinion) [5].
 - Mainstays are decontamination and supportive care: rehydration, and control of central nervous system stimulation and arrhythmias as required [2].
 - In the 156-dog series, decontamination used apomorphine and activated charcoal, symptomatic care used fluids, esmolol, forced diuresis and sedatives, and 43 of 44 symptomatic dogs survived [1].
 - One dog developed severe hypernatremia after activated charcoal. The report warns that osmotically active toxins and dehydration raise the risk, and advises frequent electrolyte and neurological monitoring if charcoal is used (single case) [3].
@@ -35,10 +36,11 @@ Chocolate remains a common cause of intoxication in dogs, cited at 25% of acute 
 | 2 | Bates N. 2023. Chocolate toxicosis in pets. Companion Animal. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Chocolate%20toxicosis%20in%20pets) |
 | 3 | Genareo C et al. 2025. Severe hypernatremia in a dog following activated charcoal treatment for chocolate ingestion. Can Vet J. | record link (https://pubmed.ncbi.nlm.nih.gov/41030422/) |
 | 4 | Noble PJM et al. 2017. Heightened risk of canine chocolate exposure at Christmas and Easter. Vet Rec. | record link (https://pubmed.ncbi.nlm.nih.gov/29263290/) |
+| 5 | Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35. | record link (https://pubmed.ncbi.nlm.nih.gov/42640821/) |
 
 ## Open items (7)
 
-- [ ] `content.management[5]`: TODO: reviewer decision on ingestion thresholds (mg/kg of theobromine) and the decontamination window. Thresholds appear in retrieved abstracts and are kept out of this module.
+- [ ] `content.management[6]`: TODO: reviewer decision on ingestion thresholds (mg/kg of theobromine) and the decontamination window. Thresholds appear in retrieved abstracts and are kept out of this module.
 - [ ] `lens.handler.transfer_trigger`: TODO
 - [ ] `lens.prehospital_als.transfer_trigger`: TODO
 - [ ] `lens.flight_cct.transfer_trigger`: TODO

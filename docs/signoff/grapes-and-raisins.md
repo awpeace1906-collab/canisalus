@@ -21,6 +21,7 @@ Grape and raisin ingestion can cause acute kidney injury in dogs, but recent ser
 
 ## Management
 
+- RECOVER 2026 first aid: do not routinely give emetics before arrival at a veterinary facility (strong, low quality); emesis may be suggested only if a veterinary facility is not immediately reachable and a veterinarian or animal poison control center recommends it (weak, expert opinion) [8].
 - In a 139-dog series, AKI prevalence was 6.7% (8 of 120 with data), 88% underwent gastrointestinal decontamination and 138 of 139 survived. The authors state the retrospective design prevents conclusions about the value of decontamination [1].
 - In the earlier 43-dog series of dogs that had already developed renal signs, 53% survived, and reduced urine output, ataxia or weakness predicted a negative outcome [2].
 - AKI was also reported after cream of tartar and tamarinds, supporting tartaric acid as the likely toxic component [4].
@@ -39,10 +40,11 @@ Grape and raisin ingestion can cause acute kidney injury in dogs, but recent ser
 | 5 | Downs J, Brennan M. 2023. Is ingestion of dried grapes more likely to lead to development of acute kidney injury in dogs than ingestion of fresh grapes? Vet Rec. | record link (https://pubmed.ncbi.nlm.nih.gov/36799590/) |
 | 6 | Tancredi W et al. 2025. Could oral calcium carbonate mitigate tartaric acid toxicity in dogs? A novel hypothesis (viewpoint). J Am Vet Med Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/40840530/) |
 | 7 | Cook M et al. 2025. Evaluation of the safety and pharmacokinetics of single-dose oral probenecid administration in healthy dogs. J Vet Intern Med. | record link (https://pubmed.ncbi.nlm.nih.gov/40884532/) |
+| 8 | Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35. | record link (https://pubmed.ncbi.nlm.nih.gov/42640821/) |
 
 ## Open items (7)
 
-- [ ] `content.management[6]`: TODO: reviewer decision on the decontamination and monitoring plan when the amount is unknown. No safe threshold is established in the sources retrieved.
+- [ ] `content.management[7]`: TODO: reviewer decision on the decontamination and monitoring plan when the amount is unknown. No safe threshold is established in the sources retrieved.
 - [ ] `lens.handler.transfer_trigger`: TODO
 - [ ] `lens.prehospital_als.transfer_trigger`: TODO
 - [ ] `lens.flight_cct.transfer_trigger`: TODO

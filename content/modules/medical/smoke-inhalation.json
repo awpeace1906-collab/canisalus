@@ -27,6 +27,7 @@
       "In 9 dogs and 13 cats presented within 12 hours of house fires: sooting, coughing and polypnea; tachycardia, polypnea, hypothermia and pink mucous membranes; hemoconcentration, mixed acid-base disorders and moderate carboxyhemoglobinemia [2]."
     ],
     "management": [
+      "RECOVER 2026 first aid: oxygen for dogs and cats with difficulty breathing or hypoxemia during transport (strong, expert opinion), titrated to an SpO2 of 95 to 97% when monitoring is available (strong, moderate quality). Note that pulse oximetry can read falsely normal in carbon monoxide exposure [7].",
       "Immediate oxygen therapy is mandatory for all suspected smoke inhalation patients and should not be delayed for diagnostics or a normal saturation reading [1].",
       "Treatment is generally supportive: oxygen and airway management, including chest physiotherapy, bronchodilators and nebulization [1].",
       "Patients with mild signs who respond to initial stabilization generally have a favorable prognosis. Severe signs, or progression despite stabilization, may need advanced or intensive care [1].",
@@ -98,6 +99,11 @@
       "rank": 3,
       "citation": "Dries DJ, Endorf FW. 2013. Inhalation injury: epidemiology, pathology, treatment strategies (human data). Scand J Trauma Resusc Emerg Med.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Inhalation%20injury%3A%20epidemiology%2C%20pathology%2C%20treatment%20strategies"
+    },
+    {
+      "rank": 1,
+      "citation": "Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42640821/"
     }
   ],
   "drug_refs": []

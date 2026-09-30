@@ -28,6 +28,8 @@
       "TODO: canine-specific laryngeal exposure landmarks and tube sizing by size or breed. No canine source retrieved for either; do not adapt human tables."
     ],
     "management": [
+      "RECOVER 2026: give oxygen to dogs and cats with difficulty breathing or hypoxemia during transport (strong, expert opinion); when monitoring is available, titrate to an SpO2 of 95 to 97% (strong, moderate quality) [4].",
+      "Choking, conscious dog or cat, low risk to the rescuer: up to 5 back blows over the caudodorsal thorax, lateral to the spine, then alternative techniques if unsuccessful (strong, very low quality). Unconscious with suspected airway foreign body: no blind finger sweeps (strong, expert opinion); start chest compressions per the out-of-hospital CPR algorithm (strong, very low quality) [4].",
       "Time-limited attempts and early escalation are the lesson from the CICO case series; the authors propose a guideline for emergency front-of-neck access [1].",
       "TODO: reviewer to decide whether emergency surgical airway is in scope for any non-veterinary tier, and the trigger. The retrieved series describes failures and gives no validated technique. No drug or dose is given here.",
       "TODO: supraglottic or blind-insertion devices: one small dog study exists (James 2015, 35 dogs, not retrieved in full) but is not cited."
@@ -82,6 +84,11 @@
       "rank": 3,
       "citation": "Cook LA et al. 2025. Retrospective evaluation of the outcomes of advanced airway management in intubated patients with brachycephalic obstructive airway syndrome: 52 cases (2010-2020). J Small Anim Pract.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/40579826/"
+    },
+    {
+      "rank": 1,
+      "citation": "Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42640821/"
     }
   ],
   "drug_refs": []

@@ -27,7 +27,11 @@ Exertional hyperthermia is reported as one of the top three causes of death in w
 - Voluntary head dunking with limited water ingestion cooled dogs with normal mental status who could pause panting. It is not an option for a dog that cannot [2].
 - Tap water or alcohol on hairless skin, combined with a fan, cooled dogs from early on [5].
 - Cool the vehicle before loading and keep air moving around the dog during transport [4].
-- TODO: source for the temperature at which to stop active cooling. The framework text says about 39.4 °C; no retrieved source states one.
+- RECOVER 2026 first-aid recommendations for dogs and cats with signs of heat stroke: move to a cool environment as soon as possible (strong, expert opinion) [9].
+- Start active cooling before transport (strong, very low quality); suggested method is cool running water on the trunk, especially the thinnest-coated area such as the belly, soaking to the skin (weak, expert opinion) [9].
+- Suggested cooling endpoint: cool to a rectal temperature of 39.7 to 40 C (103.5 to 104.0 F), then stop active cooling (weak, expert opinion). If stertor or stridor is present, continue until panting clearly improves or the temperature reaches 38.6 C (101.5 F), whichever is sooner (weak, expert opinion) [9].
+- Do not start cooling if risk to the rescuer is perceived to be high (strong, expert opinion), and transport to a veterinary facility immediately after cooling [9].
+- For contrast, in people with heat stroke cold-water immersion is the preferred method; the guideline says no comparable canine evidence exists and calls for a large multicenter study of prehospital cooling [9].
 
 ## Sources
 
@@ -41,10 +45,10 @@ Exertional hyperthermia is reported as one of the top three causes of death in w
 | 6 | Hall EJ et al. 2023. Cooling methods used to manage heat-related illness in dogs presented to primary care veterinary practices during 2016-2018 in the UK. Vet Sci. | record link (https://doi.org/10.3390/vetsci10070465) |
 | 7 | Bruchim Y et al. 2017. Pathophysiology of heatstroke in dogs, revisited. Temperature. | record link (https://doi.org/10.1080/23328940.2017.1367457) |
 | 8 | Ramos M et al. 2023. Comparing cooling methods for exertional hyperthermia in working dogs (symposium abstract). ACVSMR Symposium. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Comparing%20cooling%20methods%20for%20exertional%20hyperthermia%20in%20working%20dogs) |
+| 9 | Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35. | record link (https://pubmed.ncbi.nlm.nih.gov/42640821/) |
 
-## Open items (7)
+## Open items (6)
 
-- [ ] `content.management[7]`: TODO: source for the temperature at which to stop active cooling. The framework text says about 39.4 °C; no retrieved source states one.
 - [ ] `lens.handler.transfer_trigger`: TODO
 - [ ] `lens.prehospital_als.transfer_trigger`: TODO
 - [ ] `lens.flight_cct.transfer_trigger`: TODO

@@ -27,7 +27,9 @@ Hemorrhage is a leading cause of preventable death in trauma, and blood loss fro
 - When feasible, elevate and splint a bleeding extremity as an adjunct to other methods [1].
 - Definitive control of massive internal hemorrhage is best achieved by early surgery [1].
 - In one dog, junctional hemorrhage that failed pressure and packing was temporarily controlled with a Foley balloon catheter (single case report) [4].
-- TODO: K9TCCC 2023 and K9-TECC guidance on tourniquet placement, hemostatic agents and TXA. The full text could not be retrieved. The framework's claim that tourniquets slip on conical limbs has no retrieved source.
+- RECOVER 2026: apply a tourniquet to unconscious dogs and cats with severe extremity hemorrhage not controlled by direct pressure (strong, very low quality); suggested for conscious animals (weak, very low quality); recommended against when risk to the rescuer is high (strong, expert opinion) [5].
+- The guideline flags that dog and cat limbs are more conical than human limbs, which may affect placement or slipping, and that commercial tourniquets may not fit small animals; there is no species-specific evidence [5].
+- TODO: K9TCCC 2023 and K9-TECC guidance on tourniquet placement, hemostatic agents and TXA. Those full texts could not be retrieved.
 
 ## Sources
 
@@ -37,10 +39,11 @@ Hemorrhage is a leading cause of preventable death in trauma, and blood loss fro
 | 2 | Palmer L. 2018. Clinical update: concepts of prehospital traumatic hemorrhage control in the operational K9. J Spec Oper Med. | record link (https://doi.org/10.55460/MYQ8-25A1) |
 | 3 | Edwards TH et al. 2021. Lessons learned from the battlefield and applicability to veterinary medicine, part 1: hemorrhage control. Front Vet Sci. | record link (https://doi.org/10.3389/fvets.2020.571368) |
 | 4 | Wheeler RT et al. 2021. The use of a Foley balloon catheter to control junctional hemorrhage in a dog with severe vascular injury secondary to penetrating trauma. J Vet Emerg Crit Care. | record link (https://doi.org/10.1111/vec.13133) |
+| 5 | Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35. | record link (https://pubmed.ncbi.nlm.nih.gov/42640821/) |
 
 ## Open items (7)
 
-- [ ] `content.management[8]`: TODO: K9TCCC 2023 and K9-TECC guidance on tourniquet placement, hemostatic agents and TXA. The full text could not be retrieved. The framework's claim that tourniquets slip on conical limbs has no retrieved source.
+- [ ] `content.management[10]`: TODO: K9TCCC 2023 and K9-TECC guidance on tourniquet placement, hemostatic agents and TXA. Those full texts could not be retrieved.
 - [ ] `lens.handler.transfer_trigger`: TODO
 - [ ] `lens.prehospital_als.transfer_trigger`: TODO
 - [ ] `lens.flight_cct.transfer_trigger`: TODO

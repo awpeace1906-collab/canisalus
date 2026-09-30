@@ -22,6 +22,7 @@ Cardiopulmonary arrest can be survivable in dogs, and good functional outcomes h
 - High-dose epinephrine is no longer recommended, and atropine, if used, is given only once [1][3].
 - End-tidal CO2 monitoring helps verify intubation, identify return of spontaneous circulation and evaluate CPR quality [4].
 - After return of circulation, stabilization and neurological improvement may take 48 to 72 hours [5].
+- RECOVER 2026 first aid: start bystander basic life support immediately for out-of-hospital arrest if risk to the rescuer is low (strong, moderate quality), transport to the nearest open veterinary clinic as soon as possible (strong, moderate quality), and continue BLS during transport with priority on rescuer safety (strong, expert opinion) [6].
 - TODO: numeric BLS parameters (compression rate, depth, ratio, cycle length, positioning) and the drug table from the corrected 2024 full text. The BLS paper has a 2025 erratum (doi:10.1111/vec.70031). No numbers are stated here on purpose.
 
 ## Sources
@@ -33,10 +34,11 @@ Cardiopulmonary arrest can be survivable in dogs, and good functional outcomes h
 | 3 | Wolf J et al. 2024. 2024 RECOVER Guidelines: Advanced Life Support. J Vet Emerg Crit Care 34(S1):44-75. | record link (https://doi.org/10.1111/vec.13389) |
 | 4 | Brainard BM et al. 2024. 2024 RECOVER Guidelines: Monitoring. J Vet Emerg Crit Care 34(S1):76-103. | record link (https://doi.org/10.1111/vec.13390) |
 | 5 | Hoehne SN et al. 2025. Post-cardiopulmonary arrest care and functional outcomes in dogs and cats surviving to hospital discharge since publication of the RECOVER guidelines: 2012-2022. J Vet Emerg Crit Care 35(2):142-155. | record link (https://doi.org/10.1111/vec.13457) |
+| 6 | Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35. | record link (https://pubmed.ncbi.nlm.nih.gov/42640821/) |
 
 ## Open items (7)
 
-- [ ] `content.management[7]`: TODO: numeric BLS parameters (compression rate, depth, ratio, cycle length, positioning) and the drug table from the corrected 2024 full text. The BLS paper has a 2025 erratum (doi:10.1111/vec.70031). No numbers are stated here on purpose.
+- [ ] `content.management[8]`: TODO: numeric BLS parameters (compression rate, depth, ratio, cycle length, positioning) and the drug table from the corrected 2024 full text. The BLS paper has a 2025 erratum (doi:10.1111/vec.70031). No numbers are stated here on purpose.
 - [ ] `lens.handler.transfer_trigger`: TODO
 - [ ] `lens.prehospital_als.transfer_trigger`: TODO
 - [ ] `lens.flight_cct.transfer_trigger`: TODO

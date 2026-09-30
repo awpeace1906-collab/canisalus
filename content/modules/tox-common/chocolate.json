@@ -28,6 +28,7 @@
       "In 156 dogs, 112 had no signs and 44 did. Of the 44, 28 had eaten dark or bitter chocolate. Signs: agitation 33, tremor 22, vomiting 21, panting 11. Findings: sinus tachycardia 28, hyperthermia 10, hyperlactatemia 23, hypokalemia 16 [1]."
     ],
     "management": [
+      "RECOVER 2026 first aid: do not routinely give emetics before arrival at a veterinary facility (strong, low quality); emesis may be suggested only if a veterinary facility is not immediately reachable and a veterinarian or animal poison control center recommends it (weak, expert opinion) [5].",
       "Mainstays are decontamination and supportive care: rehydration, and control of central nervous system stimulation and arrhythmias as required [2].",
       "In the 156-dog series, decontamination used apomorphine and activated charcoal, symptomatic care used fluids, esmolol, forced diuresis and sedatives, and 43 of 44 symptomatic dogs survived [1].",
       "One dog developed severe hypernatremia after activated charcoal. The report warns that osmotically active toxins and dehydration raise the risk, and advises frequent electrolyte and neurological monitoring if charcoal is used (single case) [3].",
@@ -89,6 +90,11 @@
       "rank": 3,
       "citation": "Noble PJM et al. 2017. Heightened risk of canine chocolate exposure at Christmas and Easter. Vet Rec.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/29263290/"
+    },
+    {
+      "rank": 1,
+      "citation": "Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42640821/"
     }
   ],
   "drug_refs": []

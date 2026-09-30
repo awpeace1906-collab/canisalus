@@ -46,3 +46,7 @@ Each line is only as strong as its cited abstract. Reviewers: confirm, correct o
 ## Proposed sources array for the module (all `rank: 3`)
 
 H1-H7 above, DOIs to be added.
+
+## RECOVER 2026 first-aid guideline (heat stroke, section 3.3) read in full text (added 2026-09-30)
+
+Thawley 2026 (PMID 42640821). Answers the open question of when to stop cooling: cool to a rectal temperature of 39.7 to 40 C then stop (weak, expert opinion); with stertor or stridor continue until panting improves or 38.6 C. Cool running water on the trunk, especially the belly. The framework's 39.4 C figure is not what the guideline says. Evidence for prehospital cooling is very low quality; the guideline calls for a multicenter study. Reviewer still decides (TODO decision 10).
