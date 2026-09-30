@@ -34,7 +34,7 @@ Seizure emergencies are unlikely to stop on their own and become harder to treat
 | 1 | Charalambous M et al. 2023. ACVIM Consensus Statement on the management of status epilepticus and cluster seizures in dogs and cats. J Vet Intern Med. | record link (https://pubmed.ncbi.nlm.nih.gov/37921621/) |
 | 2 | Charalambous M et al. 2017. Intranasal midazolam versus rectal diazepam for the management of canine status epilepticus: a multicenter randomized parallel-group clinical trial. J Vet Intern Med. | record link (https://pubmed.ncbi.nlm.nih.gov/28543780/) |
 | 3 | Charalambous M et al. 2019. Comparison of intranasal versus intravenous midazolam for management of status epilepticus in dogs: a multi-center randomized parallel group clinical study. J Vet Intern Med. | record link (https://pubmed.ncbi.nlm.nih.gov/31580527/) |
-| 4 | Charalambous M et al. 2021. First-line management of canine status epilepticus at home and in hospital: opportunities and limitations of the various administration routes of benzodiazepines. BMC Vet Res. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=First-line%20management%20of%20canine%20status%20epilepticus%20at%20home%20and%20in%20hospital) |
+| 4 | Charalambous M et al. 2021. First-line management of canine status epilepticus at home and in hospital: opportunities and limitations of the various administration routes of benzodiazepines. BMC Vet Res. | record link (https://pubmed.ncbi.nlm.nih.gov/33663513/) |
 | 5 | Kähn et al. 2023. Out-of-hospital rescue medication in dogs with emergency seizure disorders: an owner perspective. Front Vet Sci. | record link (https://pubmed.ncbi.nlm.nih.gov/37850066/) |
 
 ## Open items (7)

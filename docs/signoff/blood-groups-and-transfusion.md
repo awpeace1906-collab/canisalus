@@ -27,12 +27,12 @@ Dogs do not have the ABO hazard that makes human transfusion unforgiving, but a 
 |---|----------|-------------|
 | 1 | Silvestre-Ferreira AC et al. 2024. Dog blood type DEA 1 in two municipalities of Luanda Province of Angola. Vet Sci. | record link (https://doi.org/10.3390/vetsci11090449) |
 | 2 | Goy-Thollot I et al. 2017. Pre- and post-transfusion alloimmunization in dogs characterized by 2 antiglobulin-enhanced cross-match tests. J Vet Intern Med. | record link (https://doi.org/10.1111/jvim.14801) |
-| 3 | Gavazza A et al. 2017. Prevalence of dog erythrocyte antigen 1 in 7,414 dogs in Italy. Vet Med Int. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Prevalence%20of%20dog%20erythrocyte%20antigen%201%20in%207%2C414%20dogs%20in%20Italy) |
+| 3 | Medina Valentin AA et al. 2017. Prevalence of dog erythrocyte antigen 1 in 7,414 dogs in Italy. Vet Med Int. | record link (https://pubmed.ncbi.nlm.nih.gov/29147599/) |
 | 4 | Herter L et al. 2022. Alloimmunization in dogs after transfusion: a serial cross-match study. J Vet Intern Med. | record link (https://doi.org/10.1111/jvim.16521) |
 | 5 | Euler CC et al. 2016. Survey of two new (Kai 1 and Kai 2) and other blood groups in dogs of North America. J Vet Intern Med. | record link (https://doi.org/10.1111/jvim.14572) |
 | 6 | Baran GR et al. 2018. Prevalence of dog erythrocyte antigen (DEA) 1 amongst dog blood donors at TANUVAS animal blood bank, India. Hematol Transfus Int J. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Prevalence%20of%20dog%20erythrocyte%20antigen%20%28DEA%29%201%20amongst%20dog%20blood%20donors%20at%20TANUVAS%20animal%20blood%20bank%2C%20India) |
 | 7 | Spada E et al. 2017. Dog erythrocyte antigens 1, 4, 7 and suspected naturally occurring anti-DEA 7 antibodies in Italian Corso dogs. Vet J. | record link (https://pubmed.ncbi.nlm.nih.gov/28410671/) |
-| 8 | Guidetti M et al. 2019. Alloimmunization of a DEA 1-negative dog transfused with weakly DEA 1-positive blood. J Vet Intern Med. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Alloimmunization%20of%20a%20DEA%201-negative%20dog%20transfused%20with%20weakly%20DEA%201-positive%20blood) |
+| 8 | Guidetti M et al. 2019. Alloimmunization of a DEA 1-negative dog transfused with weakly DEA 1-positive blood. J Vet Intern Med. | record link (https://pubmed.ncbi.nlm.nih.gov/31361062/) |
 
 ## Open items (0)
 
