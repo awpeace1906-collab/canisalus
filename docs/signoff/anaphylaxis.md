@@ -32,13 +32,13 @@ Anaphylaxis in dogs varies widely in presentation, skin signs can be absent, and
 
 | # | Citation | Link status |
 |---|----------|-------------|
-| 1 | Burkitt-Creedon JM et al. 2026. RECOVER Guidelines: First Aid. Evidence, treatment recommendations, knowledge gap analysis, and clinical guidelines for acute allergy and anaphylaxis in dogs and cats. J Vet Emerg Crit Care. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=RECOVER%20Guidelines%3A%20First%20Aid.%20Evidence%2C%20Treatment%20Recommendations%2C%20Knowledge%20Gap%20Analysis%2C%20and%20Clinical%20Guidelines%20for%20Acute%20Allergy%20and%20Anaphylaxis%20in%20Dogs%20and%20Cats) |
+| 1 | Burkitt-Creedon JM et al. 2026. RECOVER Guidelines: First Aid. Evidence, treatment recommendations, knowledge gap analysis, and clinical guidelines for acute allergy and anaphylaxis in dogs and cats. J Vet Emerg Crit Care. | record link (https://pubmed.ncbi.nlm.nih.gov/42640815/) |
 | 2 | Shmuel DL, Cortes Y. 2013. Anaphylaxis in dogs and cats. J Vet Emerg Crit Care. | record link (https://pubmed.ncbi.nlm.nih.gov/23855441/) |
 | 3 | Turner K et al. 2021. Clinical characteristics of two-hundred thirty-two dogs (2006-2018) treated for suspected anaphylaxis in Perth, Western Australia. Aust Vet J. | record link (https://pubmed.ncbi.nlm.nih.gov/34541658/) |
 | 4 | Fosset FTJ et al. 2023. Retrospective evaluation of hypersensitivity reactions and anaphylaxis in dogs (2003-2014): 86 cases. J Vet Emerg Crit Care. | record link (https://pubmed.ncbi.nlm.nih.gov/37578030/) |
 | 5 | Smith MR et al. 2020. Mortality rate and prognostic factors for dogs with severe anaphylaxis: 67 cases (2016-2018). J Am Vet Med Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/32364451/) |
-| 6 | Kadowaki T et al. 2026. Retrospective evaluation of outcomes in canine anaphylaxis patients receiving late epinephrine or no epinephrine: 49 cases (2019-2023). J Vet Emerg Crit Care. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Retrospective%20Evaluation%20of%20Outcomes%20in%20Canine%20Anaphylaxis%20Patients%20Receiving%20Late%20Epinephrine%20or%20No%20Epinephrine%3A%2049%20Cases%20%282019-2023%29) |
-| 7 | Padmanabhan A et al. 2024. Acute hepatic rupture causing hemoperitoneum in a dog with anaphylaxis. Vet Med Sci. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Acute%20hepatic%20rupture%20causing%20hemoperitoneum%20in%20a%20dog%20with%20anaphylaxis) |
+| 6 | Kadowaki T et al. 2026. Retrospective evaluation of outcomes in canine anaphylaxis patients receiving late epinephrine or no epinephrine: 49 cases (2019-2023). J Vet Emerg Crit Care. | record link (https://pubmed.ncbi.nlm.nih.gov/41902369/) |
+| 7 | Padmanabhan A et al. 2024. Acute hepatic rupture causing hemoperitoneum in a dog with anaphylaxis. Vet Med Sci. | record link (https://pubmed.ncbi.nlm.nih.gov/38403981/) |
 
 ## Open items (7)
 
