@@ -39,3 +39,10 @@ Respiratory anatomy and physiology (upper airway, brachycephalic breeds), coagul
 ## Citation status
 
 Verified to a DOI or PubMed record against PubMed metadata: the citations with `https://doi.org/` or `pubmed.ncbi.nlm.nih.gov` URLs. Two retrieval-tool authorship errors were caught and corrected during verification (the Italian MDR1 survey is Marelli et al., and the mitral-valve RSA study is Baisan et al.). **Sixteen citations still carry a retrieval link** (Van Poucke 2009, Ramos 2023 abstract, Gavazza 2017, Baran 2018, Spada 2017, Guidetti 2019, Martinez 2021, Bates 2019, Mealey 2019 chapter, Edwards 2021 Transfusion, Pottecher 2013 letter, Bar-Joseph 1985, Robertshaw 2006, Goldberg 1981, Blatt 1972, Russo 2024). Their author and year details are unverified against PubMed. `npm run validate` warns on them, and blocks approval of any module that still has one.
+
+## Respiratory mechanics and oxygen transport (added 2026-09-30)
+
+New compare module `respiratory-mechanics-and-oxygen-transport`. Sources: Clerbaux 1993 (oxygen dissociation curve, man vs dog, 4 species; abstract level), von Recum 1977 (39 dogs, mediastinum), Boysen 2019 (6 dogs, bilateral pneumothorax), Thawley 2026 (oxygen target).
+- **Contested point:** the widely taught idea that a dog's two pleural cavities communicate is *not* settled. The only experiment retrieved says disease stays in one cavity unless the mediastinum is injured; a small clinical series found bilateral pneumothorax in 5 of 6 dogs. The module presents both and asserts neither.
+- **Not used:** two PubMed hits on collateral ventilation (Port 1977, Leakakos 1994) say nothing specific about dogs in their abstracts. Collateral ventilation in dogs remains unsourced.
+- **Gaps:** panting mechanics beyond the thermoregulation module, brachycephalic airway physiology, lung volumes and compliance.

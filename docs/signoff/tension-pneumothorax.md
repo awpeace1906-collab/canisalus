@@ -17,6 +17,7 @@ Tension pneumothorax kills quickly, and the human needle-decompression rules tha
 
 - In dogs with traumatic pneumomediastinum, common signs were tachycardia, tachypnea, subcutaneous emphysema, pneumothorax and dyspnea [3].
 - Pneumothorax followed nasogastric tube misplacement in the airway in 0.3% of 4,777 dogs in one study; 9 of 13 affected dogs developed respiratory compromise [1].
+- Whether a dog's pneumothorax stays on one side is disputed: disease stayed in one pleural cavity unless the mediastinum was injured in a 39-dog experiment [8], but 5 of 6 dogs in a 2019 ultrasound series had pneumothorax on both sides [9]. Assess both sides. See the respiratory pathophysiology module.
 
 ## Management
 
@@ -36,6 +37,8 @@ Tension pneumothorax kills quickly, and the human needle-decompression rules tha
 | 5 | Martin MJ et al. 2012. Does needle thoracostomy provide adequate and effective decompression of tension pneumothorax? (swine model). J Trauma Acute Care Surg. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Does%20needle%20thoracostomy%20provide%20adequate%20and%20effective%20decompression%20of%20tension%20pneumothorax%3F) |
 | 6 | Kaserer A et al. 2017. Failure rate of prehospital chest decompression after severe thoracic trauma (human data). Am J Emerg Med. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Failure%20rate%20of%20prehospital%20chest%20decompression%20after%20severe%20thoracic%20trauma) |
 | 7 | Lyng JW et al. 2024. Prehospital Trauma Compendium: traumatic pneumothorax care, a position statement and resource document of NAEMSP (human data). Prehosp Emerg Care. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Prehospital%20Trauma%20Compendium%3A%20Traumatic%20Pneumothorax%20Care%20-%20a%20position%20statement%20and%20resource%20document%20of%20NAEMSP) |
+| 8 | von Recum AF. 1977. The mediastinum and hemothorax, pyothorax, and pneumothorax in the dog. J Am Vet Med Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/914683/) |
+| 9 | Boysen S et al. 2019. Abnormal curtain signs identified with a novel lung ultrasound protocol in six dogs with pneumothorax. Front Vet Sci. | record link (https://pubmed.ncbi.nlm.nih.gov/31555674/) |
 
 ## Open items (7)
 

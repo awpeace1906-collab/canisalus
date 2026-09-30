@@ -24,7 +24,8 @@
   "content": {
     "recognition": [
       "In dogs with traumatic pneumomediastinum, common signs were tachycardia, tachypnea, subcutaneous emphysema, pneumothorax and dyspnea [3].",
-      "Pneumothorax followed nasogastric tube misplacement in the airway in 0.3% of 4,777 dogs in one study; 9 of 13 affected dogs developed respiratory compromise [1]."
+      "Pneumothorax followed nasogastric tube misplacement in the airway in 0.3% of 4,777 dogs in one study; 9 of 13 affected dogs developed respiratory compromise [1].",
+      "Whether a dog's pneumothorax stays on one side is disputed: disease stayed in one pleural cavity unless the mediastinum was injured in a 39-dog experiment [8], but 5 of 6 dogs in a 2019 ultrasound series had pneumothorax on both sides [9]. Assess both sides. See the respiratory pathophysiology module."
     ],
     "management": [
       "In the 13-dog series, 11 dogs needed thoracocentesis and 5 a thoracostomy tube; 5 arrested and 5 survived to discharge [1]. In a 6-dog series, pneumothorax resolved in all, with thoracocentesis in 3 and a chest tube in 1 [2].",
@@ -102,6 +103,16 @@
       "rank": 2,
       "citation": "Lyng JW et al. 2024. Prehospital Trauma Compendium: traumatic pneumothorax care, a position statement and resource document of NAEMSP (human data). Prehosp Emerg Care.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Prehospital%20Trauma%20Compendium%3A%20Traumatic%20Pneumothorax%20Care%20-%20a%20position%20statement%20and%20resource%20document%20of%20NAEMSP"
+    },
+    {
+      "rank": 3,
+      "citation": "von Recum AF. 1977. The mediastinum and hemothorax, pyothorax, and pneumothorax in the dog. J Am Vet Med Assoc.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/914683/"
+    },
+    {
+      "rank": 3,
+      "citation": "Boysen S et al. 2019. Abnormal curtain signs identified with a novel lung ultrasound protocol in six dogs with pneumothorax. Front Vet Sci.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31555674/"
     }
   ],
   "drug_refs": []

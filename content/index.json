@@ -541,6 +541,12 @@
       "title": "Jurisdiction card",
       "domain": "legal",
       "order": 0
+    },
+    {
+      "id": "respiratory-mechanics-and-oxygen-transport",
+      "title": "Respiratory mechanics and oxygen transport",
+      "domain": "pathophysiology",
+      "order": 5
     }
   ]
 }
