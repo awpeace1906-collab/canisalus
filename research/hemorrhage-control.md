@@ -45,3 +45,9 @@ Module: `content/modules/trauma/hemorrhage-control.json`. Status: draft. Not rev
 ## Proposed sources array
 
 B1-B4 (`rank: 3`, pending reviewer re-rank of B1/B2). B5 and B6 are human data and would be context only, not module sources.
+
+## Edwards 2020 Part 1, full text read (added 2026-09-30)
+
+Frontiers Vet Sci 7:571368 (PMID 33521075, open access PMC7841008). Read in full. Findings now in the module: direct pressure technique, hemostatic dressings (one 10-dog chitosan study, 12 of 14 femoral arteries), windlass tourniquets ineffective in dogs (tapered limb), elastic wrap used as pressure bandage, junctional tourniquets not evaluated, XSTAT and iTClamp not studied in dogs, REBOA cadaver study (15 of 15, 10 to 48 kg).
+Tranexamic acid (new module `tranexamic-acid`): the review reports ~10-fold higher amount needed to inhibit fibrinolysis in dog vs human blood in vitro (viscoelastic testing). **No dose is entered**; the reviewer must choose a canine source. Also recorded: EACA in greyhounds (5.7x more likely to bleed without), 122-dog EACA series, 55-dog TXA series.
+Agreement with RECOVER 2026: both say tourniquets are for bleeding not controlled by direct pressure and flag the conical limb. Emphasis differs (Edwards: rarely needed).
