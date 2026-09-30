@@ -553,6 +553,12 @@
       "title": "Coagulation and bleeding disorders",
       "domain": "pathophysiology",
       "order": 6
+    },
+    {
+      "id": "blood-chemistry-and-acid-base-reference-ranges",
+      "title": "Blood chemistry and acid-base reference ranges",
+      "domain": "pathophysiology",
+      "order": 7
     }
   ]
 }

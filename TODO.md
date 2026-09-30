@@ -62,7 +62,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [x] Airway (draft, three sources; technique and scope TODO)
 - [~] Burns (draft, thin evidence, two sources); blast, gunshot and stab wounds not started
 - [~] Structured vet handoff (draft, human-data source only); HEMS policy, loading and restraint not started
-- [~] Pathophysiology gaps: respiratory and coagulation done (2026-09-30; coagulation is thin); renal and acid-base, glucose, seizures remain
+- [~] Pathophysiology gaps: respiratory, coagulation (thin) and blood chemistry and acid-base reference ranges done (2026-09-30); kidney physiology, glucose, seizures remain
 
 ## Verification debt (Claude)
 

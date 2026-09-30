@@ -53,3 +53,10 @@ New compare module `coagulation-and-bleeding-disorders`. Sources: Zdenek 2020 (i
 - **Weak spots:** the vWD prevalence is one regional survey of mixed breeds; the Doberman prevalence statement comes from a case report's conclusion, not a survey. Neither gives breed-specific numbers.
 - **Searches that returned nothing usable:** reference intervals and thromboelastography in healthy dogs vs humans; canine platelet function and aspirin or clopidogrel species differences; a general canine-vs-human hemostasis review.
 - **Gaps:** canine hemophilia, platelet function, fibrinolysis and hypercoagulability in dogs, and DIC. Reviewers should nominate a comparative hemostasis review.
+
+## Blood chemistry and acid-base reference ranges (added 2026-09-30)
+
+New module `blood-chemistry-and-acid-base-reference-ranges`, planned as "renal and acid-base". The evidence retrieved supports reference-range interpretation, not a kidney comparison, so it was scoped that way.
+Sources (abstract level): O'Brien 2014 (68 puppies), Mesa-Sanchez 2012 (Galgo Espanol), Bachmann 2018 (tube vs syringe, 51 dogs), Vanova-Uhrikova 2017 (224 healthy dogs; the abstract gives no numbers, so none are entered).
+- **Not used:** Kokubo 1984 (renal inner medulla histology of man, swine, dog, hamster; correlates with concentrating ability but states no clear dog-vs-human result), Shaw 1989 (ammonium chloride acid load; a diagnostic test dose, not a field topic).
+- **Gaps:** dog vs human kidney physiology (concentrating ability, GFR, creatinine), renal toxin handling, and actual canine reference numbers.
