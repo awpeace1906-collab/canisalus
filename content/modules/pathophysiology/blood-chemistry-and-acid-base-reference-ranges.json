@@ -28,7 +28,7 @@
   "content": {
     "recognition": [
       "Reference intervals for traditional and Stewart-approach acid-base values in venous and arterial blood from 224 healthy dogs have been published; the numbers were not in the abstract and are not entered here [4].",
-      "TODO: canine reference values for creatinine, urea, electrolytes and blood gas from a source the veterinary reviewer selects; species-level kidney comparison (dog vs human) has no retrieved source."
+      "TODO: canine reference values for creatinine, urea, electrolytes and blood gas from a source the veterinary reviewer selects. A full dog-vs-human kidney physiology comparison (GFR, nephron function) was searched for on 2026-09-30 and no source was retrieved."
     ],
     "management": [],
     "procedure_refs": []
@@ -54,6 +54,21 @@
       "rank": 3,
       "citation": "Vanova-Uhrikova I et al. 2017. Determination of reference intervals of acid-base parameters in clinically healthy dogs. J Vet Emerg Crit Care.",
       "url": "https://doi.org/10.1111/vec.12589"
+    },
+    {
+      "rank": 3,
+      "citation": "Liffman R et al. 2020. Urine creatinine concentration and urine protein-to-creatinine ratios in healthy nonracing Greyhounds. Vet Clin Pathol.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32502315/"
+    },
+    {
+      "rank": 3,
+      "citation": "Rafalska A et al. 2025. Serum creatinine, cystatin C and symmetric dimethylarginine concentrations and relationship between them in healthy small and miniature dogs: a preliminary study. Animals.",
+      "url": "https://doi.org/10.3390/ani15182760"
+    },
+    {
+      "rank": 3,
+      "citation": "Guerrero MD et al. 2017. Analytical validation and reference intervals for freezing point depression osmometer measurements of urine osmolality in dogs. J Vet Diagn Invest.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28803509/"
     }
   ],
   "drug_refs": [],
@@ -87,6 +102,27 @@
       "human_basis": "general-medical-knowledge",
       "source_refs": [
         3
+      ]
+    },
+    {
+      "topic": "Kidney markers differ by breed and size",
+      "human": "Human creatinine reference ranges depend on age, sex and muscle mass but not on breed.",
+      "canine": "Serum creatinine is higher in Greyhounds than in nonsighthound breeds, and urine creatinine adjusted for urine specific gravity was about 22% higher in 98 healthy nonracing Greyhounds; urine protein-to-creatinine ratio was not significantly different. In a preliminary study of 40 healthy small and miniature dogs, Maltese had significantly higher serum creatinine than Yorkshire Terriers and Chihuahuas, and the authors advise combining creatinine, cystatin C, symmetric dimethylarginine, urine concentration, urine protein and breed when judging kidney function.",
+      "implication": "A single creatinine value above a generic dog range may be normal for a Greyhound or a Maltese; do not call kidney injury on one number, and record breed in the handoff.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        5,
+        6
+      ]
+    },
+    {
+      "topic": "Urine concentration",
+      "human": "Healthy human urine osmolality is usually quoted up to about 1,200 mOsm/kg.",
+      "canine": "In 1,991 clinically healthy dogs the 95% reference interval for urine osmolality was 369 to 2,416 mOsm/kg in young and adult dogs and 366 to 2,178 in seniors. Senior dogs and neutered females had lower values, and urine specific gravity correlated with osmolality (r = 0.96) but agreed inconsistently.",
+      "implication": "Dogs can concentrate urine well beyond the usual human range; do not apply human urine concentration cut-offs, and use age and reproductive status when interpreting.",
+      "human_basis": "general-medical-knowledge",
+      "source_refs": [
+        7
       ]
     }
   ]

@@ -25,7 +25,7 @@ Last updated: 2026-09-30 (citation waves 1-2: 19 sources resolved to PubMed reco
 | 12 | Status epilepticus: benzodiazepine dose for Tier 0 and ALS (route evidence now in the module: IN midazolam favored; review dose ranges are in the dossier); is a human atomizer realistic for a handler kit | Reviewer |
 | 13 | Snake envenomation: field first aid, and a region setting so the right snake syndromes are shown | Reviewer, You |
 | 14 | Chocolate: ingestion thresholds and decontamination window (only second-hand thresholds retrieved) | Reviewer |
-| 15 | Grapes and raisins: how to word risk when the amount is unknown (early series vs 2019 series differ a lot) | Reviewer |
+| 15 | Grapes and raisins: how to word risk when the amount is unknown (early series, the 2019 series and the 606-dog UK series of 2020 differ a lot; the UK series found no significant AKI and all survived) | Reviewer |
 | 16 | Rodenticides: vitamin K1 route, dose, duration (retrieved sources conflict on IV safety) | Reviewer |
 | 17 | Tension pneumothorax: is needle decompression in scope at Tier 1 to 3, and with what canine landmarks and equipment (no canine source found) | Reviewer |
 | 18 | Hypothermia: definition thresholds and rewarming targets for dogs (only human and animal-model rewarming data found) | Reviewer |
@@ -62,7 +62,7 @@ Priority is working-dog relevance and how often the presentation occurs.
 - [x] Airway (draft, three sources; technique and scope TODO)
 - [x] Burns, gunshot and stab wounds, blast injury: all drafted (2026-09-30). Stab wounds and blast-specific injuries still have no canine source
 - [~] Structured vet handoff drafted (human-data source only). HEMS policy, loading and restraint: searched 2026-09-30, no canine source retrievable (PubMed returns pharmacology and a drone survey); needs an agency or vet-reviewer policy rather than literature
-- [~] Pathophysiology gaps: respiratory, coagulation (thin) and blood chemistry and acid-base reference ranges done (2026-09-30); kidney physiology remains; seizures and glucose drafted 2026-09-30 (clinical, not physiological)
+- [~] Pathophysiology gaps: respiratory, coagulation (thin) and blood chemistry and acid-base reference ranges done (2026-09-30); kidney: no dog-vs-human physiology source retrievable (searched 2026-09-30); breed and urine-concentration markers added to the blood chemistry module; seizures and glucose drafted 2026-09-30 (clinical, not physiological)
 
 ## Verification debt (Claude)
 

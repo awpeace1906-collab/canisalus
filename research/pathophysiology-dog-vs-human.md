@@ -74,3 +74,8 @@ New module `seizures-and-drug-resistance`, from the two seizure papers read in f
 - Numbers are taken from the review text: SE in 0.5 to 2.6% of dogs admitted to emergency hospitals, 16.5% of dogs presenting for seizures, first sign in 58%; SE in 27-59% of idiopathic, 32-40% of structural, 7-23% of reactive seizures; mortality 25.3 to 38.5%; canine brain P-glycoprotein up 87 to 166% after SE.
 - The human column is partly from the same papers (ILAE definition, transporter over-expression described "in both humans and animals") and partly general knowledge; rows are flagged accordingly.
 - **Not supported:** any link between the MDR1 (ABCB1) mutation and antiseizure drug handling (no retrieved source); left as a TODO.
+
+## Kidney physiology attempt (added 2026-09-30)
+
+Searches for a dog-vs-human kidney physiology comparison (GFR, nephron function, concentrating ability) returned nothing usable at abstract level, so no separate kidney module was written. What was retrieved and used instead, in `blood-chemistry-and-acid-base-reference-ranges`: Liffman 2020 (98 Greyhounds, urine creatinine about 22% higher), Rafalska 2025 (40 small dogs, Maltese higher creatinine; preliminary), Guerrero 2017 (1,991 dogs, urine osmolality 369 to 2,416 mOsm/kg). Also added to the grapes module: Croft 2020 (606 UK dogs, creatinine normal in all 338 tested, all survived), which conflicts with the older higher-AKI series; decision 15 is updated.
+**Not used:** AKI case reports and biomarker papers (Roh 2026, Whitehouse 2025, Idress 2024, Bendeler 2023, Dunaevich 2020), which do not compare species.
