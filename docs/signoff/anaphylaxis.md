@@ -23,10 +23,15 @@ Anaphylaxis in dogs varies widely in presentation, skin signs can be absent, and
 
 ## Management
 
-- A 2026 RECOVER First Aid guideline gives 12 treatment recommendations and an algorithm for acute allergy and anaphylaxis in dogs and cats. All rest on low or very low quality evidence or expert opinion. The full text was not retrieved [1].
+- The 2026 RECOVER First Aid guideline for acute allergy and anaphylaxis gives 12 treatment recommendations; all rest on low or very low quality evidence (7) or expert opinion (5) [1].
+- Uncomplicated allergic reaction (not affecting breathing): give an oral H1 antihistamine in the prehospital setting (strong, low quality), except when risk to the rescuer is high (strong, expert opinion). Do not routinely give glucocorticoids prehospital (weak, very low quality) [1].
+- Anaphylaxis, prehospital: IM epinephrine is suggested if it does not delay transport to a veterinary clinic (weak, very low quality), and recommended against when risk to the rescuer is high (strong, expert opinion). Oral antihistamines are suggested against when breathing is affected (weak, expert opinion) [1].
+- Anaphylaxis, in hospital: without hypotension, IM epinephrine as early as possible (weak, very low); with hypotension, epinephrine as a continuous IV infusion targeting a mean arterial pressure of 70 mm Hg rather than IV bolus dosing (weak, very low). Routine systemic glucocorticoids are recommended against (strong, very low) [1].
+- The guideline cites canine experimental shock models in which IV epinephrine boluses gave only a transient rise in blood pressure, and adverse events were more common with the IV route than IM in a clinical series [1].
+- Owners of dogs with a prior anaphylactic event may be given prefilled epinephrine syringes dosed to body weight (weak, expert opinion); human autoinjectors may not fit small or giant dogs [1].
 - In 86 dogs, glucocorticoids were not associated with clinical improvement or survival [4].
 - Survival was 85% in 67 severe cases, where higher phosphorus, prolonged prothrombin time, hypoglycemia within 6 hours and need for dextrose were associated with death [5], and 92% in 49 severe cases that did not receive early epinephrine, where a higher shock index at presentation was associated with death [6]. Neither series can show whether epinephrine timing changes survival.
-- TODO: the RECOVER 2026 first-aid algorithm, and the canine epinephrine dose and route, from the full text and the veterinary reviewer.
+- TODO: the epinephrine dose and concentration for each route are not stated as a treatment recommendation in the guideline; the veterinary reviewer must choose a canine dose source. Study doses are listed in research/anaphylaxis.md and are not adopted here.
 
 ## Sources
 
@@ -42,7 +47,7 @@ Anaphylaxis in dogs varies widely in presentation, skin signs can be absent, and
 
 ## Open items (7)
 
-- [ ] `content.management[4]`: TODO: the RECOVER 2026 first-aid algorithm, and the canine epinephrine dose and route, from the full text and the veterinary reviewer.
+- [ ] `content.management[9]`: TODO: the epinephrine dose and concentration for each route are not stated as a treatment recommendation in the guideline; the veterinary reviewer must choose a canine dose source. Study doses are listed in research/anaphylaxis.md and are not adopted here.
 - [ ] `lens.handler.transfer_trigger`: TODO
 - [ ] `lens.prehospital_als.transfer_trigger`: TODO
 - [ ] `lens.flight_cct.transfer_trigger`: TODO

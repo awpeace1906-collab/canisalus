@@ -32,7 +32,7 @@ Last updated: 2026-09-29 (citation waves 1-2: 19 sources resolved to PubMed reco
 | 20 | Cannabis: any role for CBD or lipid emulsion; ingestion thresholds; how a positive test is handled in a K9 unit | Reviewer, You |
 | 21 | Stimulants: sedation, cooling and blood-pressure plan by tier (only case reports for methamphetamine) | Reviewer |
 | 22 | Smoke: intubation triggers; whether the app mentions cyanide antidotes for dogs at all (no canine evidence) | Reviewer |
-| 23 | Anaphylaxis: epinephrine route and dose by tier, from the 2026 RECOVER first-aid guideline full text | Reviewer, You (access) |
+| 23 | Anaphylaxis: epinephrine dose and concentration by tier. Full text now read (PMC, open access): graded recommendations are in the module, but it states no treatment dose; study doses are in research/anaphylaxis.md | Reviewer |
 | 24 | Hemoabdomen: what a non-veterinary clinician should do en route (no source found) | Reviewer |
 | 19 | Exertional rhabdomyolysis and hypoglycemia: canine signs and treatment (two small studies, no treatment evidence) | Reviewer |
 
