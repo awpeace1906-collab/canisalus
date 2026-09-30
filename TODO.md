@@ -22,7 +22,7 @@ Last updated: 2026-09-30 (citation waves 1-2: 19 sources resolved to PubMed reco
 
 | # | Item | Owner |
 |---|------|-------|
-| 12 | Status epilepticus: benzodiazepine drug, route and dose for Tier 0 and ALS; is an atomizer realistic for a handler kit | Reviewer |
+| 12 | Status epilepticus: benzodiazepine dose for Tier 0 and ALS (route evidence now in the module: IN midazolam favored; review dose ranges are in the dossier); is a human atomizer realistic for a handler kit | Reviewer |
 | 13 | Snake envenomation: field first aid, and a region setting so the right snake syndromes are shown | Reviewer, You |
 | 14 | Chocolate: ingestion thresholds and decontamination window (only second-hand thresholds retrieved) | Reviewer |
 | 15 | Grapes and raisins: how to word risk when the amount is unknown (early series vs 2019 series differ a lot) | Reviewer |

@@ -28,3 +28,11 @@ ACVIM consensus full text: the stage-based algorithm, second-line drugs, and its
 
 - Vet: which drug, route and dose does the app show for Tier 0 (handler) and for ALS? Is an intranasal atomizer realistic for a handler kit?
 - Physician: what should a human clinician not carry over from human status epilepticus protocols (for example buccal or IM routes, drug choices)?
+
+
+## Charalambous 2021 review, full text read (added 2026-09-30)
+
+BMC Vet Res 17:103 (PMID 33663513, open access PMC7934266). Read in full. Its overall conclusion: IN midazolam is recommended as first choice at home or in hospital; rectal diazepam unlikely to be as effective.
+
+Dose ranges stated in the review, **for the vet reviewer only, not entered in the app**: midazolam 0.2 to 0.5 mg/kg by IV, IN or IM, then optionally an IV infusion of 0.2 to 0.5 mg/kg/h reduced 50% every 6 h at least twice before stopping; diazepam bolus 0.5 to 2.0 mg/kg IV, IN or rectal, only 2 to 3 boluses then an infusion of 0.1 to 0.5 mg/kg/h or another drug. The review states the recommended dose ranges do not change with route. Trials used midazolam 0.2 mg/kg IN and IV. Pharmacokinetic bioavailability: IN midazolam 52 to 70%, IM over 90% (one study 50%), rectal diazepam 7.4 to 52% for solution and not detected for suppositories.
+Human contrast: in people IV benzodiazepine is the traditional gold standard, but meta-analyses favor IM and IN midazolam out of hospital.
