@@ -26,7 +26,7 @@ A dog's contractile spleen changes how blood loss shows up, so a human clinician
 
 | # | Citation | Link status |
 |---|----------|-------------|
-| 1 | Edwards TH et al. 2021. Hemorrhagic shock and hemostatic resuscitation in canine trauma. Transfusion. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Hemorrhagic%20shock%20and%20hemostatic%20resuscitation%20in%20canine%20trauma) |
+| 1 | Edwards TH et al. 2021. Hemorrhagic shock and hemostatic resuscitation in canine trauma. Transfusion. | record link (https://pubmed.ncbi.nlm.nih.gov/34269447/) |
 | 2 | Hall KE, Drobatz K. 2021. Volume resuscitation in the acutely hemorrhaging patient: historic use to current applications. Front Vet Sci. | record link (https://doi.org/10.3389/fvets.2021.638104) |
 | 3 | Dillon AR et al. 1980. Experimental hemorrhage in splenectomized and nonsplenectomized dogs. Am J Vet Res. | record link (https://pubmed.ncbi.nlm.nih.gov/7406289/) |
 | 4 | Horton JW et al. 1984. Cardiovascular effects of haemorrhagic shock in spleen intact and in splenectomized dogs. Clin Physiol. | record link (https://doi.org/10.1111/j.1475-097x.1984.tb00138.x) |

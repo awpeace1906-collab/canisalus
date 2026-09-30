@@ -26,7 +26,7 @@ Dogs lose heat mainly by panting, not sweating, so heat illness in a working dog
 
 | # | Citation | Link status |
 |---|----------|-------------|
-| 1 | Robertshaw D. 2006. Mechanisms for the control of respiratory evaporative heat loss in panting animals. J Appl Physiol. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Mechanisms%20for%20the%20control%20of%20respiratory%20evaporative%20heat%20loss%20in%20panting%20animals) |
+| 1 | Robertshaw D. 2006. Mechanisms for the control of respiratory evaporative heat loss in panting animals. J Appl Physiol. | record link (https://pubmed.ncbi.nlm.nih.gov/16675613/) |
 | 2 | Goldberg MB et al. 1981. Panting in dogs: paths of air flow in response to heat and exercise. Respir Physiol. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Panting%20in%20dogs%3A%20paths%20of%20air%20flow%20in%20response%20to%20heat%20and%20exercise) |
 | 3 | Blatt CM et al. 1972. Thermal panting in dogs: the lateral nasal gland, a source of water for evaporative cooling. Science. | record link (https://pubmed.ncbi.nlm.nih.gov/5052734/) |
 | 4 | Russo A et al. 2024. Canine and human red blood cells: biochemical mechanisms for the control of heat dissipation. Stresses. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Canine%20and%20human%20red%20blood%20cells%3A%20biochemical%20mechanisms%20for%20the%20control%20of%20heat%20dissipation) |

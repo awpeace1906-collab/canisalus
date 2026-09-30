@@ -33,11 +33,11 @@ Nontraumatic hemoabdomen in dogs is usually a ruptured splenic mass, malignant i
 |---|----------|-------------|
 | 1 | Schick AR, Grimes JA. 2022. Evaluation of the validity of the double two-thirds rule for diagnosing hemangiosarcoma in dogs with nontraumatic hemoperitoneum due to a ruptured splenic mass: a systematic review. J Am Vet Med Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/36322487/) |
 | 2 | Aronsohn MG et al. 2009. Prognosis for acute nontraumatic hemoperitoneum in the dog: a retrospective analysis of 60 cases (2003-2006). J Am Anim Hosp Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/19258418/) |
-| 3 | Pintar J et al. 2003. Acute nontraumatic hemoabdomen in the dog: a retrospective analysis of 39 cases (1987-2001). J Am Anim Hosp Assoc. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Acute%20nontraumatic%20hemoabdomen%20in%20the%20dog%3A%20a%20retrospective%20analysis%20of%2039%20cases%20%281987-2001%29) |
-| 4 | Millar SL et al. 2021. Premature death in dogs with nontraumatic hemoabdomen and splenectomy with benign histopathologic findings. J Am Vet Med Assoc. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Premature%20death%20in%20dogs%20with%20nontraumatic%20hemoabdomen%20and%20splenectomy%20with%20benign%20histopathologic%20findings) |
+| 3 | Pintar J et al. 2003. Acute nontraumatic hemoabdomen in the dog: a retrospective analysis of 39 cases (1987-2001). J Am Anim Hosp Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/14736714/) |
+| 4 | Millar SL et al. 2021. Premature death in dogs with nontraumatic hemoabdomen and splenectomy with benign histopathologic findings. J Am Vet Med Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/34914629/) |
 | 5 | Stewart SD et al. 2020. Prospective observational study of dogs with splenic mass rupture suggests potentially lower risk of malignancy and more favorable perioperative outcomes. Vet Comp Oncol. | record link (https://pubmed.ncbi.nlm.nih.gov/32458544/) |
 | 6 | Menard JV et al. 2023. Assessing major influences on decision-making and outcome for dogs presenting emergently with nontraumatic hemoabdomen. J Am Vet Med Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/37116877/) |
-| 7 | Millar SL et al. 2021. Diagnostic value of the ultrasonographic description of a splenic mass or nodule as cavitated in 106 dogs with nontraumatic hemoabdomen. Am J Vet Res. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Diagnostic%20value%20of%20the%20ultrasonographic%20description%20of%20a%20splenic%20mass%20or%20nodule%20as%20cavitated%20in%20106%20dogs%20with%20nontraumatic%20hemoabdomen) |
+| 7 | Millar SL et al. 2021. Diagnostic value of the ultrasonographic description of a splenic mass or nodule as cavitated in 106 dogs with nontraumatic hemoabdomen. Am J Vet Res. | record link (https://pubmed.ncbi.nlm.nih.gov/34714765/) |
 
 ## Open items (7)
 

@@ -25,7 +25,7 @@ Drugs and foods that are safe or familiar in people can poison dogs through diff
 
 | # | Citation | Link status |
 |---|----------|-------------|
-| 1 | Martinez MN et al. 2021. Comparison of canine and human physiological factors: understanding interspecies differences that impact drug pharmacokinetics. AAPS J. | UNRESOLVED (search link) (https://pubmed.ncbi.nlm.nih.gov/?term=Comparison%20of%20canine%20and%20human%20physiological%20factors%3A%20understanding%20interspecies%20differences%20that%20impact%20drug%20pharmacokinetics) |
+| 1 | Martinez MN et al. 2021. Comparison of canine and human physiological factors: understanding interspecies differences that impact drug pharmacokinetics. AAPS J. | record link (https://pubmed.ncbi.nlm.nih.gov/33907906/) |
 | 2 | Martignoni M et al. 2006. Species differences between mouse, rat, dog, monkey and human CYP-mediated drug metabolism, inhibition and induction. Expert Opin Drug Metab Toxicol. | record link (https://doi.org/10.1517/17425255.2.6.875) |
 | 3 | Murphy LA, Coleman AE. 2012. Xylitol toxicosis in dogs. Vet Clin North Am Small Anim Pract. | record link (https://doi.org/10.1016/j.cvsm.2011.12.003) |
 | 4 | Dunayer EK, Gwaltney-Brant SM. 2006. Acute hepatic failure and coagulopathy associated with xylitol ingestion in eight dogs. J Am Vet Med Assoc. | record link (https://doi.org/10.2460/javma.229.7.1113) |
