@@ -559,6 +559,18 @@
       "title": "Blood chemistry and acid-base reference ranges",
       "domain": "pathophysiology",
       "order": 7
+    },
+    {
+      "id": "blood-glucose-in-the-sick-dog",
+      "title": "Blood glucose in the sick dog",
+      "domain": "pathophysiology",
+      "order": 8
+    },
+    {
+      "id": "seizures-and-drug-resistance",
+      "title": "Seizures and drug resistance",
+      "domain": "pathophysiology",
+      "order": 9
     }
   ]
 }

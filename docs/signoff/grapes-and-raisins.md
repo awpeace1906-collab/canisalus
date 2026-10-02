@@ -23,6 +23,7 @@ Grape and raisin ingestion can cause acute kidney injury in dogs, but recent ser
 
 - RECOVER 2026 first aid: do not routinely give emetics before arrival at a veterinary facility (strong, low quality); emesis may be suggested only if a veterinary facility is not immediately reachable and a veterinarian or animal poison control center recommends it (weak, expert opinion) [8].
 - In a 139-dog series, AKI prevalence was 6.7% (8 of 120 with data), 88% underwent gastrointestinal decontamination and 138 of 139 survived. The authors state the retrospective design prevents conclusions about the value of decontamination [1].
+- In 606 dogs from 53 UK out-of-hours clinics, serum creatinine or urea was measured in 338 and all were within reference intervals; all dogs survived to discharge, and of 33 with repeat creatinine within 24 hours, 1 developed grade I AKI when emergency treatment guidelines were followed in whole or part. Fruit was found in vomit more than 12 hours after ingestion in some dogs. This is a retrospective emergency-clinic series with supportive care, so it cannot show that ingestion is safe [9].
 - In the earlier 43-dog series of dogs that had already developed renal signs, 53% survived, and reduced urine output, ataxia or weakness predicted a negative outcome [2].
 - AKI was also reported after cream of tartar and tamarinds, supporting tartaric acid as the likely toxic component [4].
 - On limited evidence, dried grapes were not more likely than fresh grapes to cause AKI [5].
@@ -41,10 +42,11 @@ Grape and raisin ingestion can cause acute kidney injury in dogs, but recent ser
 | 6 | Tancredi W et al. 2025. Could oral calcium carbonate mitigate tartaric acid toxicity in dogs? A novel hypothesis (viewpoint). J Am Vet Med Assoc. | record link (https://pubmed.ncbi.nlm.nih.gov/40840530/) |
 | 7 | Cook M et al. 2025. Evaluation of the safety and pharmacokinetics of single-dose oral probenecid administration in healthy dogs. J Vet Intern Med. | record link (https://pubmed.ncbi.nlm.nih.gov/40884532/) |
 | 8 | Thawley VJ et al. 2026. RECOVER Guidelines: First Aid in Dogs and Cats. Evidence and knowledge gap analysis with treatment recommendations. J Vet Emerg Crit Care 36(Suppl 1):S3-S35. | record link (https://pubmed.ncbi.nlm.nih.gov/42640821/) |
+| 9 | Croft SJ et al. 2020. Retrospective evaluation of Vitis vinifera ingestion in dogs presented to emergency clinics in the UK (2012-2016): 606 cases. J Vet Emerg Crit Care. | record link (https://pubmed.ncbi.nlm.nih.gov/33128493/) |
 
 ## Open items (7)
 
-- [ ] `content.management[7]`: TODO: reviewer decision on the decontamination and monitoring plan when the amount is unknown. No safe threshold is established in the sources retrieved.
+- [ ] `content.management[8]`: TODO: reviewer decision on the decontamination and monitoring plan when the amount is unknown. No safe threshold is established in the sources retrieved.
 - [ ] `lens.handler.transfer_trigger`: TODO
 - [ ] `lens.prehospital_als.transfer_trigger`: TODO
 - [ ] `lens.flight_cct.transfer_trigger`: TODO

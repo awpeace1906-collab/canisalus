@@ -3,53 +3,75 @@
   "title": "Tranexamic acid",
   "domain": "trauma",
   "reversible": true,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 12,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "Tranexamic acid helps trauma patients if given early, but no canine trauma trial exists, and dog blood appears to need a different amount than human blood to block clot breakdown; human doses must not be copied [1].",
+  "what_changes_from_human": [
+    {
+      "point": "In human trauma, tranexamic acid lowered death when given within 3 hours of injury and raised it when given later; in dogs there is no equivalent trial [1].",
+      "objective_id": "trauma-txa-01"
+    },
+    {
+      "point": "In viscoelastic testing, the dose needed to inhibit fibrinolysis was about 10 times higher in dog blood than in human blood, and it is unclear how this relates to appropriate dosing in dogs [1].",
+      "objective_id": "trauma-txa-02"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "Tranexamic acid blocks clot breakdown (plasmin) without causing clot formation, and was linked to better survival in large human trauma studies, strongest when given early [1].",
+      "Human data also show a possible rise in venous thromboembolism after tranexamic acid, which remains unresolved [1]."
+    ],
+    "management": [
+      "Dog evidence: tranexamic acid inhibits fibrinolysis in dogs in laboratory studies; in 55 dogs given it for intraoperative or postoperative bleeding, treated dogs had higher blood pressure, lower shock index and were less often in shock at 24 hours, though they received more plasma; in another series transfusion volumes did not differ [1].",
+      "Epsilon-aminocaproic acid, a related drug: greyhounds undergoing amputation that did not receive it were 5.7 times more likely to bleed, and a 122-dog series found it well tolerated [1].",
+      "TODO: canine tranexamic acid dose, route and timing window for the veterinary reviewer. Do not use human doses: the review reports a roughly 10-fold difference in the amount that blocked fibrinolysis in dog versus human blood in vitro, and calls the dosing implications unclear. Department of Defense studies in injured dogs were under way in 2020; their results were not retrieved."
+    ],
     "procedure_refs": []
   },
   "lens": {
     "handler": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "prehospital_als": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "flight_cct": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "human_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_gp": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     }
   },
-  "takeaway": "TODO",
-  "sources": [],
+  "takeaway": "Tranexamic acid is a bleeding drug with no proven canine trauma dose; it is a veterinarian's decision, and human doses must not be assumed.",
+  "sources": [
+    {
+      "rank": 3,
+      "citation": "Edwards TH et al. 2021. Lessons learned from the battlefield and applicability to veterinary medicine, part 1: hemorrhage control. Front Vet Sci.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33521075/"
+    }
+  ],
   "drug_refs": []
 }
