@@ -24,5 +24,6 @@ export function renderHandoff(store) {
     field('Situation', input({ rows: 3, value: S.situation, onInput: bind('situation') })),
     field('Timeline and interventions (times, findings, treatments, drugs given)', input({ rows: 6, value: S.timeline, onInput: bind('timeline') })),
     field('Assessment', input({ rows: 3, value: S.assessment, onInput: bind('assessment') })),
-    el('h2', {}, 'Summary'), pre, shareBtn);
+    el('h2', {}, 'Summary'), pre, shareBtn,
+    el('p', {}, el('a', { class: 'button', href: '#/vet-ed' }, 'Find a 24/7 vet ER')));
 }

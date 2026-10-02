@@ -9,6 +9,7 @@ import { renderSettings, renderAbout, renderJurisdiction } from './views/setting
 import { renderDogs, renderDogEditor } from './views/dogs.js';
 import { renderDose } from './views/dose.js';
 import { renderHandoff } from './views/handoff.js';
+import { renderVetEd } from './views/vetEd.js';
 
 const app = document.getElementById('app');
 const tabBar = document.getElementById('tab-bar');
@@ -46,6 +47,7 @@ const router = createRouter(async route => {
     else if (route === '/dogs') app.replaceChildren(renderDogs(rerender));
     else if ((p = match(route, '/dogs/:id'))) app.replaceChildren(renderDogEditor(p.id, router.go));
     else if (route === '/handoff') app.replaceChildren(renderHandoff(store));
+    else if (route === '/vet-ed') app.replaceChildren(renderVetEd());
     else if (route === '/settings') app.replaceChildren(renderSettings(store, rerender));
     else if (route === '/about') app.replaceChildren(renderAbout(store));
     else if (route === '/jurisdiction') app.replaceChildren(renderJurisdiction(store));

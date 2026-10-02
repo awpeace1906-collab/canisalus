@@ -45,3 +45,7 @@ Content store with hash-based OTA refresh, search (title > keywords > domain), h
 ## Reviewer packets
 
 `npm run packets` regenerates `docs/signoff/` (one page per drafted module: claims, sources, open TODOs, blank vet and physician signature block). It never approves anything. Regenerate before sending to reviewers.
+
+## Finding a 24/7 vet ER
+
+The `#/vet-ed` screen (Home: Vet ER; Handoff: Find a 24/7 vet ER) has two options. For known areas, each K9 profile holds saved emergency vets by area, with phone, address, a last-verified date and a note; entries older than 180 days are flagged to re-verify. For unfamiliar territory it opens the phone's own maps app with a "24 hour emergency veterinarian" search. The app does not read location, call any API or send data. Directions are offered only when a saved clinic has an address.

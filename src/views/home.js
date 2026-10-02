@@ -24,7 +24,8 @@ export function renderHome(store) {
     el('div', { class: 'row' },
       el('a', { class: 'button', href: '#/dose' }, 'Dose'),
       el('a', { class: 'button', href: '#/dogs' }, 'K9 profiles'),
-      el('a', { class: 'button', href: '#/handoff' }, 'Handoff')),
+      el('a', { class: 'button', href: '#/handoff' }, 'Handoff'),
+      el('a', { class: 'button', href: '#/vet-ed' }, 'Vet ER')),
     bridgeLine());
   return el('div', { class: 'home' }, q, results, rest);
 }

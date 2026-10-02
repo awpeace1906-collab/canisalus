@@ -63,3 +63,4 @@ input[type=text], input[type=search], input[type=number], input[type=tel], texta
   .compare td { display: block; border: 0; padding: 4px 0; }
   .compare td::before { content: attr(data-label); display: block; font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
 }
+.vet-ed { padding: 8px 0; }
