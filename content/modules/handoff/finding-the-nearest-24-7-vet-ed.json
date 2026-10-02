@@ -3,53 +3,67 @@
   "title": "Finding the nearest 24/7 vet ED",
   "domain": "handoff",
   "reversible": false,
-  "status": "stub",
+  "status": "draft",
   "last_verified": null,
   "review_interval_months": 24,
   "signoff": {
     "vet": null,
     "physician": null
   },
-  "why_this_matters": "TODO",
-  "what_changes_from_human": [],
+  "why_this_matters": "The nearest open veterinary ER may not be the nearest clinic, and deciding where to go before an emergency saves time; the app supports two ways to find one (this is product guidance, not a clinical claim, and needs reviewer sign-off).",
+  "what_changes_from_human": [
+    {
+      "point": "There is no national dispatch that routes a dog to an open veterinary ER the way 911 routes a person, so the handler must know or find the clinic.",
+      "objective_id": "handoff-vet-ed-01"
+    }
+  ],
   "content": {
-    "recognition": [],
-    "management": [],
+    "recognition": [
+      "Local missions: record the 24/7 emergency vets for each area you work on the K9 profile (Vet ER screen, or K9 profiles then Edit), and note which accept working dogs.",
+      "Unfamiliar territory: use the Vet ER screen's search, which opens your phone's maps app. The app does not read your location or look anything up itself."
+    ],
+    "management": [
+      "Call before you drive. Opening hours shown in maps or saved earlier can be wrong, so confirm they are open and can see your dog.",
+      "Saved entries show when they were last verified and flag any older than 180 days (a product default); re-verify by phone and update the date.",
+      "Directions are offered only for saved clinics that have an address, so a name alone cannot send you to the wrong town.",
+      "Hand over with the Handoff summary so the receiving clinic gets the dog's weight (and whether estimated), MDR1 status and what was done.",
+      "TODO: reviewer to decide whether the guidance should distinguish general 24/7 ERs from trauma-capable or specialty centers, and approve the call-ahead wording."
+    ],
     "procedure_refs": []
   },
   "lens": {
     "handler": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "prehospital_als": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "flight_cct": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "human_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_gp": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     },
     "vet_ed": {
       "do_here": [],
       "leave_for_next": [],
-      "transfer_trigger": "TODO"
+      "transfer_trigger": "TODO: reviewer to set"
     }
   },
-  "takeaway": "TODO",
+  "takeaway": "Know where you would go before you need to: save 24/7 ERs for the work area, and in a new area search in maps and call ahead.",
   "sources": [],
   "drug_refs": []
 }

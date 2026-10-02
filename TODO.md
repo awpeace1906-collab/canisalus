@@ -74,6 +74,8 @@ Priority is working-dog relevance and how often the presentation occurs.
 
 ## Done
 
+- [x] Vet ER finder (2026-10-02): per-K9 saved 24/7 vets by area plus a maps-app search for unfamiliar territory; module `finding-the-nearest-24-7-vet-ed` drafted, needs reviewer wording sign-off
+
 - [x] Repo created, package imported, standalone PWA on the Kairos pattern
 - [x] Dossiers and cited draft content: heat stroke, GDV, opioids, MDR1, hemorrhage control, CPR
 - [x] Pathophysiology domain with five compare-table modules

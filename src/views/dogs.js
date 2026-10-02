@@ -1,4 +1,5 @@
 import { el, card, back, field, input } from '../components.js';
+import { vetEdEditor } from './vetEd.js';
 import { listDogs, getDog, newDog, saveDog, deleteDog, activeDogId, setActiveDog, MDR1 } from '../lib/dogs.js';
 
 export function renderDogs(rerender) {
@@ -33,6 +34,7 @@ export function renderDogEditor(id, go) {
     field('Baseline labs', input({ rows: 2, value: d.baselineLabs, onInput: set('baselineLabs') })),
     field('Veterinarian', input({ value: d.vetName, onInput: set('vetName') })),
     field('Veterinarian phone', input({ type: 'tel', value: d.vetPhone, onInput: set('vetPhone') })),
+    vetEdEditor(d),
     el('div', { class: 'row' },
       el('button', { class: 'primary', type: 'submit' }, 'Save'),
       existing && el('button', { type: 'button', class: 'danger', onClick: () => { if (confirm(`Delete ${d.name || 'this K9'}?`)) { deleteDog(d.id); go('/dogs'); } } }, 'Delete')));
